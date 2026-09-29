@@ -1,0 +1,60 @@
+import json
+
+import pytest
+
+from toric_graphs import db, loader
+from toric_graphs.m2parse import binomial_degree, h_vector, hilbert_dim, ideal_generators
+
+
+def test_h_vector_parsing():
+    assert h_vector("(1+5*T)/((1-T)^8)") == [1, 5]
+    assert h_vector("(1+2*T+2*T^2+2*T^3+2*T^4-T^5)/((1-T)^8)") == [1, 2, 2, 2, 2, -1]
+    assert h_vector("(1+T+T^2)/((1-T)^8)") == [1, 1, 1]
+    assert h_vector("(1+3*T+4*T^2+4*T^3+2*T^4-2*T^5)/((1-T)^8)") == [1, 3, 4, 4, 2, -2]
+    assert hilbert_dim("(1+5*T)/((1-T)^8)") == 8
+
+
+def test_ideal_and_binomial_parsing():
+    gens = ideal_generators("ideal(e_4*e_8-e_3*e_10,e_1*e_5*e_7*e_9^2-e_2*e_6^2*e_8*e_10)")
+    assert gens == ["e_4*e_8-e_3*e_10", "e_1*e_5*e_7*e_9^2-e_2*e_6^2*e_8*e_10"]
+    assert [binomial_degree(g) for g in gens] == [2, 5]
+    assert binomial_degree("e_1*e_3*e_5^2*e_8^2-e_2^2*e_4*e_6*e_7*e_9") == 6
+
+
+@pytest.fixture(scope="module")
+def conn(tmp_path_factory):
+    c = db.connect(tmp_path_factory.mktemp("db") / "test.sqlite")
+    with c:
+        loader.load_ssri_n8(c)
+        loader.load_m2_results(c, loader.DERIVED / "noncm8_results.txt")
+    return c
+
+
+def test_n8_counts(conn):
+    rows = dict(((f, cm), cnt) for f, cm, cnt in conn.execute(
+        "SELECT fails_occ, is_cm, COUNT(*) FROM graphs JOIN m2_results USING (graph6) GROUP BY 1, 2"))
+    assert rows == {(0, 1): 6810, (1, 1): 51, (1, 0): 110}
+    assert conn.execute("SELECT SUM(h_symmetric) FROM m2_results WHERE is_cm = 1").fetchone()[0] == 435
+
+
+def test_numbering_is_complete(conn):
+    nums = [r[0] for r in conn.execute("SELECT graph_number FROM graphs WHERE n = 8 ORDER BY 1")]
+    assert nums == list(range(1, 6972))
+
+
+def test_theorems_hold_in_data(conn):
+    # OCC => normal => CM (Ohsugi-Hibi, Hochster)
+    assert conn.execute("SELECT COUNT(*) FROM graphs JOIN m2_results USING (graph6) "
+                        "WHERE fails_occ = 0 AND is_cm = 0").fetchone()[0] == 0
+    # CM standard graded domain: h_1 = m - n and h >= 0
+    for m, n, h, cm in conn.execute("SELECT m, n, h_vector, is_cm FROM graphs JOIN m2_results USING (graph6)"):
+        h = json.loads(h)
+        assert h[0] == 1 and h[1] == m - n
+        if cm:
+            assert min(h) >= 0
+
+
+def test_gorenstein_failing_graphs_are_ci(conn):
+    rows = conn.execute("SELECT graph_number, is_ci FROM graphs JOIN m2_results USING (graph6) "
+                        "WHERE fails_occ = 1 AND is_gorenstein = 1 ORDER BY 1").fetchall()
+    assert rows == [(1979, 1), (2305, 1), (5222, 1)]
