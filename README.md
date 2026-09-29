@@ -26,6 +26,16 @@ python3 -m venv .venv
 .venv/bin/pytest
 ```
 
+## Build the database
+
+```bash
+.venv/bin/python scripts/build_db.py --fresh
+```
+
+Creates `data/toric_graphs.sqlite` (not committed; rebuilt from the text files in ~15 s) with
+tables `graphs`, `m2_results` and `features` (82 graph-only features, see
+`src/toric_graphs/features.py`). Schema: `src/toric_graphs/db.py`.
+
 ## Recompute graphs with Macaulay2
 
 ```bash

@@ -47,6 +47,25 @@ Hilbert series alone (much cheaper than a resolution).
 
 ---
 
+## C3. A separated pair inside one block forces non-CM
+
+**Statement.** If G has two vertex-disjoint, non-adjacent chordless odd cycles C, C' lying in the
+same 2-connected block (equivalently here: joined by 2 internally disjoint paths), then k[G] is
+not Cohen–Macaulay.
+
+**Evidence (n = 8, 2026-09-29).** Among the 161 failing graphs, 92 have such a pair and all 92
+are non-CM. The other 69 (every separated pair linked only through a cut vertex) split 51 CM /
+18 non-CM.
+
+Related: 1 separated pair → 107 non-CM / 16 CM; ≥ 2 separated pairs → 3 non-CM / 35 CM.
+
+**Status.** Open, first look only (univariate crosstabs, no model yet). Next: what separates the
+51 CM from the 18 non-CM among the cut-vertex-linked graphs? Test at n = 9.
+
+**Proof notes.** _(Navila)_
+
+---
+
 ## Verified: Edge-threshold theorem (Navila, proved)
 
 For connected G on n ≥ 7 vertices, failing OCC forces n + 1 ≤ m ≤ C(n,2) − 9, and every value

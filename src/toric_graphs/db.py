@@ -5,6 +5,7 @@ m2_results  what Macaulay2 computed (expensive, permanent; appended by the job r
 features    what Python computes from the graph (cheap, rebuilt from code)
 """
 
+import json
 import sqlite3
 from pathlib import Path
 
@@ -40,6 +41,18 @@ CREATE TABLE IF NOT EXISTS m2_results (
     seconds_hilbert REAL
 );
 """
+
+
+def write_features(conn: sqlite3.Connection, rows: list[dict]) -> None:
+    """Replace the features table. Columns come from the feature dicts; lists are stored as JSON."""
+    cols = list(rows[0])
+    conn.execute("DROP TABLE IF EXISTS features")
+    decl = ", ".join(f'"{c}" {"TEXT PRIMARY KEY REFERENCES graphs(graph6)" if c == "graph6" else ""}' for c in cols)
+    conn.execute(f"CREATE TABLE features ({decl})")
+    conn.executemany(
+        f"INSERT INTO features VALUES ({', '.join('?' * len(cols))})",
+        [[json.dumps(r[c]) if isinstance(r[c], list) else r[c] for c in cols] for r in rows],
+    )
 
 
 def connect(path: str | Path = DEFAULT_DB) -> sqlite3.Connection:
