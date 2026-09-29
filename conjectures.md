@@ -89,6 +89,11 @@ Related: 1 separated pair → 107 non-CM / 16 CM; ≥ 2 separated pairs → 3 no
 inside one block (e.g. 52930, 92788, 92948, …; 5,913 such graphs are not CM). CM here is proved
 (depth 9 over ZZ/32003 and also over QQ).
 
+**Literature:** this is known. Hà–Kara–O'Keefe (arXiv:1703.08270, Thm 5.1) prove C3 under the
+extra hypothesis |E| ≤ |V| + 2 (with the paths of length ≥ 2 and the structure induced), and
+Kimura's Ex. 5.4 there is a CM counterexample with |E| = |V| + 3. Our data agrees: every
+same-block CM graph has m − n ≥ 3. See `reports/literature.md`.
+
 **Proof notes.** _(Navila)_
 
 ---
