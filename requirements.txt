@@ -5,3 +5,4 @@ pandas>=2.2
 matplotlib>=3.9
 streamlit>=1.50
 pytest
+scikit-learn>=1.5

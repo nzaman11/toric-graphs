@@ -207,6 +207,12 @@ def separated_pair_features(G: nx.Graph, n: int, adj: list[int]) -> dict:
         "sep_same_block_pairs": 0,
         "normalization_gap": len({_mask(A) | _mask(B) for A, B in pairs}),
     }
+    # Conjecture C4: an even cycle meeting both cycles of a separated pair (shares >= 1 vertex with each)
+    even = [frozenset(c) for c in nx.simple_cycles(G) if len(c) % 2 == 0] if pairs else []
+    meeting = [c for c in even if any(c & A and c & B for A, B in pairs)]
+    f["even_cycles_meeting_pair"] = len(meeting)
+    f["even_cycle_meets_pair"] = int(bool(meeting))
+    f["even_meeting_len_min"] = min((len(c) for c in meeting), default=None)
     dists, geos, links, walks, lens = [], [], [], [], []
     for A, B in pairs:
         a, b = sorted((len(A), len(B)))

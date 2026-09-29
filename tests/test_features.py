@@ -53,6 +53,15 @@ def test_walk_degree_matches_generator_of_graph_1979():
     assert (f["sep_pairs"], f["sep_dist_min"], f["sep_walk_degree_max"]) == (1, 3, 6)
 
 
+def test_even_cycle_meeting_pair():
+    # two triangles joined by one path: no even cycle at all
+    assert compute_features(TWO_TRI_PATH)["even_cycle_meets_pair"] == 0
+    # triangles {0,1,2}, {3,4,5} joined by two disjoint paths 2-6-3 and 1-7-4: 6-cycle 1-2-6-3-4-7
+    two_paths = nx.Graph([(0, 1), (1, 2), (0, 2), (3, 4), (4, 5), (3, 5), (2, 6), (6, 3), (1, 7), (7, 4)])
+    f = compute_features(nx.to_graph6_bytes(two_paths, header=False).decode().strip())
+    assert f["even_cycle_meets_pair"] == 1 and f["even_meeting_len_min"] == 6
+
+
 def test_occ_graph_has_no_separated_pairs():
     f = compute_features("G??F~{")
     assert f["sep_pairs"] == 0 and f["normalization_gap"] == 0 and f["sep_dist_min"] is None

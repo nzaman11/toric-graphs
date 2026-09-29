@@ -97,6 +97,11 @@ PRESETS = {
     "C3 exceptions: cut-vertex-linked, not CM": (
         "Every pair linked through a cut vertex, yet not CM. What do these share?",
         lambda d: d[(d.fails_occ == 1) & (d.sep_same_block_pairs == 0) & (d.is_cm == 0)]),
+    "C4: even cycle meets a separated pair": (
+        "Conjecture C4: for failing graphs, exactly these are not CM (167/167 at n ≤ 8).",
+        lambda d: d[d.even_cycle_meets_pair == 1]),
+    "C4 counterexamples": ("Failing graphs where C4 predicts wrong. Empty at n ≤ 8 — watch this at n = 9.",
+                           lambda d: d[(d.fails_occ == 1) & (d.even_cycle_meets_pair == d.is_cm)]),
     "Cut-vertex-linked, CM": ("Compare against the exceptions above.",
                               lambda d: d[(d.fails_occ == 1) & (d.sep_same_block_pairs == 0) & (d.is_cm == 1)]),
 }

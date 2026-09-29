@@ -18,7 +18,8 @@ def build(path: str | Path = db.DEFAULT_DB, fresh: bool = True, processes: int |
     conn = db.connect(tmp)
     with conn:
         loader.load_ssri_n8(conn)
-        loader.load_m2_results(conn, loader.DERIVED / "noncm8_results.txt")
+        for results in sorted(loader.DERIVED.glob("*_results.txt")):  # recomputed / new Macaulay2 runs
+            loader.load_m2_results(conn, results)
     g6s = [r[0] for r in conn.execute("SELECT graph6 FROM graphs ORDER BY n, graph_number")]
     processes = processes or os.cpu_count() or 1
     if processes > 1:

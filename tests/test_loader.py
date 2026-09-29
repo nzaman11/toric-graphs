@@ -26,15 +26,18 @@ def conn(tmp_path_factory):
     c = db.connect(tmp_path_factory.mktemp("db") / "test.sqlite")
     with c:
         loader.load_ssri_n8(c)
-        loader.load_m2_results(c, loader.DERIVED / "noncm8_results.txt")
+        for results in sorted(loader.DERIVED.glob("*_results.txt")):
+            loader.load_m2_results(c, results)
     return c
 
 
 def test_n8_counts(conn):
     rows = dict(((f, cm), cnt) for f, cm, cnt in conn.execute(
-        "SELECT fails_occ, is_cm, COUNT(*) FROM graphs JOIN m2_results USING (graph6) GROUP BY 1, 2"))
+        "SELECT fails_occ, is_cm, COUNT(*) FROM graphs JOIN m2_results USING (graph6) "
+        "WHERE n = 8 GROUP BY 1, 2"))
     assert rows == {(0, 1): 6810, (1, 1): 51, (1, 0): 110}
-    assert conn.execute("SELECT SUM(h_symmetric) FROM m2_results WHERE is_cm = 1").fetchone()[0] == 435
+    assert conn.execute("SELECT SUM(h_symmetric) FROM m2_results JOIN graphs USING (graph6) "
+                        "WHERE is_cm = 1 AND n = 8").fetchone()[0] == 435
 
 
 def test_numbering_is_complete(conn):
@@ -54,7 +57,18 @@ def test_theorems_hold_in_data(conn):
             assert min(h) >= 0
 
 
+def test_conjecture_c4_holds_in_data(conn):
+    """C4: for G failing OCC, k[G] is CM iff no even cycle meets both cycles of a separated pair."""
+    from toric_graphs.features import compute_features
+
+    rows = conn.execute("SELECT graph6, is_cm FROM graphs JOIN m2_results USING (graph6) "
+                        "WHERE fails_occ = 1").fetchall()
+    assert len(rows) == 167  # 6 at n=7, 161 at n=8
+    for g6, cm in rows:
+        assert compute_features(g6)["even_cycle_meets_pair"] == 1 - cm, g6
+
+
 def test_gorenstein_failing_graphs_are_ci(conn):
     rows = conn.execute("SELECT graph_number, is_ci FROM graphs JOIN m2_results USING (graph6) "
-                        "WHERE fails_occ = 1 AND is_gorenstein = 1 ORDER BY 1").fetchall()
+                        "WHERE fails_occ = 1 AND is_gorenstein = 1 AND n = 8 ORDER BY 1").fetchall()
     assert rows == [(1979, 1), (2305, 1), (5222, 1)]

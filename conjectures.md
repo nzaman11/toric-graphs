@@ -66,6 +66,35 @@ Related: 1 separated pair → 107 non-CM / 16 CM; ≥ 2 separated pairs → 3 no
 
 ---
 
+## C4. CM ⇔ no even cycle meets a separated pair (refines C3)
+
+**Statement.** Let G fail OCC. Then k[G] is Cohen–Macaulay if and only if there is no even cycle
+that shares a vertex with both cycles of some separated pair (C, C') (vertex-disjoint chordless odd
+cycles with no edge between them).
+
+**Evidence (2026-09-29).** Exact on all 167 failing graphs with n ≤ 8:
+
+| | CM | not CM |
+|---|---|---|
+| no even cycle meets a separated pair | 57 (n=7: 6, n=8: 51) | 0 |
+| some even cycle meets a separated pair | 0 | 110 |
+
+C3 is the special case where C, C' lie in one block (then two disjoint C–C' paths plus arcs of C
+and C' form such an even cycle).
+
+**How it was found.** A depth-1 decision tree on the 161 n = 8 failing graphs split on
+"has a 6-cycle" (108/108 not CM; 2 errors: graphs 89 and 2003). Asking *which* 6-cycles matter
+led to the even-cycle-meets-pair criterion, which also fixes 89 and 2003. Because it was chosen
+after looking at the n ≤ 8 data, **n = 9 is the real test** (see `reports/phase3_trees.txt`).
+
+**Status.** Open. Test at n = 9. Check the literature on Cohen–Macaulayness of non-normal edge
+rings. Intuition to probe: an even cycle through both C and C' gives even closed walks mixing the
+two odd cycles, which might produce the extra relations that break CM.
+
+**Proof notes.** _(Navila)_
+
+---
+
 ## Verified: Edge-threshold theorem (Navila, proved)
 
 For connected G on n ≥ 7 vertices, failing OCC forces n + 1 ≤ m ≤ C(n,2) − 9, and every value

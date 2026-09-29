@@ -1,0 +1,102 @@
+Graphs failing OCC: n=8: 161 (CM 51, not CM 110); n=7: 6 (CM 6)
+Features used: 70 (graph-only; no Macaulay2 output)
+PR-AUC baseline (random guessing) = share of CM = 0.317
+
+==============================================================================
+A. All 161 failing graphs at n = 8: cross-validated scores by tree depth
+==============================================================================
+depth | balanced accuracy (mean ± sd) | PR-AUC for CM (mean ± sd)
+  1   |        1.000 ± 0.000          |      1.000 ± 0.000
+  2   |        1.000 ± 0.000          |      1.000 ± 0.000
+  3   |        1.000 ± 0.000          |      1.000 ± 0.000
+
+==============================================================================
+B1. Depth-1 tree fit on all 161 (rules with true counts)
+==============================================================================
+if even_meeting_len_min <= 1.5:  [CM 51, not CM 0]
+    → predict CM  [CM 51, not CM 0]
+else (even_meeting_len_min > 1.5):  [CM 0, not CM 110]
+    → predict not CM  [CM 0, not CM 110]
+
+  applied to the 6 failing n=7 graphs (all CM): 6 predicted CM
+
+==============================================================================
+B2. Depth-2 tree fit on all 161 (rules with true counts)
+==============================================================================
+if even_meeting_len_min <= 1.5:  [CM 51, not CM 0]
+    → predict CM  [CM 51, not CM 0]
+else (even_meeting_len_min > 1.5):  [CM 0, not CM 110]
+    → predict not CM  [CM 0, not CM 110]
+
+  applied to the 6 failing n=7 graphs (all CM): 6 predicted CM
+
+==============================================================================
+B3. Depth-3 tree fit on all 161 (rules with true counts)
+==============================================================================
+if even_meeting_len_min <= 1.5:  [CM 51, not CM 0]
+    → predict CM  [CM 51, not CM 0]
+else (even_meeting_len_min > 1.5):  [CM 0, not CM 110]
+    → predict not CM  [CM 0, not CM 110]
+
+  applied to the 6 failing n=7 graphs (all CM): 6 predicted CM
+
+==============================================================================
+C. Best single-feature rules on all 161
+==============================================================================
+                 feature   rule left (CM/notCM) right (CM/notCM)  bal_acc
+    even_meeting_len_min <= 1.5            51/0            0/110 1.000000
+even_cycles_meeting_pair <= 0.5            51/0            0/110 1.000000
+   even_cycle_meets_pair <= 0.5            51/0            0/110 1.000000
+               cyc_len_6 <= 0.5            51/2            0/108 0.990909
+               cyc_len_7   <= 1           51/18             0/92 0.918182
+    sep_same_block_pairs <= 0.5           51/18             0/92 0.918182
+               cyc_len_8 <= 0.5           51/18             0/92 0.918182
+         sep_linkage_max <= 1.5           51/18             0/92 0.918182
+         sep_linkage_min <= 1.5           51/18             0/92 0.918182
+          n_cut_vertices <= 0.5            0/92            51/18 0.918182
+       node_connectivity <= 1.5           51/18             0/92 0.918182
+                n_blocks <= 1.5            0/92            51/18 0.918182
+
+==============================================================================
+D. Root-split stability: depth-2 trees on 300 bootstrap resamples of the 161
+==============================================================================
+  even_meeting_len_min                100.0%
+
+==============================================================================
+E. The 69 cut-vertex-linked graphs (C3 does not apply): CM 51 vs not CM 18
+==============================================================================
+depth | balanced accuracy | PR-AUC for CM   (baseline PR-AUC = 0.739)
+  1   |  0.988 ± 0.054  |  0.992 ± 0.036
+  2   |  0.988 ± 0.054  |  0.992 ± 0.036
+
+Depth-2 tree:
+if even_cycles_meeting_pair <= 0.5:  [CM 51, not CM 0]
+    if n_chordless_odd_cycles <= 3.5:  [CM 8, not CM 0]
+        → predict CM  [CM 8, not CM 0]
+    else (n_chordless_odd_cycles > 3.5):  [CM 43, not CM 0]
+        → predict CM  [CM 43, not CM 0]
+else (even_cycles_meeting_pair > 0.5):  [CM 0, not CM 18]
+    → predict not CM  [CM 0, not CM 18]
+
+Best single-feature rules:
+                 feature       rule left (CM/notCM) right (CM/notCM)  bal_acc
+even_cycles_meeting_pair     <= 0.5            51/0             0/18 1.000000
+    even_meeting_len_min     <= 1.5            51/0             0/18 1.000000
+   even_cycle_meets_pair     <= 0.5            51/0             0/18 1.000000
+               cyc_len_6     <= 0.5            51/2             0/16 0.944444
+             adj_eig_2nd <= 2.03322            3/16             48/2 0.915033
+           sep_pairs_3_3     <= 1.5           16/18             35/0 0.843137
+               sep_pairs     <= 1.5           16/18             35/0 0.843137
+       normalization_gap     <= 1.5           16/18             35/0 0.843137
+          thread_max_len     <= 2.5            31/0            20/18 0.803922
+             deg_count_3     <= 2.5           11/13             40/5 0.753268
+               n_bridges     <= 0.5           28/18             23/0 0.725490
+       edge_connectivity     <= 1.5            23/0            28/18 0.725490
+
+Root-split stability (depth 2, 300 bootstraps):
+  even_cycles_meeting_pair             85.7%
+  cyc_len_6                            10.0%
+  even_cycle_meets_pair                 3.3%
+  adj_eig_2nd                           1.0%
+
+Not-CM graph numbers in this group: [89, 232, 273, 506, 2003, 2060, 2220, 2294, 2769, 2771, 2772, 2779, 4757, 4760, 4761, 4772, 4782, 6574]
