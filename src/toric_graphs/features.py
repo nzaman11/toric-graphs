@@ -184,23 +184,31 @@ def _linkage(G: nx.Graph, A: frozenset, B: frozenset) -> int:
     return nx.node_connectivity(H, "s", "t")
 
 
+def chordless_odd_cycles(G: nx.Graph) -> list[frozenset]:
+    return sorted({frozenset(c) for c in nx.chordless_cycles(G) if len(c) % 2 == 1}, key=sorted)
+
+
+def separated_pairs(G: nx.Graph, adj: list[int]) -> list[tuple[frozenset, frozenset]]:
+    """Pairs of vertex-disjoint chordless odd cycles with no edge between them (OCC violations)."""
+    odd = chordless_odd_cycles(G)
+    masks = [_mask(c) for c in odd]
+    return [(odd[i], odd[j]) for i, j in combinations(range(len(odd)), 2)
+            if not (_closed_nbhd(adj, masks[i]) & masks[j])]
+
+
 def separated_pair_features(G: nx.Graph, n: int, adj: list[int]) -> dict:
     """Group A (how OCC fails) and B (normalization gap), from chordless odd cycles."""
-    odd = sorted({frozenset(c) for c in nx.chordless_cycles(G) if len(c) % 2 == 1}, key=sorted)
-    masks = [_mask(c) for c in odd]
+    pairs = separated_pairs(G, adj)
     blocks = [set(b) for b in nx.biconnected_components(G)]
-    pairs = [(i, j) for i, j in combinations(range(len(odd)), 2)
-             if not (_closed_nbhd(adj, masks[i]) & masks[j])]
     f = {
-        "n_chordless_odd_cycles": len(odd),
+        "n_chordless_odd_cycles": len(chordless_odd_cycles(G)),
         "sep_pairs": len(pairs),
         "sep_pairs_3_3": 0, "sep_pairs_3_5": 0, "sep_pairs_other": 0,
         "sep_same_block_pairs": 0,
-        "normalization_gap": len({masks[i] | masks[j] for i, j in pairs}),
+        "normalization_gap": len({_mask(A) | _mask(B) for A, B in pairs}),
     }
     dists, geos, links, walks, lens = [], [], [], [], []
-    for i, j in pairs:
-        A, B = odd[i], odd[j]
+    for A, B in pairs:
         a, b = sorted((len(A), len(B)))
         key = "sep_pairs_3_3" if (a, b) == (3, 3) else "sep_pairs_3_5" if (a, b) == (3, 5) else "sep_pairs_other"
         f[key] += 1

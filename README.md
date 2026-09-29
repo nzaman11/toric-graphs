@@ -22,7 +22,7 @@ conjectures.md  data-supported conjectures and proof notes
 sudo apt install python3.14-venv python3-pip
 cd ~/toric-graphs
 python3 -m venv .venv
-.venv/bin/pip install networkx pandas pytest
+.venv/bin/pip install -r requirements.txt
 .venv/bin/pytest
 ```
 
@@ -35,6 +35,16 @@ python3 -m venv .venv
 Creates `data/toric_graphs.sqlite` (not committed; rebuilt from the text files in ~15 s) with
 tables `graphs`, `m2_results` and `features` (82 graph-only features, see
 `src/toric_graphs/features.py`). Schema: `src/toric_graphs/db.py`.
+
+## Explorer
+
+```bash
+.venv/bin/streamlit run app/explorer.py
+```
+
+Opens at http://localhost:8501. Gallery, single-graph view (separated odd-cycle pair in
+blue/orange, Hilbert numerator, generators), side-by-side compare, and a filterable table.
+Presets include the Gorenstein graphs and the C3 groups from `conjectures.md`.
 
 ## Recompute graphs with Macaulay2
 
