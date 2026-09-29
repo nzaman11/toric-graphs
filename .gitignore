@@ -7,3 +7,10 @@ __pycache__/
 *.building
 *.db
 data/derived/*.jsonl.tmp
+*.building.*
+*.unpacking.*
+*-journal
+*-wal
+*-shm
+.streamlit/secrets.toml
+.env

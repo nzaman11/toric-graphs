@@ -1,7 +1,8 @@
 """Interactive explorer for graph toric ideals.
 
 Run from the repo root:  .venv/bin/streamlit run app/explorer.py
-Needs data/toric_graphs.sqlite (scripts/build_db.py).
+Uses data/toric_graphs.sqlite; if it is missing or out of date it is unpacked from the committed
+data/toric_graphs.sqlite.gz (seconds) or, failing that, rebuilt from the text files (minutes).
 
 Filters in the sidebar are drafts until "Show results" is pressed; "Clear filters" resets them.
 """
@@ -16,8 +17,7 @@ import streamlit as st
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "src"))
-from toric_graphs.build import build  # noqa: E402
-from toric_graphs.db import DEFAULT_DB  # noqa: E402
+from toric_graphs import build  # noqa: E402
 from toric_graphs.draw import graph_png  # noqa: E402
 from toric_graphs.m2parse import ideal_generators  # noqa: E402
 
@@ -27,18 +27,20 @@ ss = st.session_state
 
 # ------------------------------------------------------------------ data
 
-@st.cache_resource(show_spinner=False)
-def ensure_db() -> Path:
-    """Build the database on first start (e.g. on Streamlit Cloud, where it isn't committed)."""
-    if not DEFAULT_DB.exists():
-        with st.spinner("First start: building the database from the Macaulay2 results (about 1–2 minutes)…"):
-            build(DEFAULT_DB, processes=1)  # no forking inside the Streamlit server
-    return DEFAULT_DB
+def ensure_db() -> tuple[Path, str]:
+    """Up-to-date database + fingerprint of its inputs (changes whenever new results are pushed)."""
+    try:
+        with st.spinner("Preparing the database (seconds; up to several minutes if it must be rebuilt)…"):
+            return build.ensure_db(processes=1)  # no forking inside the Streamlit server
+    except Exception:
+        st.error("The database could not be prepared. Please try again later or contact the author.")
+        st.stop()
 
 
-@st.cache_data
-def load() -> tuple[pd.DataFrame, list[str]]:
-    with sqlite3.connect(ensure_db()) as c:
+@st.cache_data(show_spinner=False)
+def load(fp: str) -> tuple[pd.DataFrame, list[str]]:
+    """`fp` is the input fingerprint: a new value (new data pushed) invalidates this cache."""
+    with sqlite3.connect(build.db.DEFAULT_DB) as c:
         g = pd.read_sql("SELECT * FROM graphs", c)
         r = pd.read_sql("SELECT * FROM m2_results", c)
         f = pd.read_sql("SELECT * FROM features", c)
@@ -59,7 +61,8 @@ def png(g6: str, pair: int = 0, odd: bool = False, size: float = 3.2, labels: bo
     return graph_png(g6, pair, odd, size, labels)
 
 
-df, FEATURE_COLS = load()
+_, FINGERPRINT = ensure_db()
+df, FEATURE_COLS = load(FINGERPRINT)
 ALL_N = sorted(int(x) for x in df.n.unique())
 M_RANGE = (int(df.m.min()), int(df.m.max()))
 
