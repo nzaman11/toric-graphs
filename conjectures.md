@@ -87,9 +87,28 @@ and C' form such an even cycle).
 led to the even-cycle-meets-pair criterion, which also fixes 89 and 2003. Because it was chosen
 after looking at the n ≤ 8 data, **n = 9 is the real test** (see `reports/phase3_trees.txt`).
 
-**Status.** Open. Test at n = 9. Check the literature on Cohen–Macaulayness of non-normal edge
-rings. Intuition to probe: an even cycle through both C and C' gives even closed walks mixing the
-two odd cycles, which might produce the extra relations that break CM.
+**Status. FALSE as stated (2026-09-29).** Predictions for all 7125 failing n = 9 graphs were
+committed before any computation (commit `26f8783`). The first 48 graphs computed (all predicted
+CM) include 3 counterexamples, each proved non-CM by a negative Hilbert coefficient:
+
+| graph | edges (1-indexed) | separated pair | h-vector |
+|---|---|---|---|
+| 7161 | 15 18 28 48 58 26 69 37 39 49 79 | {1,5,8}, {3,7,9} | (1,2,3,4,3,1,−1) |
+| 7758 | 15 18 58 26 29 69 37 47 78 39 49 | {1,5,8}, {2,6,9} | (1,2,2,2,2,2,−1) |
+| 7921 | 15 18 58 26 29 69 37 47 38 78 39 49 | {1,5,8}, {2,6,9} | (1,3,5,6,4,1,−1) |
+
+In each, the two triangles are joined only through cut vertices, but the connecting part contains
+a cycle that C4 ignores: an **odd** cycle through both cut vertices (7161: pentagon 8-4-9-6-2), or
+a cycle touching only **one** triangle (7758: bridge 8-7 then 4-cycle 7-3-9-4). At n = 8 there
+are only 2 spare vertices, so any connecting cycle was forced to be even and to meet both
+triangles — which is why C4 looked exact there.
+
+Quick post-hoc refinements ("exactly one connecting path") did **not** fit the n ≤ 8 data;
+refine only after the full n = 9 run.
+
+**Intuition to probe:** a cycle in the "connector" between C and C' gives closed walks that mix
+the two odd cycles, which might produce the extra relations that break CM. The right notion of
+"connector" is the open question.
 
 **Proof notes.** _(Navila)_
 
