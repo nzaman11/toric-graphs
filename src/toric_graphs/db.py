@@ -25,9 +25,10 @@ CREATE TABLE IF NOT EXISTS graphs (
 
 CREATE TABLE IF NOT EXISTS m2_results (
     graph6          TEXT PRIMARY KEY REFERENCES graphs(graph6),
-    source          TEXT NOT NULL,    -- 'ssri_2026' (original runs) or 'recomputed'
-    depth           INTEGER,
+    source          TEXT NOT NULL,    -- 'ssri_2026', 'recomputed', or 'runner_n9'
+    depth           INTEGER,          -- over QQ; NULL if CM was decided without it
     is_cm           INTEGER,          -- depth == n
+    decided_by      TEXT,             -- 'depth_QQ', 'negative_h' (proof), or 'depth_ZZp' (screen)
     h_vector        TEXT,             -- JSON list; numerator of reduced Hilbert series
     h_symmetric     INTEGER,
     is_gorenstein   INTEGER,          -- CM and symmetric h (Stanley); 0 if not CM

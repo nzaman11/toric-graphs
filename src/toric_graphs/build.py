@@ -20,6 +20,8 @@ def build(path: str | Path = db.DEFAULT_DB, fresh: bool = True, processes: int |
         loader.load_ssri_n8(conn)
         for results in sorted(loader.DERIVED.glob("*_results.txt")):  # recomputed / new Macaulay2 runs
             loader.load_m2_results(conn, results)
+        for runs in sorted(loader.DERIVED.glob("*_runs.jsonl")):  # parallel runner output (n = 9)
+            loader.load_runs_jsonl(conn, runs)
     g6s = [r[0] for r in conn.execute("SELECT graph6 FROM graphs ORDER BY n, graph_number")]
     processes = processes or os.cpu_count() or 1
     if processes > 1:

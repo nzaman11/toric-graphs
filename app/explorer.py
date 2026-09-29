@@ -45,6 +45,7 @@ def load() -> tuple[pd.DataFrame, list[str]]:
     feature_cols = [c for c in f.columns if c not in ("graph6", "n", "m") and pd.api.types.is_numeric_dtype(f[c])]
     df = g.merge(r, on="graph6", how="left").merge(f.drop(columns=["n", "m"]), on="graph6", how="left")
     df["status"] = df.apply(lambda x: "satisfies OCC" if not x.fails_occ
+                            else "fails OCC · not computed yet" if pd.isna(x.is_cm)
                             else ("fails OCC · CM" if x.is_cm == 1 else "fails OCC · not CM"), axis=1)
     df["h"] = df.h_vector.map(lambda s: tuple(json.loads(s)) if isinstance(s, str) else None)
     return df.sort_values(["n", "graph_number"]).reset_index(drop=True), feature_cols

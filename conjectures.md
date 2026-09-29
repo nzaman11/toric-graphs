@@ -22,8 +22,23 @@ I_G is a complete intersection (μ(I_G) = m − n).
 The ⇐ direction is a theorem (CI ⇒ Gorenstein). The data direction ⇒ is rigorous at n = 8:
 non-symmetric h ⇒ not Gorenstein (Stanley) ⇒ not CI.
 
-**Status.** Open. Test at n = 9. Literature: Gitler–Reyes–Villarreal and Tatakis–Thoma on
-complete intersection toric ideals of graphs.
+**Status. FALSE at n = 9 (2026-09-29, partial run).** Among the first 162 CM failing 9-vertex
+graphs, 13 are Gorenstein; 9 are complete intersections, 4 are not:
+
+| graph | m | codim | minimal gens (degrees) | h-vector |
+|---|---|---|---|---|
+| 8866 | 12 | 3 | 5 (2,2,2,5,5) | (1,3,3,3,3,1) |
+| 19757 | 12 | 3 | 5 (2,2,2,5,5) | (1,3,3,3,3,1) |
+| 10185 | 13 | 4 | 9 (2,2,2,2,2,2,5,5,5) | (1,4,4,4,4,1) |
+| 24276 | 13 | 4 | 6 (2,2,2,2,2,4) | (1,4,5,5,4,1) |
+
+Rigorous given Macaulay2: CM from exact depth over QQ, Gorenstein by Stanley, generator counts
+from `trim` (minimal for homogeneous ideals). Consistency check: the codim-3 examples have
+5 generators, as Buchsbaum–Eisenbud requires (codim-3 Gorenstein, not CI ⇒ an odd number
+≥ 5 of generators, the Pfaffians of a skew matrix). Still true: CI ⇒ Gorenstein (theorem), and
+at n = 8 the two classes coincide. New question: which structure gives the Pfaffian-type
+Gorenstein graphs? Literature: Gitler–Reyes–Villarreal and Tatakis–Thoma on complete
+intersection toric ideals of graphs.
 
 **Proof notes.** _(Navila)_
 
