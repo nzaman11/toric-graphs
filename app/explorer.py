@@ -2,6 +2,8 @@
 
 Run from the repo root:  .venv/bin/streamlit run app/explorer.py
 Needs data/toric_graphs.sqlite (scripts/build_db.py).
+
+Filters in the sidebar are drafts until "Show results" is pressed; "Clear filters" resets them.
 """
 
 import json
@@ -15,10 +17,11 @@ import streamlit as st
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "src"))
 from toric_graphs.db import DEFAULT_DB  # noqa: E402
-from toric_graphs.draw import CYCLE_A, CYCLE_B, graph_png  # noqa: E402
+from toric_graphs.draw import graph_png  # noqa: E402
 from toric_graphs.m2parse import ideal_generators  # noqa: E402
 
-st.set_page_config(page_title="Toric graph explorer", layout="wide")
+st.set_page_config(page_title="Toric graph explorer", page_icon="🔺", layout="wide")
+ss = st.session_state
 
 
 # ------------------------------------------------------------------ data
@@ -29,30 +32,217 @@ def load() -> tuple[pd.DataFrame, list[str]]:
         g = pd.read_sql("SELECT * FROM graphs", c)
         r = pd.read_sql("SELECT * FROM m2_results", c)
         f = pd.read_sql("SELECT * FROM features", c)
-    feature_cols = [c for c in f.columns if c != "graph6" and pd.api.types.is_numeric_dtype(f[c])]
+    feature_cols = [c for c in f.columns if c not in ("graph6", "n", "m") and pd.api.types.is_numeric_dtype(f[c])]
     df = g.merge(r, on="graph6", how="left").merge(f.drop(columns=["n", "m"]), on="graph6", how="left")
     df["status"] = df.apply(lambda x: "satisfies OCC" if not x.fails_occ
-                            else ("fails OCC, CM" if x.is_cm == 1 else "fails OCC, non-CM"), axis=1)
+                            else ("fails OCC · CM" if x.is_cm == 1 else "fails OCC · not CM"), axis=1)
     df["h"] = df.h_vector.map(lambda s: tuple(json.loads(s)) if isinstance(s, str) else None)
     return df.sort_values(["n", "graph_number"]).reset_index(drop=True), feature_cols
 
 
-@st.cache_data(max_entries=2000)
+@st.cache_data(max_entries=3000)
 def png(g6: str, pair: int = 0, odd: bool = False, size: float = 3.2, labels: bool = True) -> bytes:
     return graph_png(g6, pair, odd, size, labels)
 
 
-def h_str(h) -> str:
+df, FEATURE_COLS = load()
+ALL_N = sorted(int(x) for x in df.n.unique())
+M_RANGE = (int(df.m.min()), int(df.m.max()))
+
+LABELS = {
+    "m": "edges", "m_minus_n": "edges − vertices (codimension)", "density": "edge density",
+    "sep_pairs": "separated odd-cycle pairs", "sep_same_block_pairs": "separated pairs inside one block",
+    "normalization_gap": "normalization gap (distinct pair unions)",
+    "sep_dist_min": "closest pair: distance", "sep_dist_max": "farthest pair: distance",
+    "sep_closest_geodesics": "closest pair: # shortest paths",
+    "sep_linkage_min": "pair linkage (min # disjoint paths)", "sep_linkage_max": "pair linkage (max # disjoint paths)",
+    "sep_walk_degree_min": "walk degree estimate (min)", "sep_walk_degree_max": "walk degree estimate (max)",
+    "sep_len_sum_min": "pair cycle-length sum (min)", "sep_len_sum_max": "pair cycle-length sum (max)",
+    "sep_pairs_3_3": "separated pairs: triangle + triangle", "sep_pairs_3_5": "separated pairs: triangle + pentagon",
+    "n_chordless_odd_cycles": "chordless odd cycles", "odd_cycle_transversal": "odd cycle transversal",
+    "edge_frustration": "edge frustration (edges to delete → bipartite)",
+    "n_threads": "threads (runs of degree-2 vertices)", "thread_max_len": "longest thread (edges)",
+    "n_triangles": "triangles", "girth": "girth", "odd_girth": "odd girth", "even_girth": "even girth",
+    "n_cut_vertices": "cut vertices", "n_bridges": "bridges", "n_blocks": "blocks",
+    "n_nonbipartite_blocks": "non-bipartite blocks", "aut_group_size": "|Aut G|", "treewidth": "treewidth",
+    "independence_number": "independence number", "matching_number": "matching number",
+    "chromatic_number": "chromatic number", "signless_lap_min": "smallest signless Laplacian eigenvalue",
+    "graph_number": "graph number",
+}
+
+
+def label(col) -> str:
+    return "(none)" if col is None else LABELS.get(col, col.replace("_", " "))
+
+
+PRESETS = {
+    "All graphs": ("Every graph in the database.", lambda d: d),
+    "Fails OCC": ("Graphs with two separated odd cycles — the interesting ones.", lambda d: d[d.fails_occ == 1]),
+    "Gorenstein": ("CM with a symmetric Hilbert numerator (Gorenstein by Stanley).",
+                   lambda d: d[d.is_gorenstein == 1]),
+    "Gorenstein, fails OCC": ("Evidence for conjecture C1 (these are complete intersections).",
+                              lambda d: d[(d.is_gorenstein == 1) & (d.fails_occ == 1)]),
+    "C3: pair inside one block": ("A separated pair joined by 2 disjoint paths. Conjecture C3: never CM.",
+                                  lambda d: d[d.sep_same_block_pairs > 0]),
+    "C3 exceptions: cut-vertex-linked, not CM": (
+        "Every pair linked through a cut vertex, yet not CM. What do these share?",
+        lambda d: d[(d.fails_occ == 1) & (d.sep_same_block_pairs == 0) & (d.is_cm == 0)]),
+    "Cut-vertex-linked, CM": ("Compare against the exceptions above.",
+                              lambda d: d[(d.fails_occ == 1) & (d.sep_same_block_pairs == 0) & (d.is_cm == 1)]),
+}
+
+DEFAULT_WIDGETS = {"w_preset": "All graphs", "w_n": ALL_N, "w_m": M_RANGE, "w_occ": "Any", "w_cm": "Any",
+                   "w_sym": False, "w_feat0": None, "w_feat1": None}
+
+
+def feature_bounds(col: str) -> tuple[float, float]:
+    v = df[col].dropna()
+    return float(v.min()), float(v.max())
+
+
+def read_draft() -> dict:
+    feats = []
+    for i in range(2):
+        col = ss.get(f"w_feat{i}")
+        if col is not None:
+            feats.append((col, tuple(ss.get(f"w_rng{i}_{col}", feature_bounds(col)))))
+    return {"preset": ss.w_preset, "n": tuple(ss.w_n), "m": tuple(ss.w_m), "occ": ss.w_occ, "cm": ss.w_cm,
+            "sym": ss.w_sym, "feats": tuple(feats)}
+
+
+def apply_filters(d: pd.DataFrame, F: dict) -> pd.DataFrame:
+    d = PRESETS[F["preset"]][1](d)
+    d = d[d.n.isin(F["n"]) & d.m.between(*F["m"])]
+    if F["occ"] != "Any":
+        d = d[d.fails_occ == (1 if F["occ"] == "Fails" else 0)]
+    if F["cm"] != "Any":
+        d = d[d.is_cm == (1 if F["cm"] == "CM" else 0)]
+    if F["sym"]:
+        d = d[d.h_symmetric == 1]
+    for col, (a, b) in F["feats"]:
+        d = d[d[col].between(a, b)]
+    return d
+
+
+def describe(F: dict) -> list[str]:
+    out = [] if F["preset"] == "All graphs" else [F["preset"]]
+    if list(F["n"]) != ALL_N:
+        out.append("n ∈ {" + ", ".join(map(str, F["n"])) + "}")
+    if F["m"] != M_RANGE:
+        out.append(f"{F['m'][0]} ≤ edges ≤ {F['m'][1]}")
+    if F["occ"] != "Any":
+        out.append(f"{F['occ'].lower()} OCC")
+    if F["cm"] != "Any":
+        out.append(F["cm"])
+    if F["sym"]:
+        out.append("symmetric h")
+    out += [f"{a:g} ≤ {label(c)} ≤ {b:g}" for c, (a, b) in F["feats"]]
+    return out
+
+
+# ------------------------------------------------------------------ state + callbacks
+
+for k, v in DEFAULT_WIDGETS.items():
+    ss.setdefault(k, v)
+ss.setdefault("applied", read_draft())
+ss.setdefault("page", 1)
+ss.setdefault("view", "Gallery")
+
+
+def on_apply() -> None:
+    ss.applied = read_draft()
+    ss.page = 1
+
+
+def on_clear() -> None:
+    for k in [k for k in ss.keys() if k.startswith("w_")]:
+        del ss[k]
+    for k, v in DEFAULT_WIDGETS.items():
+        ss[k] = v
+    ss.applied = read_draft()
+    ss.page = 1
+
+
+def on_open(num: int) -> None:
+    ss.sel_graph = num
+    ss.lookup = ""
+    ss.view = "Graph"
+
+
+# ------------------------------------------------------------------ sidebar
+
+with st.sidebar:
+    st.header("Filters")
+    st.selectbox("Start from", list(PRESETS), key="w_preset")
+    st.caption(PRESETS[ss.w_preset][0])
+    st.multiselect("Vertices (n)", ALL_N, key="w_n")
+    st.slider("Edges (m)", *M_RANGE, key="w_m")
+    st.radio("Odd cycle condition", ["Any", "Fails", "Satisfies"], key="w_occ", horizontal=True)
+    st.radio("Cohen–Macaulay", ["Any", "CM", "Not CM"], key="w_cm", horizontal=True)
+    st.toggle("Symmetric Hilbert numerator only", key="w_sym")
+    with st.expander("Feature ranges", expanded=any(ss.get(f"w_feat{i}") for i in range(2))):
+        for i in range(2):
+            col = st.selectbox(f"Feature {i + 1}", [None] + sorted(FEATURE_COLS, key=label),
+                               format_func=label, key=f"w_feat{i}")
+            if col is not None:
+                a, b = feature_bounds(col)
+                if a < b:
+                    ss.setdefault(f"w_rng{i}_{col}", (a, b))
+                    st.slider(label(col), a, b, key=f"w_rng{i}_{col}")
+                else:
+                    st.caption(f"All graphs have {label(col)} = {a:g}.")
+
+    draft = read_draft()
+    c1, c2 = st.columns(2)
+    c1.button("Show results", type="primary", on_click=on_apply, width="stretch")
+    c2.button("Clear filters", on_click=on_clear, width="stretch")
+    if draft != ss.applied:
+        st.warning("You changed the filters. Press **Show results** to update.", icon="✏️")
+    else:
+        st.caption(f"Preview: {len(apply_filters(df, draft)):,} graphs match.")
+
+view = apply_filters(df, ss.applied)
+
+# ------------------------------------------------------------------ header
+
+st.title("Toric graph explorer")
+active = describe(ss.applied)
+h1, h2 = st.columns([3, 1])
+h1.markdown(f"### {len(view):,} graphs" + ("" if active else " · no filters"))
+if active:
+    h1.caption("Filters: " + " · ".join(active))
+    h2.button("Clear filters", on_click=on_clear, key="clear_top", width="stretch")
+
+with st.expander("How to use / legend"):
+    st.markdown(
+        "- Set filters in the sidebar, then press **Show results**. **Clear filters** resets everything.\n"
+        "- **Gallery**: press **Open** under a drawing to see it in detail.\n"
+        "- In drawings, the two separated odd cycles (the OCC violation) are **blue** and **orange**; "
+        "vertex numbers match Macaulay2's v₁…vₙ.\n"
+        "- **Compare** puts two graphs side by side; **Table** lets you sort, choose columns and download CSV.")
+
+current = st.segmented_control("View", ["Gallery", "Graph", "Compare", "Table"], key="view",
+                               label_visibility="collapsed") or "Gallery"
+
+if view.empty and current != "Graph":
+    st.info("No graphs match these filters.")
+    st.button("Clear filters", on_click=on_clear, key="clear_empty")
+    st.stop()
+
+
+# ------------------------------------------------------------------ helpers
+
+def h_latex(h) -> str:
     if not h:
         return "–"
-    terms = []
+    parts = []
     for d, c in enumerate(h):
         if c == 0:
             continue
-        mono = "" if d == 0 else ("T" if d == 1 else f"T^{d}")
+        mono = "" if d == 0 else ("T" if d == 1 else f"T^{{{d}}}")
         coef = str(abs(c)) if (abs(c) != 1 or d == 0) else ""
-        terms.append(("- " if c < 0 else "+ ") + coef + mono)
-    return " ".join(terms).lstrip("+ ")
+        parts.append(("-" if c < 0 else "+") + " " + coef + mono)
+    return " ".join(parts).lstrip("+ ")
 
 
 def fmt(v) -> str:
@@ -63,138 +253,105 @@ def fmt(v) -> str:
     return str(v)
 
 
-df, FEATURE_COLS = load()
+def yesno(v) -> str:
+    return "–" if v is None or pd.isna(v) else ("yes" if v else "no")
 
-PRESETS = {
-    "All graphs": lambda d: d,
-    "Fails OCC": lambda d: d[d.fails_occ == 1],
-    "Gorenstein (CM + symmetric h)": lambda d: d[d.is_gorenstein == 1],
-    "Gorenstein and fails OCC": lambda d: d[(d.is_gorenstein == 1) & (d.fails_occ == 1)],
-    "C3: separated pair inside one block": lambda d: d[d.sep_same_block_pairs > 0],
-    "C3 exceptions: cut-vertex-linked, non-CM": lambda d: d[(d.fails_occ == 1) & (d.sep_same_block_pairs == 0)
-                                                           & (d.is_cm == 0)],
-    "Cut-vertex-linked, CM": lambda d: d[(d.fails_occ == 1) & (d.sep_same_block_pairs == 0) & (d.is_cm == 1)],
-}
 
-# ------------------------------------------------------------------ sidebar filters
-
-with st.sidebar:
-    st.header("Filters")
-    preset = st.selectbox("Preset", list(PRESETS))
-    view = PRESETS[preset](df)
-    ns = st.multiselect("Vertices n", sorted(df.n.unique()), default=sorted(df.n.unique()))
-    view = view[view.n.isin(ns)]
-    if len(view):
-        lo, hi = int(df.m.min()), int(df.m.max())
-        m_rng = st.slider("Edges m", lo, hi, (lo, hi))
-        view = view[view.m.between(*m_rng)]
-    occ = st.radio("OCC", ["any", "fails", "satisfies"], horizontal=True)
-    if occ != "any":
-        view = view[view.fails_occ == (1 if occ == "fails" else 0)]
-    cm = st.radio("Cohen–Macaulay", ["any", "CM", "non-CM"], horizontal=True)
-    if cm != "any":
-        view = view[view.is_cm == (1 if cm == "CM" else 0)]
-    if st.checkbox("Symmetric h-vector only"):
-        view = view[view.h_symmetric == 1]
-    st.subheader("Feature ranges")
-    for i in range(2):
-        col = st.selectbox(f"Feature {i + 1}", ["(none)"] + FEATURE_COLS, key=f"feat{i}")
-        if col != "(none)":
-            vals = df[col].dropna()
-            a, b = float(vals.min()), float(vals.max())
-            if a < b:
-                rng = st.slider(col, a, b, (a, b), key=f"rng{i}")
-                view = view[view[col].between(*rng)]
-    st.metric("Graphs shown", f"{len(view):,}")
-
-st.title("Toric graph explorer")
-st.caption(f"Separated odd-cycle pair: cycle A in blue ({CYCLE_A}), cycle B in orange ({CYCLE_B}). "
-           "Vertex labels match Macaulay2's v_1…v_n.")
-
-tab_gallery, tab_graph, tab_compare, tab_table = st.tabs(["Gallery", "Graph", "Compare", "Table"])
-
-# ------------------------------------------------------------------ gallery
-
-with tab_gallery:
-    per_page, ncols = 24, 6
-    pages = max(1, -(-len(view) // per_page))
-    c1, c2, c3 = st.columns([1, 1, 3])
-    page = c1.number_input("Page", 1, pages, 1)
-    sort_by = c2.selectbox("Sort by", ["graph_number", "m", "sep_pairs", "sep_dist_min", "aut_group_size"])
-    c3.write(f"{len(view):,} graphs · page {page} of {pages}")
-    chunk = view.sort_values([sort_by, "graph_number"]).iloc[(page - 1) * per_page: page * per_page]
-    cols = st.columns(ncols)
-    for k, (_, row) in enumerate(chunk.iterrows()):
-        with cols[k % ncols]:
-            st.image(png(row.graph6, size=2.2, labels=False))
-            st.caption(f"**#{row.graph_number}** · m={row.m} · {row.status}  \n"
-                       f"h = ({', '.join(map(str, row.h)) if row.h else '–'})")
-
-# ------------------------------------------------------------------ single graph
-
-def graph_panel(row: pd.Series, key: str) -> None:
+def graph_panel(row: pd.Series, key: str, size: float = 4.2) -> None:
     n_pairs = int(row.sep_pairs or 0)
     c1, c2 = st.columns(2)
-    pair = c1.number_input("Separated pair", 1, max(1, n_pairs), 1, key=f"pair{key}",
-                           disabled=n_pairs <= 1) - 1
-    odd = c2.checkbox("Show all chordless odd cycles", key=f"odd{key}")
-    st.image(png(row.graph6, pair, odd, size=4.2))
-    st.markdown(f"**#{row.graph_number}** &nbsp; n={row.n}, m={row.m} &nbsp; · {row.status}")
+    pair = 0
+    if n_pairs > 1:
+        pair = c1.selectbox(f"Separated pair (of {n_pairs})", range(n_pairs), format_func=lambda i: f"pair {i + 1}",
+                            key=f"pair{key}")
+    else:
+        c1.caption("1 separated pair" if n_pairs == 1 else "No separated pairs (satisfies OCC)")
+    odd = c2.toggle("Show all chordless odd cycles", key=f"odd{key}")
+    st.image(png(row.graph6, pair, odd, size=size))
+    st.markdown(f"**Graph #{row.graph_number}** · n = {row.n}, m = {row.m} · {row.status}")
     st.code(row.graph6, language=None)  # graph6 may contain backticks, so never put it in markdown
-    st.markdown(f"**Hilbert numerator:** {h_str(row.h)}"
-                + (" &nbsp; (symmetric)" if row.h_symmetric == 1 else ""))
-    facts = {
-        "depth": row.depth, "Gorenstein": row.is_gorenstein, "complete intersection": row.is_ci,
-        "generators": row.num_gens, "generator degrees": row.gen_degrees,
-        "separated pairs": row.sep_pairs, "pairs in one block": row.sep_same_block_pairs,
-        "pair distance (min)": row.sep_dist_min, "linkage (max)": row.sep_linkage_max,
-        "walk degree (max)": row.sep_walk_degree_max, "odd cycle transversal": row.odd_cycle_transversal,
-        "threads": row.n_threads, "|Aut G|": row.aut_group_size, "data source": row.source,
+    st.markdown("**Hilbert numerator**" + (" (symmetric)" if row.h_symmetric == 1 else ""))
+    st.latex(h_latex(row.h))
+    m1, m2, m3, m4 = st.columns(4)
+    m1.metric("depth", fmt(row.depth))
+    m2.metric("Gorenstein", yesno(row.is_gorenstein))
+    m3.metric("complete int.", yesno(row.is_ci))
+    m4.metric("generators", fmt(row.num_gens))
+    props = {
+        "generator degrees": row.gen_degrees, "separated pairs": row.sep_pairs,
+        "pairs inside one block": row.sep_same_block_pairs, "closest pair distance": row.sep_dist_min,
+        "pair linkage (max)": row.sep_linkage_max, "walk degree estimate (max)": row.sep_walk_degree_max,
+        "odd cycle transversal": row.odd_cycle_transversal, "threads": row.n_threads,
+        "cut vertices": row.n_cut_vertices, "|Aut G|": row.aut_group_size, "data source": row.source,
     }
-    st.dataframe(pd.DataFrame({"value": [fmt(v) for v in facts.values()]}, index=list(facts)),
-                 width="stretch")
+    st.dataframe(pd.DataFrame({"value": [fmt(v) if k != "generator degrees" else str(v) for k, v in props.items()]},
+                              index=list(props)), width="stretch")
     if isinstance(row.toric_ideal, str):
         with st.expander(f"Toric ideal generators ({row.num_gens})"):
             st.code("\n".join(ideal_generators(row.toric_ideal)), language=None)
 
 
-def pick(label: str, key: str, default_index: int = 0) -> pd.Series | None:
-    source = view if len(view) else df
-    nums = source.graph_number.tolist()
-    typed = st.text_input(f"{label}: graph number or graph6", key=f"typed{key}")
-    if typed.strip():
-        hit = df[(df.graph6 == typed.strip()) | (df.graph_number.astype(str) == typed.strip())]
+def option_label(num: int) -> str:
+    r = df.loc[df.graph_number == num].iloc[0]
+    return f"#{num} · m={r.m} · {r.status}"
+
+
+# ------------------------------------------------------------------ views
+
+if current == "Gallery":
+    per_page, ncols = 24, 4
+    pages = max(1, -(-len(view) // per_page))
+    ss.page = min(ss.page, pages)
+    sort_opts = ["graph_number", "m", "sep_pairs", "sep_dist_min", "odd_cycle_transversal", "aut_group_size"]
+    c1, c2, c3, c4 = st.columns([2, 1, 2, 1])
+    sort_by = c1.selectbox("Sort by", sort_opts, format_func=label)
+    c2.button("◀ Previous", disabled=ss.page <= 1, on_click=lambda: ss.update(page=ss.page - 1), width="stretch")
+    c3.markdown(f"<div style='text-align:center;padding-top:.5rem'>Page {ss.page} of {pages}</div>",
+                unsafe_allow_html=True)
+    c4.button("Next ▶", disabled=ss.page >= pages, on_click=lambda: ss.update(page=ss.page + 1), width="stretch")
+    chunk = view.sort_values([sort_by, "graph_number"]).iloc[(ss.page - 1) * per_page: ss.page * per_page]
+    cols = st.columns(ncols)
+    for k, (_, row) in enumerate(chunk.iterrows()):
+        with cols[k % ncols].container(border=True):
+            st.image(png(row.graph6, size=2.2, labels=False))
+            st.markdown(f"**#{row.graph_number}** · m = {row.m}")
+            st.caption(f"{row.status}  \nh = ({', '.join(map(str, row.h)) if row.h else '–'})")
+            st.button("Open", key=f"open{row.graph6}", on_click=on_open, args=(int(row.graph_number),),
+                      width="stretch")
+
+elif current == "Graph":
+    nums = view.graph_number.astype(int).tolist()
+    c1, c2 = st.columns([2, 1])
+    if nums:
+        if ss.get("sel_graph") not in nums:
+            ss.sel_graph = nums[0]
+        c1.selectbox("Choose from current results", nums, format_func=option_label, key="sel_graph")
+    else:
+        c1.info("No graphs in the current results — look one up instead.")
+    lookup = c2.text_input("…or look up any graph", key="lookup", placeholder="graph number or graph6")
+    if lookup.strip():
+        hit = df[(df.graph6 == lookup.strip()) | (df.graph_number.astype(str) == lookup.strip())]
         if hit.empty:
-            st.warning("No such graph in the database.")
-            return None
-        return hit.iloc[0]
-    num = st.selectbox(f"{label} (from current filter)", nums, index=min(default_index, len(nums) - 1),
-                       key=f"sel{key}")
-    return source[source.graph_number == num].iloc[0]
+            st.warning(f"No graph “{lookup.strip()}” in the database.")
+        else:
+            st.caption("Showing the looked-up graph. Clear the lookup box to go back to your results.")
+            graph_panel(hit.iloc[0], "g")
+    elif nums:
+        graph_panel(view[view.graph_number == ss.sel_graph].iloc[0], "g")
 
-
-with tab_graph:
-    row = pick("Graph", "g")
-    if row is not None:
-        graph_panel(row, "g")
-
-with tab_compare:
+elif current == "Compare":
+    nums = view.graph_number.astype(int).tolist()
     left, right = st.columns(2)
-    with left:
-        a = pick("Left", "L", 0)
-        if a is not None:
-            graph_panel(a, "L")
-    with right:
-        b = pick("Right", "R", 1)
-        if b is not None:
-            graph_panel(b, "R")
+    for col, key, idx in ((left, "L", 0), (right, "R", 1)):
+        with col:
+            num = st.selectbox("Graph", nums, index=min(idx, len(nums) - 1), format_func=option_label,
+                               key=f"cmp{key}")
+            graph_panel(view[view.graph_number == num].iloc[0], key, size=3.6)
 
-# ------------------------------------------------------------------ table
-
-with tab_table:
-    default_cols = ["graph_number", "graph6", "n", "m", "status", "depth", "h_vector", "h_symmetric",
-                    "is_gorenstein", "is_ci", "sep_pairs", "sep_same_block_pairs", "sep_dist_min",
-                    "sep_linkage_max", "odd_cycle_transversal", "n_threads", "treewidth"]
-    cols = st.multiselect("Columns", list(df.columns), default=default_cols)
+else:  # Table
+    default_cols = ["graph_number", "n", "m", "status", "depth", "h_vector", "h_symmetric", "is_gorenstein",
+                    "is_ci", "sep_pairs", "sep_same_block_pairs", "sep_dist_min", "sep_linkage_max",
+                    "odd_cycle_transversal", "n_threads", "treewidth"]
+    cols = st.multiselect("Columns", [c for c in df.columns if c != "h"], default=default_cols)
     st.dataframe(view[cols], width="stretch", hide_index=True)
     st.download_button("Download CSV", view[cols].to_csv(index=False), "graphs.csv", "text/csv")
