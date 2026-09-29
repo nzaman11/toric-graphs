@@ -1,0 +1,1540 @@
+GraphNumber: 89
+Graph6: G?`Drg
+NumEdges: 10
+Edges: {{1, 5}, {2, 6}, {1, 7}, {3, 7}, {4, 7}, {5, 7}, {2, 8}, {3, 8}, {4, 8}, {6, 8}}
+ToricIdeal: ideal(e_5*e_8-e_4*e_9,e_2*e_3*e_6*e_9^2-e_1*e_5^2*e_7*e_10,e_2*e_3*e_6*e_8*e_9-e_1*e_4*e_5*e_7*e_10,e_2*e_3*e_6*e_8^2-e_1*e_4^2*e_7*e_10)
+NumGens: 4
+GenDegrees: {2, 5, 5, 5}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+2*T+2*T^2+2*T^3+2*T^4-T^5)/((1-T)^8)
+SecondsKer: .00769905
+SecondsDepth: .00264483
+SecondsHilbert: .000366505
+========================
+GraphNumber: 232
+Graph6: G?`alo
+NumEdges: 10
+Edges: {{1, 5}, {2, 6}, {3, 6}, {2, 7}, {4, 7}, {6, 7}, {1, 8}, {3, 8}, {4, 8}, {5, 8}}
+ToricIdeal: ideal(e_2*e_5*e_8-e_3*e_4*e_9,e_1*e_6*e_8*e_9-e_3*e_5*e_7*e_10,e_1*e_4*e_6*e_9^2-e_2*e_5^2*e_7*e_10,e_1*e_2*e_6*e_8^2-e_3^2*e_4*e_7*e_10)
+NumGens: 4
+GenDegrees: {3, 4, 5, 5}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+2*T+3*T^2+3*T^3+2*T^4-T^5)/((1-T)^8)
+SecondsKer: .00749124
+SecondsDepth: .00258866
+SecondsHilbert: .000362126
+========================
+GraphNumber: 273
+Graph6: G?`bmo
+NumEdges: 11
+Edges: {{1, 5}, {2, 6}, {3, 6}, {2, 7}, {3, 7}, {4, 7}, {6, 7}, {1, 8}, {2, 8}, {4, 8}, {5, 8}}
+ToricIdeal: ideal(e_6*e_9-e_4*e_10,e_3*e_4-e_2*e_5,e_1*e_7*e_9*e_10-e_2*e_6*e_8*e_11,e_1*e_7*e_9^2-e_2*e_4*e_8*e_11,e_1*e_5*e_7*e_10^2-e_3*e_6^2*e_8*e_11)
+NumGens: 5
+GenDegrees: {2, 2, 4, 4, 5}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+3*T+4*T^2+4*T^3+2*T^4-T^5)/((1-T)^8)
+SecondsKer: .0079234
+SecondsDepth: .00357225
+SecondsHilbert: .000595729
+========================
+GraphNumber: 506
+Graph6: G?`vRg
+NumEdges: 12
+Edges: {{1, 5}, {2, 6}, {3, 6}, {4, 6}, {1, 7}, {2, 7}, {3, 7}, {5, 7}, {2, 8}, {3, 8}, {4, 8}, {6, 8}}
+ToricIdeal: ideal(e_4*e_10-e_3*e_11,e_7*e_9-e_6*e_10,e_4*e_9-e_2*e_11,e_3*e_9-e_2*e_10,e_3*e_6-e_2*e_7,e_3*e_5*e_8*e_10-e_1*e_7^2*e_12,e_2*e_5*e_8*e_10-e_1*e_6*e_7*e_12,e_2*e_5*e_8*e_9-e_1*e_6^2*e_12)
+NumGens: 8
+GenDegrees: {2, 2, 2, 2, 2, 4, 4, 4}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+4*T+5*T^2+5*T^3+2*T^4-T^5)/((1-T)^8)
+SecondsKer: .00933468
+SecondsDepth: .00308612
+SecondsHilbert: .000784599
+========================
+GraphNumber: 934
+Graph6: G?otQg
+NumEdges: 10
+Edges: {{1, 5}, {2, 5}, {3, 6}, {4, 6}, {1, 7}, {3, 7}, {5, 7}, {2, 8}, {4, 8}, {6, 8}}
+ToricIdeal: ideal(e_3*e_7*e_8-e_2*e_6*e_10,e_1*e_4*e_6*e_8-e_2*e_3*e_5*e_9,e_3^2*e_5*e_7*e_9-e_1*e_4*e_6^2*e_10,e_1*e_4*e_7*e_8^2-e_2^2*e_5*e_9*e_10)
+NumGens: 4
+GenDegrees: {3, 4, 5, 5}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+2*T+3*T^2+3*T^3+2*T^4-T^5)/((1-T)^8)
+SecondsKer: .00725651
+SecondsDepth: .00235567
+SecondsHilbert: .000318286
+========================
+GraphNumber: 938
+Graph6: G?otRg
+NumEdges: 11
+Edges: {{1, 5}, {2, 5}, {3, 6}, {4, 6}, {1, 7}, {3, 7}, {5, 7}, {2, 8}, {3, 8}, {4, 8}, {6, 8}}
+ToricIdeal: ideal(e_4*e_9-e_3*e_10,e_3*e_7*e_8-e_2*e_6*e_11,e_1*e_6*e_8-e_2*e_5*e_9,e_3*e_5*e_7*e_9-e_1*e_6^2*e_11,e_1*e_4*e_7*e_8^2-e_2^2*e_5*e_10*e_11)
+NumGens: 5
+GenDegrees: {2, 3, 3, 4, 5}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+3*T+5*T^2+5*T^3+2*T^4-T^5)/((1-T)^8)
+SecondsKer: .009149
+SecondsDepth: .00266391
+SecondsHilbert: .000421743
+========================
+GraphNumber: 990
+Graph6: G?ovTg
+NumEdges: 12
+Edges: {{1, 5}, {2, 5}, {3, 6}, {4, 6}, {1, 7}, {2, 7}, {3, 7}, {5, 7}, {1, 8}, {3, 8}, {4, 8}, {6, 8}}
+ToricIdeal: ideal(e_4*e_10-e_3*e_11,e_7*e_9-e_5*e_10,e_2*e_5-e_1*e_6,e_3*e_8*e_9-e_1*e_7*e_12,e_3*e_6*e_8*e_10-e_2*e_7^2*e_12,e_4*e_8*e_9^2-e_1*e_5*e_11*e_12)
+NumGens: 6
+GenDegrees: {2, 2, 2, 3, 4, 4}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+4*T+7*T^2+7*T^3+2*T^4-T^5)/((1-T)^8)
+SecondsKer: .00864104
+SecondsDepth: .0682614
+SecondsHilbert: .000545496
+========================
+GraphNumber: 1437
+Graph6: G?qjbc
+NumEdges: 12
+Edges: {{1, 5}, {2, 5}, {1, 6}, {3, 6}, {5, 6}, {2, 7}, {3, 7}, {4, 7}, {2, 8}, {3, 8}, {4, 8}, {7, 8}}
+ToricIdeal: ideal(e_8*e_10-e_7*e_11,e_8*e_9-e_6*e_11,e_7*e_9-e_6*e_10,e_5*e_6*e_10-e_2*e_4*e_12,e_1*e_4*e_9-e_2*e_3*e_10,e_1*e_4*e_6-e_2*e_3*e_7,e_3*e_5*e_7*e_10-e_1*e_4^2*e_12,e_1*e_5*e_6*e_9-e_2^2*e_3*e_12)
+NumGens: 8
+GenDegrees: {2, 2, 2, 3, 3, 3, 4, 4}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+4*T+7*T^2+7*T^3+2*T^4-T^5)/((1-T)^8)
+SecondsKer: .00952808
+SecondsDepth: .00518
+SecondsHilbert: .000608864
+========================
+GraphNumber: 2003
+Graph6: GCOetg
+NumEdges: 11
+Edges: {{1, 4}, {2, 5}, {3, 6}, {1, 7}, {2, 7}, {4, 7}, {5, 7}, {1, 8}, {3, 8}, {4, 8}, {6, 8}}
+ToricIdeal: ideal(e_6*e_8-e_4*e_10,e_3*e_8*e_10-e_1*e_9*e_11,e_2*e_4*e_6-e_1*e_5*e_7,e_3*e_5*e_7*e_10^2-e_2*e_6^2*e_9*e_11,e_3*e_5*e_7*e_8^2-e_2*e_4^2*e_9*e_11)
+NumGens: 5
+GenDegrees: {2, 3, 3, 5, 5}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+3*T+5*T^2+5*T^3+3*T^4-T^5)/((1-T)^8)
+SecondsKer: .0083098
+SecondsDepth: .00327618
+SecondsHilbert: .000666144
+========================
+GraphNumber: 2060
+Graph6: GCQdbW
+NumEdges: 11
+Edges: {{1, 4}, {2, 5}, {1, 6}, {3, 6}, {1, 7}, {3, 7}, {4, 7}, {2, 8}, {3, 8}, {5, 8}, {6, 8}}
+ToricIdeal: ideal(e_4*e_5-e_3*e_6,e_4*e_8*e_10-e_2*e_9*e_11,e_3*e_7*e_9-e_1*e_6*e_11,e_3^2*e_7*e_8*e_10-e_1*e_2*e_5*e_11^2,e_2*e_5*e_7*e_9^2-e_1*e_6^2*e_8*e_10)
+NumGens: 5
+GenDegrees: {2, 3, 3, 5, 5}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+3*T+5*T^2+5*T^3+3*T^4-T^5)/((1-T)^8)
+SecondsKer: .00844486
+SecondsDepth: .00266398
+SecondsHilbert: .000426391
+========================
+GraphNumber: 2220
+Graph6: GCQbtg
+NumEdges: 12
+Edges: {{1, 4}, {2, 5}, {1, 6}, {3, 6}, {2, 7}, {3, 7}, {4, 7}, {5, 7}, {1, 8}, {3, 8}, {4, 8}, {6, 8}}
+ToricIdeal: ideal(e_3*e_11-e_1*e_12,e_7*e_10-e_6*e_11,e_4*e_9-e_3*e_10,e_4*e_5*e_8*e_11-e_2*e_6*e_7*e_12,e_4*e_5*e_8*e_10-e_2*e_6^2*e_12,e_2*e_7^2*e_9-e_1*e_5*e_8*e_11,e_2*e_6*e_7*e_9-e_1*e_5*e_8*e_10,e_2*e_3*e_6*e_7-e_1*e_4*e_5*e_8)
+NumGens: 8
+GenDegrees: {2, 2, 2, 4, 4, 4, 4, 4}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+4*T+7*T^2+8*T^3+3*T^4-T^5)/((1-T)^8)
+SecondsKer: .0141618
+SecondsDepth: .00541571
+SecondsHilbert: .00118349
+========================
+GraphNumber: 2294
+Graph6: GCQTbW
+NumEdges: 11
+Edges: {{1, 4}, {2, 5}, {1, 6}, {4, 6}, {1, 7}, {3, 7}, {4, 7}, {2, 8}, {3, 8}, {5, 8}, {6, 8}}
+ToricIdeal: ideal(e_4*e_5-e_3*e_7,e_3*e_7*e_9-e_1*e_6*e_11,e_4*e_6*e_8*e_10-e_2*e_7*e_9*e_11,e_3*e_6*e_8*e_10-e_2*e_5*e_9*e_11,e_3*e_4*e_8*e_10-e_1*e_2*e_11^2,e_2*e_5*e_7*e_9^2-e_1*e_6^2*e_8*e_10)
+NumGens: 6
+GenDegrees: {2, 3, 4, 4, 4, 5}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+3*T+5*T^2+6*T^3+3*T^4-T^5)/((1-T)^8)
+SecondsKer: .0111906
+SecondsDepth: .00285244
+SecondsHilbert: .00046973
+========================
+GraphNumber: 2761
+Graph6: GCQrV?
+NumEdges: 11
+Edges: {{1, 4}, {2, 5}, {1, 6}, {3, 6}, {4, 6}, {2, 7}, {3, 7}, {5, 7}, {1, 8}, {2, 8}, {3, 8}}
+ToricIdeal: ideal(e_7*e_10-e_6*e_11,e_4*e_9-e_3*e_11,e_2*e_5*e_7*e_9-e_1*e_4*e_8*e_10,e_2*e_5*e_6*e_9^2-e_1*e_3*e_8*e_10^2,e_2*e_3*e_5*e_7^2-e_1*e_4^2*e_6*e_8)
+NumGens: 5
+GenDegrees: {2, 2, 4, 5, 5}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+3*T+4*T^2+4*T^3+3*T^4-T^5)/((1-T)^8)
+SecondsKer: .00837379
+SecondsDepth: .0024471
+SecondsHilbert: .000474285
+========================
+GraphNumber: 2762
+Graph6: GCQrU_
+NumEdges: 11
+Edges: {{1, 4}, {2, 5}, {1, 6}, {3, 6}, {4, 6}, {2, 7}, {3, 7}, {5, 7}, {1, 8}, {2, 8}, {4, 8}}
+ToricIdeal: ideal(e_5*e_9-e_3*e_11,e_5*e_7*e_10-e_4*e_6*e_11,e_4*e_6*e_9-e_3*e_7*e_10,e_1*e_8*e_10^2-e_2*e_6*e_9*e_11,e_1*e_4*e_8*e_10-e_2*e_3*e_7*e_11,e_2*e_3*e_5*e_7^2-e_1*e_4^2*e_6*e_8)
+NumGens: 6
+GenDegrees: {2, 3, 3, 4, 4, 5}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+3*T+5*T^2+5*T^3+3*T^4-T^5)/((1-T)^8)
+SecondsKer: .00724613
+SecondsDepth: .00252549
+SecondsHilbert: .00042338
+========================
+GraphNumber: 2763
+Graph6: GCQrV_
+NumEdges: 12
+Edges: {{1, 4}, {2, 5}, {1, 6}, {3, 6}, {4, 6}, {2, 7}, {3, 7}, {5, 7}, {1, 8}, {2, 8}, {3, 8}, {4, 8}}
+ToricIdeal: ideal(e_5*e_11-e_4*e_12,e_7*e_10-e_6*e_11,e_5*e_9-e_3*e_12,e_4*e_9-e_3*e_11,e_1*e_8*e_10*e_11-e_2*e_7*e_9*e_12,e_1*e_8*e_10^2-e_2*e_6*e_9*e_12,e_1*e_4*e_8*e_10-e_2*e_3*e_7*e_12,e_2*e_3*e_5*e_7^2-e_1*e_4^2*e_6*e_8)
+NumGens: 8
+GenDegrees: {2, 2, 2, 2, 4, 4, 4, 5}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+4*T+6*T^2+6*T^3+3*T^4-T^5)/((1-T)^8)
+SecondsKer: .0687121
+SecondsDepth: .00427809
+SecondsHilbert: .00069903
+========================
+GraphNumber: 2764
+Graph6: GCQrUo
+NumEdges: 12
+Edges: {{1, 4}, {2, 5}, {1, 6}, {3, 6}, {4, 6}, {2, 7}, {3, 7}, {5, 7}, {1, 8}, {2, 8}, {4, 8}, {5, 8}}
+ToricIdeal: ideal(e_8*e_10-e_6*e_12,e_5*e_9-e_3*e_11,e_2*e_9*e_11-e_1*e_10*e_12,e_4*e_8*e_11-e_5*e_7*e_12,e_5*e_7*e_10-e_4*e_6*e_11,e_4*e_8*e_9-e_3*e_7*e_12,e_4*e_6*e_9-e_3*e_7*e_10,e_2*e_3*e_7*e_11-e_1*e_4*e_6*e_12,e_2*e_3*e_5*e_7^2-e_1*e_4^2*e_6*e_8)
+NumGens: 9
+GenDegrees: {2, 2, 3, 3, 3, 3, 3, 4, 5}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+4*T+8*T^2+7*T^3+3*T^4-T^5)/((1-T)^8)
+SecondsKer: .00941804
+SecondsDepth: .00313452
+SecondsHilbert: .000770965
+========================
+GraphNumber: 2765
+Graph6: GCQrVG
+NumEdges: 12
+Edges: {{1, 4}, {2, 5}, {1, 6}, {3, 6}, {4, 6}, {2, 7}, {3, 7}, {5, 7}, {1, 8}, {2, 8}, {3, 8}, {6, 8}}
+ToricIdeal: ideal(e_7*e_10-e_6*e_11,e_5*e_9-e_1*e_12,e_4*e_9-e_3*e_11,e_4*e_8*e_10-e_2*e_7*e_12,e_3*e_8*e_10^2-e_2*e_6*e_9*e_12,e_2*e_3*e_5*e_7^2-e_1*e_4^2*e_6*e_8)
+NumGens: 6
+GenDegrees: {2, 2, 2, 3, 4, 5}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+4*T+7*T^2+7*T^3+3*T^4-T^5)/((1-T)^8)
+SecondsKer: .00962715
+SecondsDepth: .00321651
+SecondsHilbert: .000572797
+========================
+GraphNumber: 2766
+Graph6: GCQrUg
+NumEdges: 12
+Edges: {{1, 4}, {2, 5}, {1, 6}, {3, 6}, {4, 6}, {2, 7}, {3, 7}, {5, 7}, {1, 8}, {2, 8}, {4, 8}, {6, 8}}
+ToricIdeal: ideal(e_3*e_11-e_1*e_12,e_5*e_9-e_1*e_12,e_4*e_8*e_10-e_2*e_7*e_12,e_5*e_7*e_10-e_4*e_6*e_11,e_4*e_6*e_9-e_3*e_7*e_10,e_5*e_8*e_10^2-e_2*e_6*e_11*e_12,e_3*e_8*e_10^2-e_2*e_6*e_9*e_12,e_1*e_8*e_10^2-e_2*e_6*e_9*e_11,e_2*e_3*e_5*e_7^2-e_1*e_4^2*e_6*e_8)
+NumGens: 9
+GenDegrees: {2, 2, 3, 3, 3, 4, 4, 4, 5}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+4*T+8*T^2+9*T^3+3*T^4-T^5)/((1-T)^8)
+SecondsKer: .0090173
+SecondsDepth: .00320071
+SecondsHilbert: .000600992
+========================
+GraphNumber: 2768
+Graph6: GCQrUW
+NumEdges: 12
+Edges: {{1, 4}, {2, 5}, {1, 6}, {3, 6}, {4, 6}, {2, 7}, {3, 7}, {5, 7}, {1, 8}, {2, 8}, {5, 8}, {6, 8}}
+ToricIdeal: ideal(e_8*e_10-e_6*e_11,e_5*e_9-e_1*e_12,e_3*e_10*e_11-e_2*e_9*e_12,e_4*e_6*e_11-e_2*e_7*e_12,e_4*e_8*e_9-e_3*e_7*e_11,e_4*e_6*e_9-e_3*e_7*e_10,e_2*e_3*e_5*e_7^2-e_1*e_4^2*e_6*e_8)
+NumGens: 7
+GenDegrees: {2, 2, 3, 3, 3, 3, 5}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+4*T+8*T^2+8*T^3+3*T^4-T^5)/((1-T)^8)
+SecondsKer: .00930542
+SecondsDepth: .00297933
+SecondsHilbert: .000609695
+========================
+GraphNumber: 2769
+Graph6: GCQrRW
+NumEdges: 12
+Edges: {{1, 4}, {2, 5}, {1, 6}, {3, 6}, {4, 6}, {2, 7}, {3, 7}, {5, 7}, {2, 8}, {3, 8}, {5, 8}, {6, 8}}
+ToricIdeal: ideal(e_8*e_10-e_7*e_11,e_8*e_9-e_6*e_11,e_7*e_9-e_6*e_10,e_4*e_9*e_11-e_2*e_10*e_12,e_4*e_6*e_11-e_2*e_7*e_12,e_3*e_5*e_10-e_1*e_4*e_12,e_3*e_5*e_9*e_11-e_1*e_2*e_12^2,e_2*e_3*e_5*e_7^2-e_1*e_4^2*e_6*e_8)
+NumGens: 8
+GenDegrees: {2, 2, 2, 3, 3, 3, 4, 5}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+4*T+7*T^2+7*T^3+3*T^4-T^5)/((1-T)^8)
+SecondsKer: .014899
+SecondsDepth: .00563241
+SecondsHilbert: .0012715
+========================
+GraphNumber: 2770
+Graph6: GCQrUK
+NumEdges: 12
+Edges: {{1, 4}, {2, 5}, {1, 6}, {3, 6}, {4, 6}, {2, 7}, {3, 7}, {5, 7}, {1, 8}, {2, 8}, {6, 8}, {7, 8}}
+ToricIdeal: ideal(e_7*e_11-e_4*e_12,e_8*e_10-e_2*e_12,e_5*e_9-e_1*e_11,e_6*e_9*e_11-e_3*e_10*e_12,e_4*e_6*e_9-e_3*e_7*e_10,e_2*e_3*e_5*e_7^2-e_1*e_4^2*e_6*e_8)
+NumGens: 6
+GenDegrees: {2, 2, 2, 3, 3, 5}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+4*T+7*T^2+6*T^3+2*T^4-T^5)/((1-T)^8)
+SecondsKer: .0156294
+SecondsDepth: .00445751
+SecondsHilbert: .00101489
+========================
+GraphNumber: 2771
+Graph6: GCQrTK
+NumEdges: 12
+Edges: {{1, 4}, {2, 5}, {1, 6}, {3, 6}, {4, 6}, {2, 7}, {3, 7}, {5, 7}, {1, 8}, {3, 8}, {6, 8}, {7, 8}}
+ToricIdeal: ideal(e_7*e_11-e_4*e_12,e_5*e_9-e_1*e_11,e_4*e_9-e_3*e_10,e_6*e_8*e_10-e_2*e_7*e_12,e_6*e_8*e_9*e_11-e_2*e_3*e_12^2,e_2*e_3*e_5*e_7^2-e_1*e_4^2*e_6*e_8)
+NumGens: 6
+GenDegrees: {2, 2, 2, 3, 4, 5}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+4*T+7*T^2+7*T^3+3*T^4-T^5)/((1-T)^8)
+SecondsKer: .0123863
+SecondsDepth: .0685383
+SecondsHilbert: .000563078
+========================
+GraphNumber: 2772
+Graph6: GCQrSk
+NumEdges: 12
+Edges: {{1, 4}, {2, 5}, {1, 6}, {3, 6}, {4, 6}, {2, 7}, {3, 7}, {5, 7}, {1, 8}, {4, 8}, {6, 8}, {7, 8}}
+ToricIdeal: ideal(e_7*e_11-e_4*e_12,e_3*e_10-e_1*e_11,e_5*e_9-e_1*e_11,e_6*e_8*e_10*e_11-e_2*e_5*e_12^2,e_6*e_8*e_9*e_11-e_2*e_3*e_12^2,e_6*e_8*e_9*e_10-e_1*e_2*e_12^2,e_4*e_6*e_8*e_10-e_2*e_5*e_7*e_12,e_4*e_6*e_8*e_9-e_2*e_3*e_7*e_12,e_2*e_3*e_5*e_7^2-e_1*e_4^2*e_6*e_8)
+NumGens: 9
+GenDegrees: {2, 2, 2, 4, 4, 4, 4, 4, 5}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+4*T+7*T^2+8*T^3+3*T^4-T^5)/((1-T)^8)
+SecondsKer: .00945795
+SecondsDepth: .00350812
+SecondsHilbert: .000785528
+========================
+GraphNumber: 2773
+Graph6: GCQrVo
+NumEdges: 13
+Edges: {{1, 4}, {2, 5}, {1, 6}, {3, 6}, {4, 6}, {2, 7}, {3, 7}, {5, 7}, {1, 8}, {2, 8}, {3, 8}, {4, 8}, {5, 8}}
+ToricIdeal: ideal(e_8*e_11-e_7*e_13,e_5*e_11-e_4*e_12,e_8*e_10-e_6*e_13,e_7*e_10-e_6*e_11,e_5*e_9-e_3*e_12,e_4*e_9-e_3*e_11,e_2*e_9*e_12-e_1*e_10*e_13,e_2*e_3*e_7*e_12-e_1*e_4*e_6*e_13,e_2*e_3*e_5*e_7^2-e_1*e_4^2*e_6*e_8)
+NumGens: 9
+GenDegrees: {2, 2, 2, 2, 2, 2, 3, 4, 5}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+5*T+9*T^2+8*T^3+3*T^4-T^5)/((1-T)^8)
+SecondsKer: .0119674
+SecondsDepth: .00452842
+SecondsHilbert: .00102292
+========================
+GraphNumber: 2774
+Graph6: GCQrVg
+NumEdges: 13
+Edges: {{1, 4}, {2, 5}, {1, 6}, {3, 6}, {4, 6}, {2, 7}, {3, 7}, {5, 7}, {1, 8}, {2, 8}, {3, 8}, {4, 8}, {6, 8}}
+ToricIdeal: ideal(e_3*e_12-e_1*e_13,e_5*e_11-e_4*e_12,e_7*e_10-e_6*e_11,e_5*e_9-e_1*e_13,e_4*e_9-e_3*e_11,e_4*e_8*e_10-e_2*e_7*e_13,e_1*e_8*e_10*e_11-e_2*e_7*e_9*e_12,e_5*e_8*e_10^2-e_2*e_6*e_12*e_13,e_3*e_8*e_10^2-e_2*e_6*e_9*e_13,e_1*e_8*e_10^2-e_2*e_6*e_9*e_12,e_2*e_3*e_5*e_7^2-e_1*e_4^2*e_6*e_8)
+NumGens: 11
+GenDegrees: {2, 2, 2, 2, 2, 3, 4, 4, 4, 4, 5}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+5*T+10*T^2+11*T^3+3*T^4-T^5)/((1-T)^8)
+SecondsKer: .0138253
+SecondsDepth: .00671197
+SecondsHilbert: .000944754
+========================
+GraphNumber: 2775
+Graph6: GCQrVW
+NumEdges: 13
+Edges: {{1, 4}, {2, 5}, {1, 6}, {3, 6}, {4, 6}, {2, 7}, {3, 7}, {5, 7}, {1, 8}, {2, 8}, {3, 8}, {5, 8}, {6, 8}}
+ToricIdeal: ideal(e_8*e_11-e_7*e_12,e_8*e_10-e_6*e_12,e_7*e_10-e_6*e_11,e_5*e_9-e_1*e_13,e_4*e_9-e_3*e_11,e_4*e_10*e_12-e_2*e_11*e_13,e_3*e_10*e_12-e_2*e_9*e_13,e_4*e_6*e_12-e_2*e_7*e_13,e_2*e_3*e_5*e_7^2-e_1*e_4^2*e_6*e_8)
+NumGens: 9
+GenDegrees: {2, 2, 2, 2, 2, 3, 3, 3, 5}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+5*T+10*T^2+9*T^3+3*T^4-T^5)/((1-T)^8)
+SecondsKer: .0142728
+SecondsDepth: .00727166
+SecondsHilbert: .00167314
+========================
+GraphNumber: 2776
+Graph6: GCQrUw
+NumEdges: 13
+Edges: {{1, 4}, {2, 5}, {1, 6}, {3, 6}, {4, 6}, {2, 7}, {3, 7}, {5, 7}, {1, 8}, {2, 8}, {4, 8}, {5, 8}, {6, 8}}
+ToricIdeal: ideal(e_3*e_11-e_1*e_13,e_8*e_10-e_6*e_12,e_5*e_9-e_1*e_13,e_5*e_10*e_12-e_2*e_11*e_13,e_3*e_10*e_12-e_2*e_9*e_13,e_4*e_6*e_12-e_2*e_7*e_13,e_2*e_9*e_11-e_1*e_10*e_12,e_4*e_8*e_11-e_5*e_7*e_12,e_5*e_7*e_10-e_4*e_6*e_11,e_4*e_8*e_9-e_3*e_7*e_12,e_4*e_6*e_9-e_3*e_7*e_10,e_2*e_3*e_5*e_7^2-e_1*e_4^2*e_6*e_8)
+NumGens: 12
+GenDegrees: {2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 5}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+5*T+12*T^2+12*T^3+3*T^4-T^5)/((1-T)^8)
+SecondsKer: .0240239
+SecondsDepth: .00609433
+SecondsHilbert: .00102629
+========================
+GraphNumber: 2777
+Graph6: GCQrVK
+NumEdges: 13
+Edges: {{1, 4}, {2, 5}, {1, 6}, {3, 6}, {4, 6}, {2, 7}, {3, 7}, {5, 7}, {1, 8}, {2, 8}, {3, 8}, {6, 8}, {7, 8}}
+ToricIdeal: ideal(e_7*e_12-e_4*e_13,e_8*e_10-e_2*e_13,e_7*e_10-e_6*e_11,e_5*e_9-e_1*e_12,e_4*e_9-e_3*e_11,e_6*e_9*e_12-e_3*e_10*e_13,e_2*e_3*e_5*e_7^2-e_1*e_4^2*e_6*e_8)
+NumGens: 7
+GenDegrees: {2, 2, 2, 2, 2, 3, 5}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+5*T+10*T^2+9*T^3+3*T^4-T^5)/((1-T)^8)
+SecondsKer: .018452
+SecondsDepth: .00805295
+SecondsHilbert: .00174824
+========================
+GraphNumber: 2778
+Graph6: GCQrUk
+NumEdges: 13
+Edges: {{1, 4}, {2, 5}, {1, 6}, {3, 6}, {4, 6}, {2, 7}, {3, 7}, {5, 7}, {1, 8}, {2, 8}, {4, 8}, {6, 8}, {7, 8}}
+ToricIdeal: ideal(e_7*e_12-e_4*e_13,e_3*e_11-e_1*e_12,e_8*e_10-e_2*e_13,e_5*e_9-e_1*e_12,e_6*e_11*e_12-e_5*e_10*e_13,e_6*e_9*e_12-e_3*e_10*e_13,e_6*e_9*e_11-e_1*e_10*e_13,e_5*e_7*e_10-e_4*e_6*e_11,e_4*e_6*e_9-e_3*e_7*e_10,e_2*e_3*e_5*e_7^2-e_1*e_4^2*e_6*e_8)
+NumGens: 10
+GenDegrees: {2, 2, 2, 2, 3, 3, 3, 3, 3, 5}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+5*T+11*T^2+10*T^3+3*T^4-T^5)/((1-T)^8)
+SecondsKer: .0263668
+SecondsDepth: .00932844
+SecondsHilbert: .00176156
+========================
+GraphNumber: 2779
+Graph6: GCQrTk
+NumEdges: 13
+Edges: {{1, 4}, {2, 5}, {1, 6}, {3, 6}, {4, 6}, {2, 7}, {3, 7}, {5, 7}, {1, 8}, {3, 8}, {4, 8}, {6, 8}, {7, 8}}
+ToricIdeal: ideal(e_7*e_12-e_4*e_13,e_3*e_11-e_1*e_12,e_5*e_10-e_4*e_11,e_5*e_9-e_1*e_12,e_4*e_9-e_3*e_10,e_7*e_9*e_11-e_1*e_10*e_13,e_6*e_8*e_10-e_2*e_7*e_13,e_6*e_8*e_11*e_12-e_2*e_5*e_13^2,e_6*e_8*e_9*e_12-e_2*e_3*e_13^2,e_6*e_8*e_9*e_11-e_1*e_2*e_13^2,e_2*e_3*e_5*e_7^2-e_1*e_4^2*e_6*e_8)
+NumGens: 11
+GenDegrees: {2, 2, 2, 2, 2, 3, 3, 4, 4, 4, 5}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+5*T+10*T^2+10*T^3+3*T^4-T^5)/((1-T)^8)
+SecondsKer: .108168
+SecondsDepth: .0108954
+SecondsHilbert: .00189702
+========================
+GraphNumber: 2780
+Graph6: GCQrVw
+NumEdges: 14
+Edges: {{1, 4}, {2, 5}, {1, 6}, {3, 6}, {4, 6}, {2, 7}, {3, 7}, {5, 7}, {1, 8}, {2, 8}, {3, 8}, {4, 8}, {5, 8}, {6, 8}}
+ToricIdeal: ideal(e_3*e_12-e_1*e_14,e_8*e_11-e_7*e_13,e_5*e_11-e_4*e_12,e_8*e_10-e_6*e_13,e_7*e_10-e_6*e_11,e_5*e_9-e_1*e_14,e_4*e_9-e_3*e_11,e_5*e_10*e_13-e_2*e_12*e_14,e_4*e_10*e_13-e_2*e_11*e_14,e_3*e_10*e_13-e_2*e_9*e_14,e_4*e_6*e_13-e_2*e_7*e_14,e_2*e_9*e_12-e_1*e_10*e_13,e_2*e_3*e_5*e_7^2-e_1*e_4^2*e_6*e_8)
+NumGens: 13
+GenDegrees: {2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 5}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+6*T+14*T^2+13*T^3+3*T^4-T^5)/((1-T)^8)
+SecondsKer: .0255021
+SecondsDepth: .0167934
+SecondsHilbert: .00183555
+========================
+GraphNumber: 2781
+Graph6: GCQrVk
+NumEdges: 14
+Edges: {{1, 4}, {2, 5}, {1, 6}, {3, 6}, {4, 6}, {2, 7}, {3, 7}, {5, 7}, {1, 8}, {2, 8}, {3, 8}, {4, 8}, {6, 8}, {7, 8}}
+ToricIdeal: ideal(e_7*e_13-e_4*e_14,e_3*e_12-e_1*e_13,e_5*e_11-e_4*e_12,e_8*e_10-e_2*e_14,e_7*e_10-e_6*e_11,e_5*e_9-e_1*e_13,e_4*e_9-e_3*e_11,e_6*e_12*e_13-e_5*e_10*e_14,e_6*e_9*e_13-e_3*e_10*e_14,e_7*e_9*e_12-e_1*e_11*e_14,e_6*e_9*e_12-e_1*e_10*e_14,e_2*e_3*e_5*e_7^2-e_1*e_4^2*e_6*e_8)
+NumGens: 12
+GenDegrees: {2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 5}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+6*T+14*T^2+12*T^3+3*T^4-T^5)/((1-T)^8)
+SecondsKer: .0220059
+SecondsDepth: .0156534
+SecondsHilbert: .0020857
+========================
+GraphNumber: 2782
+Graph6: GCQrU{
+NumEdges: 14
+Edges: {{1, 4}, {2, 5}, {1, 6}, {3, 6}, {4, 6}, {2, 7}, {3, 7}, {5, 7}, {1, 8}, {2, 8}, {4, 8}, {5, 8}, {6, 8}, {7, 8}}
+ToricIdeal: ideal(e_7*e_13-e_4*e_14,e_6*e_12-e_2*e_14,e_3*e_11-e_1*e_13,e_8*e_10-e_2*e_14,e_5*e_9-e_1*e_13,e_8*e_11*e_13-e_5*e_12*e_14,e_6*e_11*e_13-e_5*e_10*e_14,e_8*e_9*e_13-e_3*e_12*e_14,e_6*e_9*e_13-e_3*e_10*e_14,e_5*e_10*e_12-e_2*e_11*e_13,e_3*e_10*e_12-e_2*e_9*e_13,e_8*e_9*e_11-e_1*e_12*e_14,e_6*e_9*e_11-e_1*e_10*e_14,e_2*e_9*e_11-e_1*e_10*e_12,e_4*e_8*e_11-e_5*e_7*e_12,e_5*e_7*e_10-e_4*e_6*e_11,e_4*e_8*e_9-e_3*e_7*e_12,e_4*e_6*e_9-e_3*e_7*e_10,e_2*e_3*e_5*e_7^2-e_1*e_4^2*e_6*e_8)
+NumGens: 19
+GenDegrees: {2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 5}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+6*T+16*T^2+13*T^3+3*T^4-T^5)/((1-T)^8)
+SecondsKer: .0279422
+SecondsDepth: .0210072
+SecondsHilbert: .00271337
+========================
+GraphNumber: 2783
+Graph6: GCQrV{
+NumEdges: 15
+Edges: {{1, 4}, {2, 5}, {1, 6}, {3, 6}, {4, 6}, {2, 7}, {3, 7}, {5, 7}, {1, 8}, {2, 8}, {3, 8}, {4, 8}, {5, 8}, {6, 8}, {7, 8}}
+ToricIdeal: ideal(e_7*e_14-e_4*e_15,e_6*e_13-e_2*e_15,e_3*e_12-e_1*e_14,e_8*e_11-e_7*e_13,e_5*e_11-e_4*e_12,e_8*e_10-e_2*e_15,e_7*e_10-e_6*e_11,e_5*e_9-e_1*e_14,e_4*e_9-e_3*e_11,e_8*e_12*e_14-e_5*e_13*e_15,e_6*e_12*e_14-e_5*e_10*e_15,e_8*e_9*e_14-e_3*e_13*e_15,e_6*e_9*e_14-e_3*e_10*e_15,e_5*e_10*e_13-e_2*e_12*e_14,e_4*e_10*e_13-e_2*e_11*e_14,e_3*e_10*e_13-e_2*e_9*e_14,e_8*e_9*e_12-e_1*e_13*e_15,e_7*e_9*e_12-e_1*e_11*e_15,e_6*e_9*e_12-e_1*e_10*e_15,e_2*e_9*e_12-e_1*e_10*e_13,e_2*e_3*e_5*e_7^2-e_1*e_4^2*e_6*e_8)
+NumGens: 21
+GenDegrees: {2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 5}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+7*T+19*T^2+14*T^3+3*T^4-T^5)/((1-T)^8)
+SecondsKer: .031809
+SecondsDepth: .124902
+SecondsHilbert: .00276421
+========================
+GraphNumber: 3007
+Graph6: GCpdbW
+NumEdges: 12
+Edges: {{1, 4}, {1, 5}, {2, 5}, {2, 6}, {3, 6}, {1, 7}, {3, 7}, {4, 7}, {2, 8}, {3, 8}, {5, 8}, {6, 8}}
+ToricIdeal: ideal(e_4*e_11-e_3*e_12,e_5*e_9-e_4*e_10,e_5*e_6*e_11-e_2*e_7*e_12,e_2*e_8*e_10-e_1*e_7*e_11,e_2*e_7*e_9-e_3*e_6*e_10,e_3*e_5*e_6-e_2*e_4*e_7,e_5*e_6*e_8*e_10-e_1*e_7^2*e_12,e_2^2*e_8*e_9-e_1*e_3*e_6*e_11)
+NumGens: 8
+GenDegrees: {2, 2, 3, 3, 3, 3, 4, 4}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+4*T+8*T^2+8*T^3+3*T^4-T^5)/((1-T)^8)
+SecondsKer: .0218794
+SecondsDepth: .00542572
+SecondsHilbert: .000993854
+========================
+GraphNumber: 4746
+Graph6: GCXmd_
+NumEdges: 12
+Edges: {{1, 4}, {2, 5}, {3, 5}, {2, 6}, {3, 6}, {5, 6}, {1, 7}, {2, 7}, {4, 7}, {1, 8}, {3, 8}, {4, 8}}
+ToricIdeal: ideal(e_9*e_10-e_7*e_12,e_3*e_4-e_2*e_5,e_4*e_9*e_11-e_5*e_8*e_12,e_2*e_9*e_11-e_3*e_8*e_12,e_5*e_8*e_10-e_4*e_7*e_11,e_3*e_8*e_10-e_2*e_7*e_11,e_1*e_6*e_11^2-e_3*e_5*e_10*e_12,e_1*e_6*e_8*e_11-e_2*e_5*e_7*e_12,e_1*e_6*e_8^2-e_2*e_4*e_7*e_9)
+NumGens: 9
+GenDegrees: {2, 2, 3, 3, 3, 3, 4, 4, 4}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+4*T+8*T^2+8*T^3+5*T^4-2*T^5)/((1-T)^8)
+SecondsKer: .0201953
+SecondsDepth: .00763238
+SecondsHilbert: .000997381
+========================
+GraphNumber: 4747
+Graph6: GCXmf_
+NumEdges: 13
+Edges: {{1, 4}, {2, 5}, {3, 5}, {2, 6}, {3, 6}, {5, 6}, {1, 7}, {2, 7}, {4, 7}, {1, 8}, {2, 8}, {3, 8}, {4, 8}}
+ToricIdeal: ideal(e_9*e_11-e_8*e_13,e_5*e_11-e_4*e_12,e_3*e_11-e_2*e_12,e_9*e_10-e_7*e_13,e_8*e_10-e_7*e_11,e_3*e_4-e_2*e_5,e_1*e_6*e_12^2-e_3*e_5*e_10*e_13,e_1*e_6*e_11*e_12-e_2*e_5*e_10*e_13,e_1*e_6*e_8*e_12-e_2*e_5*e_7*e_13,e_1*e_6*e_11^2-e_2*e_4*e_10*e_13,e_1*e_6*e_8*e_11-e_2*e_4*e_7*e_13,e_1*e_6*e_8^2-e_2*e_4*e_7*e_9)
+NumGens: 12
+GenDegrees: {2, 2, 2, 2, 2, 2, 4, 4, 4, 4, 4, 4}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+5*T+9*T^2+9*T^3+3*T^4-T^5)/((1-T)^8)
+SecondsKer: .0975246
+SecondsDepth: .00618909
+SecondsHilbert: .000834014
+========================
+GraphNumber: 4748
+Graph6: GCXmfO
+NumEdges: 13
+Edges: {{1, 4}, {2, 5}, {3, 5}, {2, 6}, {3, 6}, {5, 6}, {1, 7}, {2, 7}, {4, 7}, {1, 8}, {2, 8}, {3, 8}, {5, 8}}
+ToricIdeal: ideal(e_6*e_12-e_5*e_13,e_6*e_11-e_4*e_13,e_5*e_11-e_4*e_12,e_3*e_11-e_2*e_12,e_8*e_10-e_7*e_11,e_3*e_4-e_2*e_5,e_2*e_9*e_10-e_1*e_8*e_13,e_3*e_9*e_10^2-e_1*e_7*e_12*e_13,e_1*e_6*e_8^2-e_2*e_4*e_7*e_9)
+NumGens: 9
+GenDegrees: {2, 2, 2, 2, 2, 2, 3, 4, 4}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+5*T+9*T^2+9*T^3+3*T^4-T^5)/((1-T)^8)
+SecondsKer: .011526
+SecondsDepth: .00526132
+SecondsHilbert: .000748975
+========================
+GraphNumber: 4749
+Graph6: GCXmeo
+NumEdges: 13
+Edges: {{1, 4}, {2, 5}, {3, 5}, {2, 6}, {3, 6}, {5, 6}, {1, 7}, {2, 7}, {4, 7}, {1, 8}, {2, 8}, {4, 8}, {5, 8}}
+ToricIdeal: ideal(e_9*e_11-e_8*e_12,e_6*e_11-e_4*e_13,e_9*e_10-e_7*e_12,e_8*e_10-e_7*e_11,e_3*e_4-e_2*e_5,e_2*e_10*e_12-e_1*e_11*e_13,e_2*e_7*e_12-e_1*e_8*e_13,e_3*e_6*e_10*e_12-e_1*e_5*e_13^2,e_1*e_6*e_8^2-e_2*e_4*e_7*e_9)
+NumGens: 9
+GenDegrees: {2, 2, 2, 2, 2, 3, 3, 4, 4}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+5*T+10*T^2+10*T^3+3*T^4-T^5)/((1-T)^8)
+SecondsKer: .0139404
+SecondsDepth: .00895071
+SecondsHilbert: .00146157
+========================
+GraphNumber: 4750
+Graph6: GCXmdo
+NumEdges: 13
+Edges: {{1, 4}, {2, 5}, {3, 5}, {2, 6}, {3, 6}, {5, 6}, {1, 7}, {2, 7}, {4, 7}, {1, 8}, {3, 8}, {4, 8}, {5, 8}}
+ToricIdeal: ideal(e_6*e_11-e_5*e_13,e_9*e_10-e_7*e_12,e_3*e_4-e_2*e_5,e_3*e_10*e_12-e_1*e_11*e_13,e_6*e_8*e_12-e_4*e_9*e_13,e_2*e_7*e_12-e_1*e_8*e_13,e_4*e_9*e_11-e_5*e_8*e_12,e_2*e_9*e_11-e_3*e_8*e_12,e_6*e_8*e_10-e_4*e_7*e_13,e_5*e_8*e_10-e_4*e_7*e_11,e_3*e_8*e_10-e_2*e_7*e_11,e_2*e_6*e_10*e_12-e_1*e_4*e_13^2,e_1*e_6*e_8^2-e_2*e_4*e_7*e_9)
+NumGens: 13
+GenDegrees: {2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 4, 4}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+5*T+12*T^2+12*T^3+3*T^4-T^5)/((1-T)^8)
+SecondsKer: .0177602
+SecondsDepth: .00636542
+SecondsHilbert: .00101434
+========================
+GraphNumber: 4751
+Graph6: GCXmeW
+NumEdges: 13
+Edges: {{1, 4}, {2, 5}, {3, 5}, {2, 6}, {3, 6}, {5, 6}, {1, 7}, {2, 7}, {4, 7}, {1, 8}, {2, 8}, {5, 8}, {6, 8}}
+ToricIdeal: ideal(e_5*e_12-e_3*e_13,e_4*e_12-e_2*e_13,e_6*e_11-e_2*e_13,e_8*e_10-e_7*e_11,e_3*e_4-e_2*e_5,e_4*e_9*e_10-e_1*e_8*e_13,e_2*e_9*e_10-e_1*e_8*e_12,e_6*e_9*e_10^2-e_1*e_7*e_12*e_13,e_1*e_6*e_8^2-e_2*e_4*e_7*e_9)
+NumGens: 9
+GenDegrees: {2, 2, 2, 2, 2, 3, 3, 4, 4}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+5*T+10*T^2+10*T^3+3*T^4-T^5)/((1-T)^8)
+SecondsKer: .0110316
+SecondsDepth: .00522995
+SecondsHilbert: .000598215
+========================
+GraphNumber: 4752
+Graph6: GCXmdW
+NumEdges: 13
+Edges: {{1, 4}, {2, 5}, {3, 5}, {2, 6}, {3, 6}, {5, 6}, {1, 7}, {2, 7}, {4, 7}, {1, 8}, {3, 8}, {5, 8}, {6, 8}}
+ToricIdeal: ideal(e_5*e_12-e_3*e_13,e_4*e_12-e_2*e_13,e_6*e_11-e_3*e_13,e_3*e_4-e_2*e_5,e_4*e_9*e_10-e_1*e_8*e_13,e_2*e_9*e_10-e_1*e_8*e_12,e_6*e_8*e_10-e_2*e_7*e_13,e_5*e_8*e_10-e_4*e_7*e_11,e_3*e_8*e_10-e_2*e_7*e_11,e_6*e_9*e_10^2-e_1*e_7*e_12*e_13,e_5*e_9*e_10^2-e_1*e_7*e_11*e_13,e_3*e_9*e_10^2-e_1*e_7*e_11*e_12,e_1*e_6*e_8^2-e_2*e_4*e_7*e_9)
+NumGens: 13
+GenDegrees: {2, 2, 2, 2, 3, 3, 3, 3, 3, 4, 4, 4, 4}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+5*T+11*T^2+12*T^3+3*T^4-T^5)/((1-T)^8)
+SecondsKer: .0127286
+SecondsDepth: .00581156
+SecondsHilbert: .00124821
+========================
+GraphNumber: 4753
+Graph6: GCXmcw
+NumEdges: 13
+Edges: {{1, 4}, {2, 5}, {3, 5}, {2, 6}, {3, 6}, {5, 6}, {1, 7}, {2, 7}, {4, 7}, {1, 8}, {4, 8}, {5, 8}, {6, 8}}
+ToricIdeal: ideal(e_5*e_12-e_3*e_13,e_4*e_12-e_2*e_13,e_9*e_10-e_7*e_11,e_3*e_4-e_2*e_5,e_6*e_10*e_11-e_1*e_12*e_13,e_6*e_8*e_11-e_2*e_9*e_13,e_4*e_7*e_11-e_1*e_8*e_13,e_2*e_7*e_11-e_1*e_8*e_12,e_6*e_8*e_10-e_2*e_7*e_13,e_1*e_6*e_8^2-e_2*e_4*e_7*e_9)
+NumGens: 10
+GenDegrees: {2, 2, 2, 2, 3, 3, 3, 3, 3, 4}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+5*T+11*T^2+12*T^3+3*T^4-T^5)/((1-T)^8)
+SecondsKer: .0115778
+SecondsDepth: .00454894
+SecondsHilbert: .000642862
+========================
+GraphNumber: 4754
+Graph6: GCXmdc
+NumEdges: 13
+Edges: {{1, 4}, {2, 5}, {3, 5}, {2, 6}, {3, 6}, {5, 6}, {1, 7}, {2, 7}, {4, 7}, {1, 8}, {3, 8}, {4, 8}, {7, 8}}
+ToricIdeal: ideal(e_7*e_12-e_1*e_13,e_9*e_10-e_1*e_13,e_3*e_4-e_2*e_5,e_4*e_9*e_11-e_5*e_8*e_12,e_2*e_9*e_11-e_3*e_8*e_12,e_6*e_8*e_11-e_2*e_5*e_13,e_5*e_8*e_10-e_4*e_7*e_11,e_3*e_8*e_10-e_2*e_7*e_11,e_6*e_8^2*e_12-e_2*e_4*e_9*e_13,e_6*e_9*e_11^2-e_3*e_5*e_12*e_13,e_6*e_7*e_11^2-e_3*e_5*e_10*e_13,e_1*e_6*e_11^2-e_3*e_5*e_10*e_12,e_6*e_8^2*e_10-e_2*e_4*e_7*e_13,e_1*e_6*e_8^2-e_2*e_4*e_7*e_9)
+NumGens: 14
+GenDegrees: {2, 2, 2, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 4}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+5*T+12*T^2+15*T^3+5*T^4-2*T^5)/((1-T)^8)
+SecondsKer: .0110552
+SecondsDepth: .0705462
+SecondsHilbert: .00102315
+========================
+GraphNumber: 4755
+Graph6: GCXmeS
+NumEdges: 13
+Edges: {{1, 4}, {2, 5}, {3, 5}, {2, 6}, {3, 6}, {5, 6}, {1, 7}, {2, 7}, {4, 7}, {1, 8}, {2, 8}, {5, 8}, {7, 8}}
+ToricIdeal: ideal(e_8*e_12-e_2*e_13,e_6*e_11-e_4*e_12,e_9*e_10-e_1*e_13,e_8*e_10-e_7*e_11,e_3*e_4-e_2*e_5,e_5*e_7*e_12^2-e_3*e_6*e_10*e_13,e_1*e_6*e_8^2-e_2*e_4*e_7*e_9)
+NumGens: 7
+GenDegrees: {2, 2, 2, 2, 2, 4, 4}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+5*T+10*T^2+10*T^3+3*T^4-T^5)/((1-T)^8)
+SecondsKer: .0172105
+SecondsDepth: .00523523
+SecondsHilbert: .000994835
+========================
+GraphNumber: 4756
+Graph6: GCXmdS
+NumEdges: 13
+Edges: {{1, 4}, {2, 5}, {3, 5}, {2, 6}, {3, 6}, {5, 6}, {1, 7}, {2, 7}, {4, 7}, {1, 8}, {3, 8}, {5, 8}, {7, 8}}
+ToricIdeal: ideal(e_8*e_12-e_2*e_13,e_6*e_11-e_5*e_12,e_9*e_10-e_1*e_13,e_3*e_4-e_2*e_5,e_7*e_11*e_12-e_3*e_10*e_13,e_6*e_8*e_10-e_4*e_7*e_12,e_5*e_8*e_10-e_4*e_7*e_11,e_3*e_8*e_10-e_2*e_7*e_11,e_1*e_6*e_8^2-e_2*e_4*e_7*e_9)
+NumGens: 9
+GenDegrees: {2, 2, 2, 2, 3, 3, 3, 3, 4}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+5*T+11*T^2+11*T^3+3*T^4-T^5)/((1-T)^8)
+SecondsKer: .0115427
+SecondsDepth: .00436773
+SecondsHilbert: .000923028
+========================
+GraphNumber: 4757
+Graph6: GCXmbS
+NumEdges: 13
+Edges: {{1, 4}, {2, 5}, {3, 5}, {2, 6}, {3, 6}, {5, 6}, {1, 7}, {2, 7}, {4, 7}, {2, 8}, {3, 8}, {5, 8}, {7, 8}}
+ToricIdeal: ideal(e_8*e_12-e_2*e_13,e_6*e_11-e_5*e_12,e_6*e_10-e_4*e_12,e_5*e_10-e_4*e_11,e_3*e_10-e_2*e_11,e_3*e_4-e_2*e_5,e_7*e_9*e_10-e_1*e_8*e_13,e_7*e_9*e_11*e_12-e_1*e_3*e_13^2,e_1*e_6*e_8^2-e_2*e_4*e_7*e_9)
+NumGens: 9
+GenDegrees: {2, 2, 2, 2, 2, 2, 3, 4, 4}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+5*T+9*T^2+9*T^3+3*T^4-T^5)/((1-T)^8)
+SecondsKer: .0100953
+SecondsDepth: .00429897
+SecondsHilbert: .000703129
+========================
+GraphNumber: 4758
+Graph6: GCXmcs
+NumEdges: 13
+Edges: {{1, 4}, {2, 5}, {3, 5}, {2, 6}, {3, 6}, {5, 6}, {1, 7}, {2, 7}, {4, 7}, {1, 8}, {4, 8}, {5, 8}, {7, 8}}
+ToricIdeal: ideal(e_8*e_12-e_2*e_13,e_7*e_11-e_1*e_13,e_9*e_10-e_1*e_13,e_3*e_4-e_2*e_5,e_6*e_8*e_11-e_4*e_9*e_12,e_6*e_8*e_10-e_4*e_7*e_12,e_5*e_9*e_12^2-e_3*e_6*e_11*e_13,e_5*e_7*e_12^2-e_3*e_6*e_10*e_13,e_3*e_6*e_10*e_11-e_1*e_5*e_12^2,e_2*e_6*e_10*e_11-e_1*e_4*e_12^2,e_1*e_6*e_8^2-e_2*e_4*e_7*e_9)
+NumGens: 11
+GenDegrees: {2, 2, 2, 2, 3, 3, 4, 4, 4, 4, 4}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+5*T+11*T^2+13*T^3+3*T^4-T^5)/((1-T)^8)
+SecondsKer: .0107991
+SecondsDepth: .00471618
+SecondsHilbert: .000974923
+========================
+GraphNumber: 4759
+Graph6: GCXmc[
+NumEdges: 13
+Edges: {{1, 4}, {2, 5}, {3, 5}, {2, 6}, {3, 6}, {5, 6}, {1, 7}, {2, 7}, {4, 7}, {1, 8}, {5, 8}, {6, 8}, {7, 8}}
+ToricIdeal: ideal(e_8*e_12-e_4*e_13,e_8*e_11-e_2*e_13,e_5*e_11-e_3*e_12,e_4*e_11-e_2*e_12,e_9*e_10-e_1*e_13,e_3*e_4-e_2*e_5,e_7*e_11*e_12-e_6*e_10*e_13,e_6*e_8*e_10-e_2*e_7*e_12,e_1*e_6*e_8^2-e_2*e_4*e_7*e_9)
+NumGens: 9
+GenDegrees: {2, 2, 2, 2, 2, 2, 3, 3, 4}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+5*T+9*T^2+8*T^3+2*T^4-T^5)/((1-T)^8)
+SecondsKer: .0109528
+SecondsDepth: .00526631
+SecondsHilbert: .000625566
+========================
+GraphNumber: 4760
+Graph6: GCXma[
+NumEdges: 13
+Edges: {{1, 4}, {2, 5}, {3, 5}, {2, 6}, {3, 6}, {5, 6}, {1, 7}, {2, 7}, {4, 7}, {2, 8}, {5, 8}, {6, 8}, {7, 8}}
+ToricIdeal: ideal(e_8*e_12-e_4*e_13,e_8*e_11-e_2*e_13,e_5*e_11-e_3*e_12,e_4*e_11-e_2*e_12,e_6*e_10-e_2*e_12,e_3*e_4-e_2*e_5,e_7*e_9*e_10-e_1*e_8*e_13,e_7*e_9*e_11*e_12-e_1*e_6*e_13^2,e_1*e_6*e_8^2-e_2*e_4*e_7*e_9)
+NumGens: 9
+GenDegrees: {2, 2, 2, 2, 2, 2, 3, 4, 4}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+5*T+9*T^2+9*T^3+3*T^4-T^5)/((1-T)^8)
+SecondsKer: .0149224
+SecondsDepth: .0075963
+SecondsHilbert: .00105357
+========================
+GraphNumber: 4761
+Graph6: GCXm`[
+NumEdges: 13
+Edges: {{1, 4}, {2, 5}, {3, 5}, {2, 6}, {3, 6}, {5, 6}, {1, 7}, {2, 7}, {4, 7}, {3, 8}, {5, 8}, {6, 8}, {7, 8}}
+ToricIdeal: ideal(e_8*e_12-e_4*e_13,e_8*e_11-e_2*e_13,e_5*e_11-e_3*e_12,e_4*e_11-e_2*e_12,e_6*e_10-e_3*e_12,e_3*e_4-e_2*e_5,e_7*e_9*e_11*e_12-e_1*e_6*e_13^2,e_7*e_9*e_10*e_12-e_1*e_5*e_13^2,e_2*e_7*e_9*e_12-e_1*e_6*e_8*e_13,e_7*e_9*e_10*e_11-e_1*e_3*e_13^2,e_4*e_7*e_9*e_10-e_1*e_5*e_8*e_13,e_2*e_7*e_9*e_10-e_1*e_3*e_8*e_13,e_1*e_6*e_8^2-e_2*e_4*e_7*e_9)
+NumGens: 13
+GenDegrees: {2, 2, 2, 2, 2, 2, 4, 4, 4, 4, 4, 4, 4}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+5*T+9*T^2+10*T^3+3*T^4-T^5)/((1-T)^8)
+SecondsKer: .0194255
+SecondsDepth: .0782366
+SecondsHilbert: .00155483
+========================
+GraphNumber: 4762
+Graph6: GCXmfo
+NumEdges: 14
+Edges: {{1, 4}, {2, 5}, {3, 5}, {2, 6}, {3, 6}, {5, 6}, {1, 7}, {2, 7}, {4, 7}, {1, 8}, {2, 8}, {3, 8}, {4, 8}, {5, 8}}
+ToricIdeal: ideal(e_6*e_12-e_5*e_14,e_9*e_11-e_8*e_13,e_6*e_11-e_4*e_14,e_5*e_11-e_4*e_12,e_3*e_11-e_2*e_12,e_9*e_10-e_7*e_13,e_8*e_10-e_7*e_11,e_3*e_4-e_2*e_5,e_3*e_10*e_13-e_1*e_12*e_14,e_2*e_10*e_13-e_1*e_11*e_14,e_2*e_7*e_13-e_1*e_8*e_14,e_1*e_6*e_8^2-e_2*e_4*e_7*e_9)
+NumGens: 12
+GenDegrees: {2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 4}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+6*T+13*T^2+12*T^3+3*T^4-T^5)/((1-T)^8)
+SecondsKer: .0273627
+SecondsDepth: .0151063
+SecondsHilbert: .00124723
+========================
+GraphNumber: 4763
+Graph6: GCXmfW
+NumEdges: 14
+Edges: {{1, 4}, {2, 5}, {3, 5}, {2, 6}, {3, 6}, {5, 6}, {1, 7}, {2, 7}, {4, 7}, {1, 8}, {2, 8}, {3, 8}, {5, 8}, {6, 8}}
+ToricIdeal: ideal(e_5*e_13-e_3*e_14,e_4*e_13-e_2*e_14,e_6*e_12-e_3*e_14,e_6*e_11-e_2*e_14,e_5*e_11-e_4*e_12,e_3*e_11-e_2*e_12,e_8*e_10-e_7*e_11,e_3*e_4-e_2*e_5,e_4*e_9*e_10-e_1*e_8*e_14,e_2*e_9*e_10-e_1*e_8*e_13,e_6*e_9*e_10^2-e_1*e_7*e_13*e_14,e_5*e_9*e_10^2-e_1*e_7*e_12*e_14,e_3*e_9*e_10^2-e_1*e_7*e_12*e_13,e_1*e_6*e_8^2-e_2*e_4*e_7*e_9)
+NumGens: 14
+GenDegrees: {2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 4, 4, 4, 4}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+6*T+13*T^2+14*T^3+3*T^4-T^5)/((1-T)^8)
+SecondsKer: .013602
+SecondsDepth: .0102342
+SecondsHilbert: .000826206
+========================
+GraphNumber: 4764
+Graph6: GCXmew
+NumEdges: 14
+Edges: {{1, 4}, {2, 5}, {3, 5}, {2, 6}, {3, 6}, {5, 6}, {1, 7}, {2, 7}, {4, 7}, {1, 8}, {2, 8}, {4, 8}, {5, 8}, {6, 8}}
+ToricIdeal: ideal(e_5*e_13-e_3*e_14,e_4*e_13-e_2*e_14,e_9*e_11-e_8*e_12,e_6*e_11-e_2*e_14,e_9*e_10-e_7*e_12,e_8*e_10-e_7*e_11,e_3*e_4-e_2*e_5,e_6*e_10*e_12-e_1*e_13*e_14,e_4*e_10*e_12-e_1*e_11*e_14,e_2*e_10*e_12-e_1*e_11*e_13,e_4*e_7*e_12-e_1*e_8*e_14,e_2*e_7*e_12-e_1*e_8*e_13,e_1*e_6*e_8^2-e_2*e_4*e_7*e_9)
+NumGens: 13
+GenDegrees: {2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 4}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+6*T+14*T^2+13*T^3+3*T^4-T^5)/((1-T)^8)
+SecondsKer: .011203
+SecondsDepth: .00827768
+SecondsHilbert: .000928971
+========================
+GraphNumber: 4765
+Graph6: GCXmdw
+NumEdges: 14
+Edges: {{1, 4}, {2, 5}, {3, 5}, {2, 6}, {3, 6}, {5, 6}, {1, 7}, {2, 7}, {4, 7}, {1, 8}, {3, 8}, {4, 8}, {5, 8}, {6, 8}}
+ToricIdeal: ideal(e_5*e_13-e_3*e_14,e_4*e_13-e_2*e_14,e_6*e_11-e_3*e_14,e_9*e_10-e_7*e_12,e_3*e_4-e_2*e_5,e_6*e_10*e_12-e_1*e_13*e_14,e_5*e_10*e_12-e_1*e_11*e_14,e_3*e_10*e_12-e_1*e_11*e_13,e_6*e_8*e_12-e_2*e_9*e_14,e_4*e_7*e_12-e_1*e_8*e_14,e_2*e_7*e_12-e_1*e_8*e_13,e_4*e_9*e_11-e_5*e_8*e_12,e_2*e_9*e_11-e_3*e_8*e_12,e_6*e_8*e_10-e_2*e_7*e_14,e_5*e_8*e_10-e_4*e_7*e_11,e_3*e_8*e_10-e_2*e_7*e_11,e_1*e_6*e_8^2-e_2*e_4*e_7*e_9)
+NumGens: 17
+GenDegrees: {2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 4}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+6*T+16*T^2+17*T^3+3*T^4-T^5)/((1-T)^8)
+SecondsKer: .0125846
+SecondsDepth: .0166021
+SecondsHilbert: .00210493
+========================
+GraphNumber: 4766
+Graph6: GCXmfc
+NumEdges: 14
+Edges: {{1, 4}, {2, 5}, {3, 5}, {2, 6}, {3, 6}, {5, 6}, {1, 7}, {2, 7}, {4, 7}, {1, 8}, {2, 8}, {3, 8}, {4, 8}, {7, 8}}
+ToricIdeal: ideal(e_7*e_13-e_1*e_14,e_9*e_11-e_8*e_13,e_5*e_11-e_4*e_12,e_3*e_11-e_2*e_12,e_9*e_10-e_1*e_14,e_8*e_10-e_7*e_11,e_3*e_4-e_2*e_5,e_6*e_8*e_12-e_2*e_5*e_14,e_6*e_8*e_11-e_2*e_4*e_14,e_6*e_9*e_12^2-e_3*e_5*e_13*e_14,e_6*e_7*e_12^2-e_3*e_5*e_10*e_14,e_1*e_6*e_12^2-e_3*e_5*e_10*e_13,e_1*e_6*e_11*e_12-e_2*e_5*e_10*e_13,e_1*e_6*e_11^2-e_2*e_4*e_10*e_13,e_1*e_6*e_8^2-e_2*e_4*e_7*e_9)
+NumGens: 15
+GenDegrees: {2, 2, 2, 2, 2, 2, 2, 3, 3, 4, 4, 4, 4, 4, 4}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+6*T+14*T^2+16*T^3+3*T^4-T^5)/((1-T)^8)
+SecondsKer: .0219599
+SecondsDepth: .0131891
+SecondsHilbert: .000850981
+========================
+GraphNumber: 4767
+Graph6: GCXmfS
+NumEdges: 14
+Edges: {{1, 4}, {2, 5}, {3, 5}, {2, 6}, {3, 6}, {5, 6}, {1, 7}, {2, 7}, {4, 7}, {1, 8}, {2, 8}, {3, 8}, {5, 8}, {7, 8}}
+ToricIdeal: ideal(e_8*e_13-e_2*e_14,e_6*e_12-e_5*e_13,e_6*e_11-e_4*e_13,e_5*e_11-e_4*e_12,e_3*e_11-e_2*e_12,e_9*e_10-e_1*e_14,e_8*e_10-e_7*e_11,e_3*e_4-e_2*e_5,e_7*e_12*e_13-e_3*e_10*e_14,e_1*e_6*e_8^2-e_2*e_4*e_7*e_9)
+NumGens: 10
+GenDegrees: {2, 2, 2, 2, 2, 2, 2, 2, 3, 4}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+6*T+13*T^2+12*T^3+3*T^4-T^5)/((1-T)^8)
+SecondsKer: .0110357
+SecondsDepth: .00663257
+SecondsHilbert: .000832195
+========================
+GraphNumber: 4768
+Graph6: GCXmes
+NumEdges: 14
+Edges: {{1, 4}, {2, 5}, {3, 5}, {2, 6}, {3, 6}, {5, 6}, {1, 7}, {2, 7}, {4, 7}, {1, 8}, {2, 8}, {4, 8}, {5, 8}, {7, 8}}
+ToricIdeal: ideal(e_8*e_13-e_2*e_14,e_7*e_12-e_1*e_14,e_9*e_11-e_8*e_12,e_6*e_11-e_4*e_13,e_9*e_10-e_1*e_14,e_8*e_10-e_7*e_11,e_3*e_4-e_2*e_5,e_2*e_10*e_12-e_1*e_11*e_13,e_5*e_9*e_13^2-e_3*e_6*e_12*e_14,e_5*e_7*e_13^2-e_3*e_6*e_10*e_14,e_3*e_6*e_10*e_12-e_1*e_5*e_13^2,e_1*e_6*e_8^2-e_2*e_4*e_7*e_9)
+NumGens: 12
+GenDegrees: {2, 2, 2, 2, 2, 2, 2, 3, 4, 4, 4, 4}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+6*T+14*T^2+15*T^3+3*T^4-T^5)/((1-T)^8)
+SecondsKer: .011077
+SecondsDepth: .00821283
+SecondsHilbert: .000997926
+========================
+GraphNumber: 4769
+Graph6: GCXmds
+NumEdges: 14
+Edges: {{1, 4}, {2, 5}, {3, 5}, {2, 6}, {3, 6}, {5, 6}, {1, 7}, {2, 7}, {4, 7}, {1, 8}, {3, 8}, {4, 8}, {5, 8}, {7, 8}}
+ToricIdeal: ideal(e_8*e_13-e_2*e_14,e_7*e_12-e_1*e_14,e_6*e_11-e_5*e_13,e_9*e_10-e_1*e_14,e_3*e_4-e_2*e_5,e_9*e_11*e_13-e_3*e_12*e_14,e_7*e_11*e_13-e_3*e_10*e_14,e_3*e_10*e_12-e_1*e_11*e_13,e_6*e_8*e_12-e_4*e_9*e_13,e_4*e_9*e_11-e_5*e_8*e_12,e_2*e_9*e_11-e_3*e_8*e_12,e_6*e_8*e_10-e_4*e_7*e_13,e_5*e_8*e_10-e_4*e_7*e_11,e_3*e_8*e_10-e_2*e_7*e_11,e_2*e_6*e_10*e_12-e_1*e_4*e_13^2,e_1*e_6*e_8^2-e_2*e_4*e_7*e_9)
+NumGens: 16
+GenDegrees: {2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 4, 4}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+6*T+16*T^2+17*T^3+3*T^4-T^5)/((1-T)^8)
+SecondsKer: .0247437
+SecondsDepth: .0149788
+SecondsHilbert: .00120343
+========================
+GraphNumber: 4770
+Graph6: GCXme[
+NumEdges: 14
+Edges: {{1, 4}, {2, 5}, {3, 5}, {2, 6}, {3, 6}, {5, 6}, {1, 7}, {2, 7}, {4, 7}, {1, 8}, {2, 8}, {5, 8}, {6, 8}, {7, 8}}
+ToricIdeal: ideal(e_8*e_13-e_4*e_14,e_8*e_12-e_2*e_14,e_5*e_12-e_3*e_13,e_4*e_12-e_2*e_13,e_6*e_11-e_2*e_13,e_9*e_10-e_1*e_14,e_8*e_10-e_7*e_11,e_3*e_4-e_2*e_5,e_7*e_12*e_13-e_6*e_10*e_14,e_1*e_6*e_8^2-e_2*e_4*e_7*e_9)
+NumGens: 10
+GenDegrees: {2, 2, 2, 2, 2, 2, 2, 2, 3, 4}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+6*T+13*T^2+12*T^3+3*T^4-T^5)/((1-T)^8)
+SecondsKer: .0118916
+SecondsDepth: .00746464
+SecondsHilbert: .000880822
+========================
+GraphNumber: 4771
+Graph6: GCXmd[
+NumEdges: 14
+Edges: {{1, 4}, {2, 5}, {3, 5}, {2, 6}, {3, 6}, {5, 6}, {1, 7}, {2, 7}, {4, 7}, {1, 8}, {3, 8}, {5, 8}, {6, 8}, {7, 8}}
+ToricIdeal: ideal(e_8*e_13-e_4*e_14,e_8*e_12-e_2*e_14,e_5*e_12-e_3*e_13,e_4*e_12-e_2*e_13,e_6*e_11-e_3*e_13,e_9*e_10-e_1*e_14,e_3*e_4-e_2*e_5,e_7*e_12*e_13-e_6*e_10*e_14,e_7*e_11*e_13-e_5*e_10*e_14,e_7*e_11*e_12-e_3*e_10*e_14,e_6*e_8*e_10-e_2*e_7*e_13,e_5*e_8*e_10-e_4*e_7*e_11,e_3*e_8*e_10-e_2*e_7*e_11,e_1*e_6*e_8^2-e_2*e_4*e_7*e_9)
+NumGens: 14
+GenDegrees: {2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 4}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+6*T+14*T^2+13*T^3+3*T^4-T^5)/((1-T)^8)
+SecondsKer: .0135836
+SecondsDepth: .00833357
+SecondsHilbert: .000961272
+========================
+GraphNumber: 4772
+Graph6: GCXmb[
+NumEdges: 14
+Edges: {{1, 4}, {2, 5}, {3, 5}, {2, 6}, {3, 6}, {5, 6}, {1, 7}, {2, 7}, {4, 7}, {2, 8}, {3, 8}, {5, 8}, {6, 8}, {7, 8}}
+ToricIdeal: ideal(e_8*e_13-e_4*e_14,e_8*e_12-e_2*e_14,e_5*e_12-e_3*e_13,e_4*e_12-e_2*e_13,e_6*e_11-e_3*e_13,e_6*e_10-e_2*e_13,e_5*e_10-e_4*e_11,e_3*e_10-e_2*e_11,e_3*e_4-e_2*e_5,e_7*e_9*e_10-e_1*e_8*e_14,e_7*e_9*e_12*e_13-e_1*e_6*e_14^2,e_7*e_9*e_11*e_13-e_1*e_5*e_14^2,e_7*e_9*e_11*e_12-e_1*e_3*e_14^2,e_1*e_6*e_8^2-e_2*e_4*e_7*e_9)
+NumGens: 14
+GenDegrees: {2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 4, 4, 4, 4}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+6*T+12*T^2+12*T^3+3*T^4-T^5)/((1-T)^8)
+SecondsKer: .0128873
+SecondsDepth: .00918036
+SecondsHilbert: .00143877
+========================
+GraphNumber: 4773
+Graph6: GCXmc{
+NumEdges: 14
+Edges: {{1, 4}, {2, 5}, {3, 5}, {2, 6}, {3, 6}, {5, 6}, {1, 7}, {2, 7}, {4, 7}, {1, 8}, {4, 8}, {5, 8}, {6, 8}, {7, 8}}
+ToricIdeal: ideal(e_8*e_13-e_4*e_14,e_8*e_12-e_2*e_14,e_5*e_12-e_3*e_13,e_4*e_12-e_2*e_13,e_7*e_11-e_1*e_14,e_9*e_10-e_1*e_14,e_3*e_4-e_2*e_5,e_9*e_12*e_13-e_6*e_11*e_14,e_7*e_12*e_13-e_6*e_10*e_14,e_6*e_10*e_11-e_1*e_12*e_13,e_6*e_8*e_11-e_2*e_9*e_13,e_6*e_8*e_10-e_2*e_7*e_13,e_1*e_6*e_8^2-e_2*e_4*e_7*e_9)
+NumGens: 13
+GenDegrees: {2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 4}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+6*T+14*T^2+14*T^3+3*T^4-T^5)/((1-T)^8)
+SecondsKer: .0156053
+SecondsDepth: .00953346
+SecondsHilbert: .00101991
+========================
+GraphNumber: 4774
+Graph6: GCXmfw
+NumEdges: 15
+Edges: {{1, 4}, {2, 5}, {3, 5}, {2, 6}, {3, 6}, {5, 6}, {1, 7}, {2, 7}, {4, 7}, {1, 8}, {2, 8}, {3, 8}, {4, 8}, {5, 8}, {6, 8}}
+ToricIdeal: ideal(e_5*e_14-e_3*e_15,e_4*e_14-e_2*e_15,e_6*e_12-e_3*e_15,e_9*e_11-e_8*e_13,e_6*e_11-e_2*e_15,e_5*e_11-e_4*e_12,e_3*e_11-e_2*e_12,e_9*e_10-e_7*e_13,e_8*e_10-e_7*e_11,e_3*e_4-e_2*e_5,e_6*e_10*e_13-e_1*e_14*e_15,e_5*e_10*e_13-e_1*e_12*e_15,e_4*e_10*e_13-e_1*e_11*e_15,e_3*e_10*e_13-e_1*e_12*e_14,e_2*e_10*e_13-e_1*e_11*e_14,e_4*e_7*e_13-e_1*e_8*e_15,e_2*e_7*e_13-e_1*e_8*e_14,e_1*e_6*e_8^2-e_2*e_4*e_7*e_9)
+NumGens: 18
+GenDegrees: {2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 4}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+7*T+18*T^2+17*T^3+3*T^4-T^5)/((1-T)^8)
+SecondsKer: .0158956
+SecondsDepth: .056036
+SecondsHilbert: .00313907
+========================
+GraphNumber: 4775
+Graph6: GCXmfs
+NumEdges: 15
+Edges: {{1, 4}, {2, 5}, {3, 5}, {2, 6}, {3, 6}, {5, 6}, {1, 7}, {2, 7}, {4, 7}, {1, 8}, {2, 8}, {3, 8}, {4, 8}, {5, 8}, {7, 8}}
+ToricIdeal: ideal(e_8*e_14-e_2*e_15,e_7*e_13-e_1*e_15,e_6*e_12-e_5*e_14,e_9*e_11-e_8*e_13,e_6*e_11-e_4*e_14,e_5*e_11-e_4*e_12,e_3*e_11-e_2*e_12,e_9*e_10-e_1*e_15,e_8*e_10-e_7*e_11,e_3*e_4-e_2*e_5,e_9*e_12*e_14-e_3*e_13*e_15,e_7*e_12*e_14-e_3*e_10*e_15,e_3*e_10*e_13-e_1*e_12*e_14,e_2*e_10*e_13-e_1*e_11*e_14,e_1*e_6*e_8^2-e_2*e_4*e_7*e_9)
+NumGens: 15
+GenDegrees: {2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 4}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+7*T+18*T^2+17*T^3+3*T^4-T^5)/((1-T)^8)
+SecondsKer: .0309165
+SecondsDepth: .0596762
+SecondsHilbert: .00232983
+========================
+GraphNumber: 4776
+Graph6: GCXmf[
+NumEdges: 15
+Edges: {{1, 4}, {2, 5}, {3, 5}, {2, 6}, {3, 6}, {5, 6}, {1, 7}, {2, 7}, {4, 7}, {1, 8}, {2, 8}, {3, 8}, {5, 8}, {6, 8}, {7, 8}}
+ToricIdeal: ideal(e_8*e_14-e_4*e_15,e_8*e_13-e_2*e_15,e_5*e_13-e_3*e_14,e_4*e_13-e_2*e_14,e_6*e_12-e_3*e_14,e_6*e_11-e_2*e_14,e_5*e_11-e_4*e_12,e_3*e_11-e_2*e_12,e_9*e_10-e_1*e_15,e_8*e_10-e_7*e_11,e_3*e_4-e_2*e_5,e_7*e_13*e_14-e_6*e_10*e_15,e_7*e_12*e_14-e_5*e_10*e_15,e_7*e_12*e_13-e_3*e_10*e_15,e_1*e_6*e_8^2-e_2*e_4*e_7*e_9)
+NumGens: 15
+GenDegrees: {2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 4}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+7*T+17*T^2+15*T^3+3*T^4-T^5)/((1-T)^8)
+SecondsKer: .0192259
+SecondsDepth: .0246169
+SecondsHilbert: .00182759
+========================
+GraphNumber: 4777
+Graph6: GCXme{
+NumEdges: 15
+Edges: {{1, 4}, {2, 5}, {3, 5}, {2, 6}, {3, 6}, {5, 6}, {1, 7}, {2, 7}, {4, 7}, {1, 8}, {2, 8}, {4, 8}, {5, 8}, {6, 8}, {7, 8}}
+ToricIdeal: ideal(e_8*e_14-e_4*e_15,e_8*e_13-e_2*e_15,e_5*e_13-e_3*e_14,e_4*e_13-e_2*e_14,e_7*e_12-e_1*e_15,e_9*e_11-e_8*e_12,e_6*e_11-e_2*e_14,e_9*e_10-e_1*e_15,e_8*e_10-e_7*e_11,e_3*e_4-e_2*e_5,e_9*e_13*e_14-e_6*e_12*e_15,e_7*e_13*e_14-e_6*e_10*e_15,e_6*e_10*e_12-e_1*e_13*e_14,e_4*e_10*e_12-e_1*e_11*e_14,e_2*e_10*e_12-e_1*e_11*e_13,e_1*e_6*e_8^2-e_2*e_4*e_7*e_9)
+NumGens: 16
+GenDegrees: {2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 4}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+7*T+18*T^2+16*T^3+3*T^4-T^5)/((1-T)^8)
+SecondsKer: .0159902
+SecondsDepth: .0323912
+SecondsHilbert: .00131693
+========================
+GraphNumber: 4778
+Graph6: GCXmd{
+NumEdges: 15
+Edges: {{1, 4}, {2, 5}, {3, 5}, {2, 6}, {3, 6}, {5, 6}, {1, 7}, {2, 7}, {4, 7}, {1, 8}, {3, 8}, {4, 8}, {5, 8}, {6, 8}, {7, 8}}
+ToricIdeal: ideal(e_8*e_14-e_4*e_15,e_8*e_13-e_2*e_15,e_5*e_13-e_3*e_14,e_4*e_13-e_2*e_14,e_7*e_12-e_1*e_15,e_6*e_11-e_3*e_14,e_9*e_10-e_1*e_15,e_3*e_4-e_2*e_5,e_9*e_13*e_14-e_6*e_12*e_15,e_7*e_13*e_14-e_6*e_10*e_15,e_9*e_11*e_14-e_5*e_12*e_15,e_7*e_11*e_14-e_5*e_10*e_15,e_9*e_11*e_13-e_3*e_12*e_15,e_7*e_11*e_13-e_3*e_10*e_15,e_6*e_10*e_12-e_1*e_13*e_14,e_5*e_10*e_12-e_1*e_11*e_14,e_3*e_10*e_12-e_1*e_11*e_13,e_6*e_8*e_12-e_2*e_9*e_14,e_4*e_9*e_11-e_5*e_8*e_12,e_2*e_9*e_11-e_3*e_8*e_12,e_6*e_8*e_10-e_2*e_7*e_14,e_5*e_8*e_10-e_4*e_7*e_11,e_3*e_8*e_10-e_2*e_7*e_11,e_1*e_6*e_8^2-e_2*e_4*e_7*e_9)
+NumGens: 24
+GenDegrees: {2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 4}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+7*T+20*T^2+18*T^3+3*T^4-T^5)/((1-T)^8)
+SecondsKer: .0220192
+SecondsDepth: .053465
+SecondsHilbert: .00178903
+========================
+GraphNumber: 4779
+Graph6: GCXmf{
+NumEdges: 16
+Edges: {{1, 4}, {2, 5}, {3, 5}, {2, 6}, {3, 6}, {5, 6}, {1, 7}, {2, 7}, {4, 7}, {1, 8}, {2, 8}, {3, 8}, {4, 8}, {5, 8}, {6, 8}, {7, 8}}
+ToricIdeal: ideal(e_8*e_15-e_4*e_16,e_8*e_14-e_2*e_16,e_5*e_14-e_3*e_15,e_4*e_14-e_2*e_15,e_7*e_13-e_1*e_16,e_6*e_12-e_3*e_15,e_9*e_11-e_8*e_13,e_6*e_11-e_2*e_15,e_5*e_11-e_4*e_12,e_3*e_11-e_2*e_12,e_9*e_10-e_1*e_16,e_8*e_10-e_7*e_11,e_3*e_4-e_2*e_5,e_9*e_14*e_15-e_6*e_13*e_16,e_7*e_14*e_15-e_6*e_10*e_16,e_9*e_12*e_15-e_5*e_13*e_16,e_7*e_12*e_15-e_5*e_10*e_16,e_9*e_12*e_14-e_3*e_13*e_16,e_7*e_12*e_14-e_3*e_10*e_16,e_6*e_10*e_13-e_1*e_14*e_15,e_5*e_10*e_13-e_1*e_12*e_15,e_4*e_10*e_13-e_1*e_11*e_15,e_3*e_10*e_13-e_1*e_12*e_14,e_2*e_10*e_13-e_1*e_11*e_14,e_1*e_6*e_8^2-e_2*e_4*e_7*e_9)
+NumGens: 25
+GenDegrees: {2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 4}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+8*T+23*T^2+18*T^3+3*T^4-T^5)/((1-T)^8)
+SecondsKer: .0230238
+SecondsDepth: .400427
+SecondsHilbert: .0018246
+========================
+GraphNumber: 4782
+Graph6: GCXnbW
+NumEdges: 14
+Edges: {{1, 4}, {2, 5}, {3, 5}, {2, 6}, {3, 6}, {5, 6}, {1, 7}, {2, 7}, {3, 7}, {4, 7}, {2, 8}, {3, 8}, {5, 8}, {6, 8}}
+ToricIdeal: ideal(e_5*e_13-e_3*e_14,e_4*e_13-e_2*e_14,e_6*e_12-e_3*e_14,e_9*e_11-e_8*e_12,e_6*e_11-e_2*e_14,e_5*e_11-e_4*e_12,e_3*e_11-e_2*e_12,e_5*e_8-e_4*e_9,e_3*e_8-e_2*e_9,e_3*e_4-e_2*e_5,e_5*e_7*e_10*e_12-e_1*e_9^2*e_14,e_4*e_7*e_10*e_12-e_1*e_8*e_9*e_14,e_3*e_7*e_10*e_12-e_1*e_9^2*e_13,e_2*e_7*e_10*e_12-e_1*e_8*e_9*e_13,e_4*e_7*e_10*e_11-e_1*e_8^2*e_14,e_2*e_7*e_10*e_11-e_1*e_8^2*e_13,e_1*e_6*e_9^2-e_3*e_5*e_7*e_10,e_1*e_6*e_8*e_9-e_2*e_5*e_7*e_10,e_1*e_6*e_8^2-e_2*e_4*e_7*e_10)
+NumGens: 19
+GenDegrees: {2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 4, 4, 4, 4, 4, 4, 4, 4, 4}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+6*T+11*T^2+12*T^3+3*T^4-T^5)/((1-T)^8)
+SecondsKer: .0116065
+SecondsDepth: .00837861
+SecondsHilbert: .00116286
+========================
+GraphNumber: 5198
+Graph6: GCdebW
+NumEdges: 12
+Edges: {{1, 4}, {1, 5}, {4, 5}, {2, 6}, {3, 6}, {1, 7}, {2, 7}, {4, 7}, {2, 8}, {3, 8}, {5, 8}, {6, 8}}
+ToricIdeal: ideal(e_5*e_9-e_4*e_10,e_3*e_6-e_2*e_8,e_4*e_8*e_11-e_3*e_7*e_12,e_4*e_6*e_11-e_2*e_7*e_12,e_2*e_8*e_9-e_1*e_7*e_11,e_1*e_5*e_11^2-e_2*e_3*e_10*e_12,e_1*e_4*e_11^2-e_2*e_3*e_9*e_12,e_4*e_6*e_8*e_9-e_1*e_7^2*e_12)
+NumGens: 8
+GenDegrees: {2, 2, 3, 3, 3, 4, 4, 4}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+4*T+8*T^2+9*T^3+3*T^4-T^5)/((1-T)^8)
+SecondsKer: .00815972
+SecondsDepth: .00272637
+SecondsHilbert: .000406176
+========================
+GraphNumber: 5923
+Graph6: GEherW
+NumEdges: 14
+Edges: {{1, 4}, {2, 4}, {1, 5}, {3, 5}, {2, 6}, {3, 6}, {1, 7}, {2, 7}, {4, 7}, {5, 7}, {2, 8}, {3, 8}, {5, 8}, {6, 8}}
+ToricIdeal: ideal(e_6*e_13-e_4*e_14,e_10*e_11-e_8*e_13,e_6*e_11-e_5*e_12,e_3*e_9-e_1*e_10,e_2*e_7-e_1*e_8,e_5*e_9*e_13-e_2*e_10*e_14,e_5*e_7*e_13-e_3*e_8*e_14,e_1*e_5*e_13-e_2*e_3*e_14,e_3*e_10*e_12-e_4*e_7*e_13,e_5*e_9*e_11-e_2*e_8*e_14,e_4*e_9*e_11-e_2*e_10*e_12,e_4*e_7*e_11-e_3*e_8*e_12,e_1*e_4*e_11-e_2*e_3*e_12,e_4*e_5*e_9-e_2*e_6*e_10,e_4*e_5*e_7-e_3*e_6*e_8,e_1*e_4*e_5-e_2*e_3*e_6)
+NumGens: 16
+GenDegrees: {2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+6*T+16*T^2+15*T^3+3*T^4-T^5)/((1-T)^8)
+SecondsKer: .0125178
+SecondsDepth: .0138997
+SecondsHilbert: .00155895
+========================
+GraphNumber: 6557
+Graph6: GQhVf_
+NumEdges: 14
+Edges: {{1, 3}, {2, 4}, {1, 5}, {3, 5}, {2, 6}, {4, 6}, {1, 7}, {2, 7}, {3, 7}, {4, 7}, {1, 8}, {2, 8}, {3, 8}, {4, 8}}
+ToricIdeal: ideal(e_10*e_13-e_9*e_14,e_10*e_12-e_8*e_14,e_9*e_12-e_8*e_13,e_6*e_12-e_5*e_14,e_10*e_11-e_7*e_14,e_9*e_11-e_7*e_13,e_8*e_11-e_7*e_12,e_4*e_11-e_3*e_13,e_6*e_8-e_5*e_10,e_4*e_7-e_3*e_9,e_2*e_11*e_13-e_1*e_12*e_14,e_2*e_7*e_13-e_1*e_8*e_14,e_2*e_7*e_9-e_1*e_8*e_10)
+NumGens: 13
+GenDegrees: {2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+6*T+11*T^2+9*T^3+2*T^4-T^5)/((1-T)^8)
+SecondsKer: .016962
+SecondsDepth: .0107382
+SecondsHilbert: .00110808
+========================
+GraphNumber: 6558
+Graph6: GQhVeo
+NumEdges: 14
+Edges: {{1, 3}, {2, 4}, {1, 5}, {3, 5}, {2, 6}, {4, 6}, {1, 7}, {2, 7}, {3, 7}, {4, 7}, {1, 8}, {2, 8}, {4, 8}, {5, 8}}
+ToricIdeal: ideal(e_10*e_12-e_8*e_13,e_6*e_12-e_5*e_13,e_10*e_11-e_7*e_13,e_8*e_11-e_7*e_12,e_4*e_11-e_1*e_14,e_6*e_8-e_5*e_10,e_4*e_7-e_3*e_9,e_3*e_12*e_13-e_2*e_11*e_14,e_4*e_8*e_13-e_2*e_9*e_14,e_3*e_8*e_13-e_2*e_7*e_14,e_2*e_9*e_11-e_1*e_8*e_13,e_2*e_7*e_9-e_1*e_8*e_10)
+NumGens: 12
+GenDegrees: {2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+6*T+14*T^2+14*T^3+3*T^4-T^5)/((1-T)^8)
+SecondsKer: .021975
+SecondsDepth: .011501
+SecondsHilbert: .000912801
+========================
+GraphNumber: 6559
+Graph6: GQhVfo
+NumEdges: 15
+Edges: {{1, 3}, {2, 4}, {1, 5}, {3, 5}, {2, 6}, {4, 6}, {1, 7}, {2, 7}, {3, 7}, {4, 7}, {1, 8}, {2, 8}, {3, 8}, {4, 8}, {5, 8}}
+ToricIdeal: ideal(e_10*e_13-e_9*e_14,e_3*e_13-e_1*e_15,e_10*e_12-e_8*e_14,e_9*e_12-e_8*e_13,e_6*e_12-e_5*e_14,e_10*e_11-e_7*e_14,e_9*e_11-e_7*e_13,e_8*e_11-e_7*e_12,e_4*e_11-e_1*e_15,e_6*e_8-e_5*e_10,e_4*e_7-e_3*e_9,e_4*e_12*e_14-e_2*e_13*e_15,e_3*e_12*e_14-e_2*e_11*e_15,e_4*e_8*e_14-e_2*e_9*e_15,e_3*e_8*e_14-e_2*e_7*e_15,e_2*e_11*e_13-e_1*e_12*e_14,e_2*e_7*e_13-e_1*e_8*e_14,e_2*e_7*e_9-e_1*e_8*e_10)
+NumGens: 18
+GenDegrees: {2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+7*T+17*T^2+16*T^3+3*T^4-T^5)/((1-T)^8)
+SecondsKer: .0154411
+SecondsDepth: .0296293
+SecondsHilbert: .00179847
+========================
+GraphNumber: 6560
+Graph6: GQhVfW
+NumEdges: 15
+Edges: {{1, 3}, {2, 4}, {1, 5}, {3, 5}, {2, 6}, {4, 6}, {1, 7}, {2, 7}, {3, 7}, {4, 7}, {1, 8}, {2, 8}, {3, 8}, {5, 8}, {6, 8}}
+ToricIdeal: ideal(e_3*e_13-e_1*e_14,e_9*e_12-e_8*e_13,e_6*e_12-e_2*e_15,e_9*e_11-e_7*e_13,e_8*e_11-e_7*e_12,e_4*e_11-e_1*e_14,e_6*e_8-e_5*e_10,e_4*e_7-e_3*e_9,e_5*e_13*e_14-e_4*e_12*e_15,e_5*e_11*e_14-e_3*e_12*e_15,e_6*e_9*e_14-e_4*e_10*e_15,e_5*e_9*e_14-e_4*e_8*e_15,e_6*e_7*e_14-e_3*e_10*e_15,e_5*e_7*e_14-e_3*e_8*e_15,e_5*e_11*e_13-e_1*e_12*e_15,e_6*e_7*e_13-e_1*e_10*e_15,e_5*e_7*e_13-e_1*e_8*e_15,e_4*e_10*e_12-e_2*e_9*e_14,e_3*e_10*e_12-e_2*e_7*e_14,e_1*e_10*e_12-e_2*e_7*e_13,e_2*e_7*e_9-e_1*e_8*e_10)
+NumGens: 21
+GenDegrees: {2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+7*T+20*T^2+20*T^3+3*T^4-T^5)/((1-T)^8)
+SecondsKer: .0298949
+SecondsDepth: .166047
+SecondsHilbert: .00145745
+========================
+GraphNumber: 6561
+Graph6: GQhVfc
+NumEdges: 15
+Edges: {{1, 3}, {2, 4}, {1, 5}, {3, 5}, {2, 6}, {4, 6}, {1, 7}, {2, 7}, {3, 7}, {4, 7}, {1, 8}, {2, 8}, {3, 8}, {4, 8}, {7, 8}}
+ToricIdeal: ideal(e_8*e_14-e_2*e_15,e_10*e_13-e_9*e_14,e_7*e_13-e_1*e_15,e_10*e_12-e_2*e_15,e_9*e_12-e_8*e_13,e_6*e_12-e_5*e_14,e_10*e_11-e_7*e_14,e_9*e_11-e_1*e_15,e_8*e_11-e_7*e_12,e_4*e_11-e_3*e_13,e_6*e_8-e_5*e_10,e_4*e_7-e_3*e_9,e_2*e_11*e_13-e_1*e_12*e_14,e_2*e_7*e_9-e_1*e_8*e_10)
+NumGens: 14
+GenDegrees: {2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+7*T+16*T^2+14*T^3+3*T^4-T^5)/((1-T)^8)
+SecondsKer: .026221
+SecondsDepth: .054172
+SecondsHilbert: .00178305
+========================
+GraphNumber: 6562
+Graph6: GQhVes
+NumEdges: 15
+Edges: {{1, 3}, {2, 4}, {1, 5}, {3, 5}, {2, 6}, {4, 6}, {1, 7}, {2, 7}, {3, 7}, {4, 7}, {1, 8}, {2, 8}, {4, 8}, {5, 8}, {7, 8}}
+ToricIdeal: ideal(e_9*e_14-e_4*e_15,e_7*e_14-e_3*e_15,e_8*e_13-e_2*e_15,e_10*e_12-e_2*e_15,e_6*e_12-e_5*e_13,e_10*e_11-e_7*e_13,e_9*e_11-e_1*e_15,e_8*e_11-e_7*e_12,e_4*e_11-e_1*e_14,e_6*e_8-e_5*e_10,e_4*e_7-e_3*e_9,e_3*e_12*e_13-e_2*e_11*e_14,e_2*e_7*e_9-e_1*e_8*e_10)
+NumGens: 13
+GenDegrees: {2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+7*T+17*T^2+15*T^3+3*T^4-T^5)/((1-T)^8)
+SecondsKer: .0178456
+SecondsDepth: .0417458
+SecondsHilbert: .00238908
+========================
+GraphNumber: 6563
+Graph6: GQhVe[
+NumEdges: 15
+Edges: {{1, 3}, {2, 4}, {1, 5}, {3, 5}, {2, 6}, {4, 6}, {1, 7}, {2, 7}, {3, 7}, {4, 7}, {1, 8}, {2, 8}, {5, 8}, {6, 8}, {7, 8}}
+ToricIdeal: ideal(e_10*e_14-e_6*e_15,e_8*e_14-e_5*e_15,e_9*e_13-e_4*e_15,e_7*e_13-e_3*e_15,e_10*e_12-e_2*e_15,e_6*e_12-e_2*e_14,e_9*e_11-e_1*e_15,e_8*e_11-e_7*e_12,e_4*e_11-e_1*e_13,e_6*e_8-e_5*e_10,e_4*e_7-e_3*e_9,e_5*e_11*e_13-e_3*e_12*e_14,e_2*e_7*e_9-e_1*e_8*e_10)
+NumGens: 13
+GenDegrees: {2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+7*T+17*T^2+15*T^3+3*T^4-T^5)/((1-T)^8)
+SecondsKer: .0312947
+SecondsDepth: .0313143
+SecondsHilbert: .00117622
+========================
+GraphNumber: 6564
+Graph6: GQhVfw
+NumEdges: 16
+Edges: {{1, 3}, {2, 4}, {1, 5}, {3, 5}, {2, 6}, {4, 6}, {1, 7}, {2, 7}, {3, 7}, {4, 7}, {1, 8}, {2, 8}, {3, 8}, {4, 8}, {5, 8}, {6, 8}}
+ToricIdeal: ideal(e_5*e_14-e_2*e_16,e_10*e_13-e_9*e_14,e_3*e_13-e_1*e_15,e_10*e_12-e_8*e_14,e_9*e_12-e_8*e_13,e_6*e_12-e_2*e_16,e_10*e_11-e_7*e_14,e_9*e_11-e_7*e_13,e_8*e_11-e_7*e_12,e_4*e_11-e_1*e_15,e_6*e_8-e_5*e_10,e_4*e_7-e_3*e_9,e_6*e_13*e_15-e_4*e_14*e_16,e_5*e_13*e_15-e_4*e_12*e_16,e_6*e_11*e_15-e_3*e_14*e_16,e_5*e_11*e_15-e_3*e_12*e_16,e_6*e_9*e_15-e_4*e_10*e_16,e_5*e_9*e_15-e_4*e_8*e_16,e_6*e_7*e_15-e_3*e_10*e_16,e_5*e_7*e_15-e_3*e_8*e_16,e_4*e_12*e_14-e_2*e_13*e_15,e_3*e_12*e_14-e_2*e_11*e_15,e_4*e_8*e_14-e_2*e_9*e_15,e_3*e_8*e_14-e_2*e_7*e_15,e_6*e_11*e_13-e_1*e_14*e_16,e_5*e_11*e_13-e_1*e_12*e_16,e_2*e_11*e_13-e_1*e_12*e_14,e_6*e_7*e_13-e_1*e_10*e_16,e_5*e_7*e_13-e_1*e_8*e_16,e_2*e_7*e_13-e_1*e_8*e_14,e_2*e_7*e_9-e_1*e_8*e_10)
+NumGens: 31
+GenDegrees: {2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+8*T+24*T^2+21*T^3+3*T^4-T^5)/((1-T)^8)
+SecondsKer: .0198965
+SecondsDepth: .320535
+SecondsHilbert: .00164523
+========================
+GraphNumber: 6565
+Graph6: GQhVfs
+NumEdges: 16
+Edges: {{1, 3}, {2, 4}, {1, 5}, {3, 5}, {2, 6}, {4, 6}, {1, 7}, {2, 7}, {3, 7}, {4, 7}, {1, 8}, {2, 8}, {3, 8}, {4, 8}, {5, 8}, {7, 8}}
+ToricIdeal: ideal(e_9*e_15-e_4*e_16,e_7*e_15-e_3*e_16,e_8*e_14-e_2*e_16,e_10*e_13-e_9*e_14,e_7*e_13-e_1*e_16,e_3*e_13-e_1*e_15,e_10*e_12-e_2*e_16,e_9*e_12-e_8*e_13,e_6*e_12-e_5*e_14,e_10*e_11-e_7*e_14,e_9*e_11-e_1*e_16,e_8*e_11-e_7*e_12,e_4*e_11-e_1*e_15,e_6*e_8-e_5*e_10,e_4*e_7-e_3*e_9,e_4*e_12*e_14-e_2*e_13*e_15,e_3*e_12*e_14-e_2*e_11*e_15,e_2*e_11*e_13-e_1*e_12*e_14,e_2*e_7*e_9-e_1*e_8*e_10)
+NumGens: 19
+GenDegrees: {2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+8*T+21*T^2+18*T^3+3*T^4-T^5)/((1-T)^8)
+SecondsKer: .0199921
+SecondsDepth: .145686
+SecondsHilbert: .00285892
+========================
+GraphNumber: 6566
+Graph6: GQhVf[
+NumEdges: 16
+Edges: {{1, 3}, {2, 4}, {1, 5}, {3, 5}, {2, 6}, {4, 6}, {1, 7}, {2, 7}, {3, 7}, {4, 7}, {1, 8}, {2, 8}, {3, 8}, {5, 8}, {6, 8}, {7, 8}}
+ToricIdeal: ideal(e_10*e_15-e_6*e_16,e_8*e_15-e_5*e_16,e_9*e_14-e_4*e_16,e_7*e_14-e_3*e_16,e_7*e_13-e_1*e_16,e_3*e_13-e_1*e_14,e_10*e_12-e_2*e_16,e_9*e_12-e_8*e_13,e_6*e_12-e_2*e_15,e_9*e_11-e_1*e_16,e_8*e_11-e_7*e_12,e_4*e_11-e_1*e_14,e_6*e_8-e_5*e_10,e_4*e_7-e_3*e_9,e_5*e_13*e_14-e_4*e_12*e_15,e_5*e_11*e_14-e_3*e_12*e_15,e_5*e_11*e_13-e_1*e_12*e_15,e_2*e_7*e_9-e_1*e_8*e_10)
+NumGens: 18
+GenDegrees: {2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+8*T+22*T^2+20*T^3+3*T^4-T^5)/((1-T)^8)
+SecondsKer: .023071
+SecondsDepth: .273031
+SecondsHilbert: .00300072
+========================
+GraphNumber: 6567
+Graph6: GQhVf{
+NumEdges: 17
+Edges: {{1, 3}, {2, 4}, {1, 5}, {3, 5}, {2, 6}, {4, 6}, {1, 7}, {2, 7}, {3, 7}, {4, 7}, {1, 8}, {2, 8}, {3, 8}, {4, 8}, {5, 8}, {6, 8}, {7, 8}}
+ToricIdeal: ideal(e_10*e_16-e_6*e_17,e_8*e_16-e_5*e_17,e_9*e_15-e_4*e_17,e_7*e_15-e_3*e_17,e_8*e_14-e_2*e_17,e_5*e_14-e_2*e_16,e_10*e_13-e_9*e_14,e_7*e_13-e_1*e_17,e_3*e_13-e_1*e_15,e_10*e_12-e_2*e_17,e_9*e_12-e_8*e_13,e_6*e_12-e_2*e_16,e_10*e_11-e_7*e_14,e_9*e_11-e_1*e_17,e_8*e_11-e_7*e_12,e_4*e_11-e_1*e_15,e_6*e_8-e_5*e_10,e_4*e_7-e_3*e_9,e_6*e_13*e_15-e_4*e_14*e_16,e_5*e_13*e_15-e_4*e_12*e_16,e_6*e_11*e_15-e_3*e_14*e_16,e_5*e_11*e_15-e_3*e_12*e_16,e_4*e_12*e_14-e_2*e_13*e_15,e_3*e_12*e_14-e_2*e_11*e_15,e_6*e_11*e_13-e_1*e_14*e_16,e_5*e_11*e_13-e_1*e_12*e_16,e_2*e_11*e_13-e_1*e_12*e_14,e_2*e_7*e_9-e_1*e_8*e_10)
+NumGens: 28
+GenDegrees: {2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+9*T+27*T^2+21*T^3+3*T^4-T^5)/((1-T)^8)
+SecondsKer: .0293762
+SecondsDepth: 1.24276
+SecondsHilbert: .00216055
+========================
+GraphNumber: 6568
+Graph6: GQhVV_
+NumEdges: 14
+Edges: {{1, 3}, {2, 4}, {1, 5}, {3, 5}, {2, 6}, {4, 6}, {1, 7}, {2, 7}, {3, 7}, {5, 7}, {1, 8}, {2, 8}, {3, 8}, {4, 8}}
+ToricIdeal: ideal(e_9*e_12-e_8*e_13,e_6*e_12-e_5*e_14,e_9*e_11-e_7*e_13,e_8*e_11-e_7*e_12,e_4*e_11-e_3*e_13,e_3*e_9-e_1*e_10,e_4*e_7-e_1*e_10,e_2*e_11*e_13-e_1*e_12*e_14,e_2*e_10*e_13-e_4*e_8*e_14,e_2*e_7*e_13-e_1*e_8*e_14,e_2*e_10*e_11-e_3*e_8*e_14,e_4*e_6*e_8^2-e_2*e_5*e_9*e_10,e_3*e_6*e_8^2-e_2*e_5*e_7*e_10,e_1*e_6*e_8^2-e_2*e_5*e_7*e_9)
+NumGens: 14
+GenDegrees: {2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+6*T+14*T^2+15*T^3+3*T^4-T^5)/((1-T)^8)
+SecondsKer: .0153285
+SecondsDepth: .0195404
+SecondsHilbert: .00170231
+========================
+GraphNumber: 6569
+Graph6: GQhVUg
+NumEdges: 14
+Edges: {{1, 3}, {2, 4}, {1, 5}, {3, 5}, {2, 6}, {4, 6}, {1, 7}, {2, 7}, {3, 7}, {5, 7}, {1, 8}, {2, 8}, {4, 8}, {6, 8}}
+ToricIdeal: ideal(e_5*e_13-e_2*e_14,e_6*e_12-e_2*e_14,e_8*e_11-e_7*e_12,e_3*e_9-e_1*e_10,e_4*e_7-e_1*e_10,e_5*e_10*e_11-e_3*e_8*e_14,e_2*e_10*e_11-e_3*e_8*e_13,e_5*e_9*e_11-e_1*e_8*e_14,e_2*e_9*e_11-e_1*e_8*e_13,e_5*e_9*e_10*e_12-e_4*e_8^2*e_14,e_2*e_9*e_10*e_12-e_4*e_8^2*e_13,e_6*e_10*e_11^2-e_3*e_7*e_13*e_14,e_6*e_9*e_11^2-e_1*e_7*e_13*e_14,e_4*e_6*e_11^2-e_1*e_3*e_13*e_14,e_4*e_5*e_11^2-e_1*e_3*e_12*e_14,e_2*e_4*e_11^2-e_1*e_3*e_12*e_13,e_4*e_6*e_8^2-e_2*e_5*e_9*e_10,e_3*e_6*e_8^2-e_2*e_5*e_7*e_10,e_1*e_6*e_8^2-e_2*e_5*e_7*e_9)
+NumGens: 19
+GenDegrees: {2, 2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+6*T+16*T^2+22*T^3+5*T^4-2*T^5)/((1-T)^8)
+SecondsKer: .0161561
+SecondsDepth: .201049
+SecondsHilbert: .00320937
+========================
+GraphNumber: 6570
+Graph6: GQhVVo
+NumEdges: 15
+Edges: {{1, 3}, {2, 4}, {1, 5}, {3, 5}, {2, 6}, {4, 6}, {1, 7}, {2, 7}, {3, 7}, {5, 7}, {1, 8}, {2, 8}, {3, 8}, {4, 8}, {5, 8}}
+ToricIdeal: ideal(e_10*e_13-e_9*e_15,e_3*e_13-e_1*e_15,e_10*e_12-e_8*e_15,e_9*e_12-e_8*e_13,e_6*e_12-e_5*e_14,e_10*e_11-e_7*e_15,e_9*e_11-e_7*e_13,e_8*e_11-e_7*e_12,e_4*e_11-e_1*e_15,e_3*e_9-e_1*e_10,e_4*e_7-e_1*e_10,e_4*e_12*e_14-e_2*e_13*e_15,e_3*e_12*e_14-e_2*e_11*e_15,e_4*e_8*e_14-e_2*e_9*e_15,e_3*e_8*e_14-e_2*e_7*e_15,e_2*e_11*e_13-e_1*e_12*e_14,e_2*e_7*e_13-e_1*e_8*e_14,e_4*e_6*e_8^2-e_2*e_5*e_9*e_10,e_3*e_6*e_8^2-e_2*e_5*e_7*e_10,e_1*e_6*e_8^2-e_2*e_5*e_7*e_9)
+NumGens: 20
+GenDegrees: {2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 4, 4, 4}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+7*T+17*T^2+17*T^3+3*T^4-T^5)/((1-T)^8)
+SecondsKer: .0258206
+SecondsDepth: .0402632
+SecondsHilbert: .002521
+========================
+GraphNumber: 6571
+Graph6: GQhVVg
+NumEdges: 15
+Edges: {{1, 3}, {2, 4}, {1, 5}, {3, 5}, {2, 6}, {4, 6}, {1, 7}, {2, 7}, {3, 7}, {5, 7}, {1, 8}, {2, 8}, {3, 8}, {4, 8}, {6, 8}}
+ToricIdeal: ideal(e_5*e_14-e_2*e_15,e_9*e_12-e_8*e_13,e_6*e_12-e_2*e_15,e_9*e_11-e_7*e_13,e_8*e_11-e_7*e_12,e_4*e_11-e_3*e_13,e_3*e_9-e_1*e_10,e_4*e_7-e_1*e_10,e_6*e_11*e_13-e_1*e_14*e_15,e_5*e_11*e_13-e_1*e_12*e_15,e_2*e_11*e_13-e_1*e_12*e_14,e_5*e_10*e_13-e_4*e_8*e_15,e_2*e_10*e_13-e_4*e_8*e_14,e_5*e_7*e_13-e_1*e_8*e_15,e_2*e_7*e_13-e_1*e_8*e_14,e_5*e_10*e_11-e_3*e_8*e_15,e_2*e_10*e_11-e_3*e_8*e_14,e_6*e_10*e_13^2-e_4*e_9*e_14*e_15,e_6*e_10*e_11^2-e_3*e_7*e_14*e_15,e_4*e_6*e_8^2-e_2*e_5*e_9*e_10,e_3*e_6*e_8^2-e_2*e_5*e_7*e_10,e_1*e_6*e_8^2-e_2*e_5*e_7*e_9)
+NumGens: 22
+GenDegrees: {2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+7*T+20*T^2+24*T^3+3*T^4-T^5)/((1-T)^8)
+SecondsKer: .0209006
+SecondsDepth: .150883
+SecondsHilbert: .00261424
+========================
+GraphNumber: 6572
+Graph6: GQhVTw
+NumEdges: 15
+Edges: {{1, 3}, {2, 4}, {1, 5}, {3, 5}, {2, 6}, {4, 6}, {1, 7}, {2, 7}, {3, 7}, {5, 7}, {1, 8}, {3, 8}, {4, 8}, {5, 8}, {6, 8}}
+ToricIdeal: ideal(e_5*e_13-e_2*e_15,e_10*e_12-e_9*e_14,e_3*e_12-e_1*e_14,e_10*e_11-e_7*e_14,e_9*e_11-e_7*e_12,e_4*e_11-e_1*e_14,e_3*e_9-e_1*e_10,e_4*e_7-e_1*e_10,e_6*e_12*e_14-e_4*e_13*e_15,e_6*e_11*e_14-e_3*e_13*e_15,e_5*e_9*e_14-e_4*e_8*e_15,e_6*e_8*e_14-e_2*e_10*e_15,e_5*e_7*e_14-e_3*e_8*e_15,e_4*e_8*e_13-e_2*e_9*e_14,e_3*e_8*e_13-e_2*e_7*e_14,e_6*e_11*e_12-e_1*e_13*e_15,e_6*e_8*e_12-e_2*e_9*e_15,e_5*e_7*e_12-e_1*e_8*e_15,e_2*e_7*e_12-e_1*e_8*e_13,e_6*e_8*e_11-e_2*e_7*e_15,e_4*e_6*e_8^2-e_2*e_5*e_9*e_10,e_3*e_6*e_8^2-e_2*e_5*e_7*e_10,e_1*e_6*e_8^2-e_2*e_5*e_7*e_9)
+NumGens: 23
+GenDegrees: {2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+7*T+20*T^2+24*T^3+3*T^4-T^5)/((1-T)^8)
+SecondsKer: .0218036
+SecondsDepth: .0651476
+SecondsHilbert: .00189667
+========================
+GraphNumber: 6573
+Graph6: GQhVVc
+NumEdges: 15
+Edges: {{1, 3}, {2, 4}, {1, 5}, {3, 5}, {2, 6}, {4, 6}, {1, 7}, {2, 7}, {3, 7}, {5, 7}, {1, 8}, {2, 8}, {3, 8}, {4, 8}, {7, 8}}
+ToricIdeal: ideal(e_8*e_14-e_2*e_15,e_10*e_13-e_4*e_15,e_7*e_13-e_1*e_15,e_9*e_12-e_8*e_13,e_6*e_12-e_5*e_14,e_10*e_11-e_3*e_15,e_9*e_11-e_1*e_15,e_8*e_11-e_7*e_12,e_4*e_11-e_3*e_13,e_3*e_9-e_1*e_10,e_4*e_7-e_1*e_10,e_2*e_11*e_13-e_1*e_12*e_14,e_4*e_6*e_8^2-e_2*e_5*e_9*e_10,e_3*e_6*e_8^2-e_2*e_5*e_7*e_10,e_1*e_6*e_8^2-e_2*e_5*e_7*e_9)
+NumGens: 15
+GenDegrees: {2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 4, 4, 4}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+7*T+17*T^2+17*T^3+3*T^4-T^5)/((1-T)^8)
+SecondsKer: .0165191
+SecondsDepth: .0733932
+SecondsHilbert: .00541844
+========================
+GraphNumber: 6574
+Graph6: GQhVVS
+NumEdges: 15
+Edges: {{1, 3}, {2, 4}, {1, 5}, {3, 5}, {2, 6}, {4, 6}, {1, 7}, {2, 7}, {3, 7}, {5, 7}, {1, 8}, {2, 8}, {3, 8}, {5, 8}, {7, 8}}
+ToricIdeal: ideal(e_9*e_14-e_4*e_15,e_7*e_14-e_3*e_15,e_10*e_13-e_4*e_15,e_7*e_13-e_1*e_15,e_3*e_13-e_1*e_14,e_10*e_12-e_8*e_14,e_9*e_12-e_8*e_13,e_10*e_11-e_3*e_15,e_9*e_11-e_1*e_15,e_8*e_11-e_7*e_12,e_4*e_11-e_1*e_14,e_3*e_9-e_1*e_10,e_4*e_7-e_1*e_10,e_6*e_8*e_12-e_2*e_5*e_15,e_4*e_6*e_12^2-e_2*e_5*e_13*e_14,e_3*e_6*e_12^2-e_2*e_5*e_11*e_14,e_1*e_6*e_12^2-e_2*e_5*e_11*e_13,e_4*e_6*e_8^2-e_2*e_5*e_9*e_10,e_3*e_6*e_8^2-e_2*e_5*e_7*e_10,e_1*e_6*e_8^2-e_2*e_5*e_7*e_9)
+NumGens: 20
+GenDegrees: {2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 4, 4, 4, 4, 4, 4}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+7*T+15*T^2+15*T^3+3*T^4-T^5)/((1-T)^8)
+SecondsKer: .0509478
+SecondsDepth: .0597647
+SecondsHilbert: .00155742
+========================
+GraphNumber: 6575
+Graph6: GQhVTs
+NumEdges: 15
+Edges: {{1, 3}, {2, 4}, {1, 5}, {3, 5}, {2, 6}, {4, 6}, {1, 7}, {2, 7}, {3, 7}, {5, 7}, {1, 8}, {3, 8}, {4, 8}, {5, 8}, {7, 8}}
+ToricIdeal: ideal(e_9*e_14-e_4*e_15,e_7*e_14-e_3*e_15,e_8*e_13-e_2*e_15,e_10*e_12-e_4*e_15,e_7*e_12-e_1*e_15,e_3*e_12-e_1*e_14,e_10*e_11-e_3*e_15,e_9*e_11-e_1*e_15,e_4*e_11-e_1*e_14,e_3*e_9-e_1*e_10,e_4*e_7-e_1*e_10,e_5*e_10*e_13-e_6*e_8*e_14,e_6*e_8*e_12-e_5*e_9*e_13,e_6*e_8*e_11-e_5*e_7*e_13,e_4*e_5*e_13^2-e_2*e_6*e_12*e_14,e_3*e_5*e_13^2-e_2*e_6*e_11*e_14,e_2*e_6*e_11*e_12-e_1*e_5*e_13^2,e_4*e_6*e_8^2-e_2*e_5*e_9*e_10,e_3*e_6*e_8^2-e_2*e_5*e_7*e_10,e_1*e_6*e_8^2-e_2*e_5*e_7*e_9)
+NumGens: 20
+GenDegrees: {2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 4, 4, 4, 4, 4, 4}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+7*T+17*T^2+19*T^3+3*T^4-T^5)/((1-T)^8)
+SecondsKer: .015735
+SecondsDepth: .0453082
+SecondsHilbert: .00237323
+========================
+GraphNumber: 6576
+Graph6: GQhVUk
+NumEdges: 15
+Edges: {{1, 3}, {2, 4}, {1, 5}, {3, 5}, {2, 6}, {4, 6}, {1, 7}, {2, 7}, {3, 7}, {5, 7}, {1, 8}, {2, 8}, {4, 8}, {6, 8}, {7, 8}}
+ToricIdeal: ideal(e_8*e_14-e_5*e_15,e_8*e_13-e_2*e_15,e_5*e_13-e_2*e_14,e_6*e_12-e_2*e_14,e_10*e_11-e_3*e_15,e_9*e_11-e_1*e_15,e_8*e_11-e_7*e_12,e_3*e_9-e_1*e_10,e_4*e_7-e_1*e_10,e_7*e_13*e_14-e_6*e_11*e_15,e_9*e_10*e_12-e_4*e_8*e_15,e_9*e_10*e_13*e_14-e_4*e_6*e_15^2,e_4*e_6*e_11^2-e_1*e_3*e_13*e_14,e_4*e_5*e_11^2-e_1*e_3*e_12*e_14,e_2*e_4*e_11^2-e_1*e_3*e_12*e_13,e_4*e_6*e_8^2-e_2*e_5*e_9*e_10,e_3*e_6*e_8^2-e_2*e_5*e_7*e_10,e_1*e_6*e_8^2-e_2*e_5*e_7*e_9)
+NumGens: 18
+GenDegrees: {2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 4, 4, 4, 4, 4, 4, 4}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+7*T+19*T^2+23*T^3+3*T^4-T^5)/((1-T)^8)
+SecondsKer: .1299
+SecondsDepth: .0489378
+SecondsHilbert: .00191908
+========================
+GraphNumber: 6577
+Graph6: GQhVTk
+NumEdges: 15
+Edges: {{1, 3}, {2, 4}, {1, 5}, {3, 5}, {2, 6}, {4, 6}, {1, 7}, {2, 7}, {3, 7}, {5, 7}, {1, 8}, {3, 8}, {4, 8}, {6, 8}, {7, 8}}
+ToricIdeal: ideal(e_8*e_14-e_5*e_15,e_8*e_13-e_2*e_15,e_5*e_13-e_2*e_14,e_10*e_12-e_4*e_15,e_7*e_12-e_1*e_15,e_10*e_11-e_3*e_15,e_9*e_11-e_1*e_15,e_4*e_11-e_3*e_12,e_3*e_9-e_1*e_10,e_4*e_7-e_1*e_10,e_9*e_13*e_14-e_6*e_12*e_15,e_7*e_13*e_14-e_6*e_11*e_15,e_6*e_11*e_12-e_1*e_13*e_14,e_6*e_8*e_12-e_2*e_9*e_14,e_6*e_8*e_11-e_2*e_7*e_14,e_4*e_6*e_8^2-e_2*e_5*e_9*e_10,e_3*e_6*e_8^2-e_2*e_5*e_7*e_10,e_1*e_6*e_8^2-e_2*e_5*e_7*e_9)
+NumGens: 18
+GenDegrees: {2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 4, 4, 4}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+7*T+18*T^2+19*T^3+3*T^4-T^5)/((1-T)^8)
+SecondsKer: .0193394
+SecondsDepth: .055948
+SecondsHilbert: .00369766
+========================
+GraphNumber: 6578
+Graph6: GQhVVw
+NumEdges: 16
+Edges: {{1, 3}, {2, 4}, {1, 5}, {3, 5}, {2, 6}, {4, 6}, {1, 7}, {2, 7}, {3, 7}, {5, 7}, {1, 8}, {2, 8}, {3, 8}, {4, 8}, {5, 8}, {6, 8}}
+ToricIdeal: ideal(e_5*e_14-e_2*e_16,e_10*e_13-e_9*e_15,e_3*e_13-e_1*e_15,e_10*e_12-e_8*e_15,e_9*e_12-e_8*e_13,e_6*e_12-e_2*e_16,e_10*e_11-e_7*e_15,e_9*e_11-e_7*e_13,e_8*e_11-e_7*e_12,e_4*e_11-e_1*e_15,e_3*e_9-e_1*e_10,e_4*e_7-e_1*e_10,e_6*e_13*e_15-e_4*e_14*e_16,e_5*e_13*e_15-e_4*e_12*e_16,e_6*e_11*e_15-e_3*e_14*e_16,e_5*e_11*e_15-e_3*e_12*e_16,e_5*e_9*e_15-e_4*e_8*e_16,e_5*e_7*e_15-e_3*e_8*e_16,e_4*e_12*e_14-e_2*e_13*e_15,e_3*e_12*e_14-e_2*e_11*e_15,e_4*e_8*e_14-e_2*e_9*e_15,e_3*e_8*e_14-e_2*e_7*e_15,e_6*e_11*e_13-e_1*e_14*e_16,e_5*e_11*e_13-e_1*e_12*e_16,e_2*e_11*e_13-e_1*e_12*e_14,e_5*e_7*e_13-e_1*e_8*e_16,e_2*e_7*e_13-e_1*e_8*e_14,e_4*e_6*e_8^2-e_2*e_5*e_9*e_10,e_3*e_6*e_8^2-e_2*e_5*e_7*e_10,e_1*e_6*e_8^2-e_2*e_5*e_7*e_9)
+NumGens: 30
+GenDegrees: {2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+8*T+24*T^2+25*T^3+3*T^4-T^5)/((1-T)^8)
+SecondsKer: .0261884
+SecondsDepth: .413991
+SecondsHilbert: .00204784
+========================
+GraphNumber: 6579
+Graph6: GQhVVs
+NumEdges: 16
+Edges: {{1, 3}, {2, 4}, {1, 5}, {3, 5}, {2, 6}, {4, 6}, {1, 7}, {2, 7}, {3, 7}, {5, 7}, {1, 8}, {2, 8}, {3, 8}, {4, 8}, {5, 8}, {7, 8}}
+ToricIdeal: ideal(e_9*e_15-e_4*e_16,e_7*e_15-e_3*e_16,e_8*e_14-e_2*e_16,e_10*e_13-e_4*e_16,e_7*e_13-e_1*e_16,e_3*e_13-e_1*e_15,e_10*e_12-e_8*e_15,e_9*e_12-e_8*e_13,e_6*e_12-e_5*e_14,e_10*e_11-e_3*e_16,e_9*e_11-e_1*e_16,e_8*e_11-e_7*e_12,e_4*e_11-e_1*e_15,e_3*e_9-e_1*e_10,e_4*e_7-e_1*e_10,e_4*e_12*e_14-e_2*e_13*e_15,e_3*e_12*e_14-e_2*e_11*e_15,e_2*e_11*e_13-e_1*e_12*e_14,e_4*e_6*e_8^2-e_2*e_5*e_9*e_10,e_3*e_6*e_8^2-e_2*e_5*e_7*e_10,e_1*e_6*e_8^2-e_2*e_5*e_7*e_9)
+NumGens: 21
+GenDegrees: {2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 4, 4, 4}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+8*T+21*T^2+20*T^3+3*T^4-T^5)/((1-T)^8)
+SecondsKer: .0206329
+SecondsDepth: .192598
+SecondsHilbert: .00257667
+========================
+GraphNumber: 6580
+Graph6: GQhVVk
+NumEdges: 16
+Edges: {{1, 3}, {2, 4}, {1, 5}, {3, 5}, {2, 6}, {4, 6}, {1, 7}, {2, 7}, {3, 7}, {5, 7}, {1, 8}, {2, 8}, {3, 8}, {4, 8}, {6, 8}, {7, 8}}
+ToricIdeal: ideal(e_8*e_15-e_5*e_16,e_8*e_14-e_2*e_16,e_5*e_14-e_2*e_15,e_10*e_13-e_4*e_16,e_7*e_13-e_1*e_16,e_9*e_12-e_8*e_13,e_6*e_12-e_2*e_15,e_10*e_11-e_3*e_16,e_9*e_11-e_1*e_16,e_8*e_11-e_7*e_12,e_4*e_11-e_3*e_13,e_3*e_9-e_1*e_10,e_4*e_7-e_1*e_10,e_9*e_14*e_15-e_6*e_13*e_16,e_7*e_14*e_15-e_6*e_11*e_16,e_6*e_11*e_13-e_1*e_14*e_15,e_5*e_11*e_13-e_1*e_12*e_15,e_2*e_11*e_13-e_1*e_12*e_14,e_4*e_6*e_8^2-e_2*e_5*e_9*e_10,e_3*e_6*e_8^2-e_2*e_5*e_7*e_10,e_1*e_6*e_8^2-e_2*e_5*e_7*e_9)
+NumGens: 21
+GenDegrees: {2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 4, 4, 4}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+8*T+23*T^2+24*T^3+3*T^4-T^5)/((1-T)^8)
+SecondsKer: .020773
+SecondsDepth: .448843
+SecondsHilbert: .00652911
+========================
+GraphNumber: 6581
+Graph6: GQhVT{
+NumEdges: 16
+Edges: {{1, 3}, {2, 4}, {1, 5}, {3, 5}, {2, 6}, {4, 6}, {1, 7}, {2, 7}, {3, 7}, {5, 7}, {1, 8}, {3, 8}, {4, 8}, {5, 8}, {6, 8}, {7, 8}}
+ToricIdeal: ideal(e_8*e_15-e_5*e_16,e_9*e_14-e_4*e_16,e_7*e_14-e_3*e_16,e_8*e_13-e_2*e_16,e_5*e_13-e_2*e_15,e_10*e_12-e_4*e_16,e_7*e_12-e_1*e_16,e_3*e_12-e_1*e_14,e_10*e_11-e_3*e_16,e_9*e_11-e_1*e_16,e_4*e_11-e_1*e_14,e_3*e_9-e_1*e_10,e_4*e_7-e_1*e_10,e_10*e_13*e_15-e_6*e_14*e_16,e_9*e_13*e_15-e_6*e_12*e_16,e_7*e_13*e_15-e_6*e_11*e_16,e_6*e_12*e_14-e_4*e_13*e_15,e_6*e_11*e_14-e_3*e_13*e_15,e_6*e_8*e_14-e_2*e_10*e_15,e_6*e_11*e_12-e_1*e_13*e_15,e_6*e_8*e_12-e_2*e_9*e_15,e_6*e_8*e_11-e_2*e_7*e_15,e_4*e_6*e_8^2-e_2*e_5*e_9*e_10,e_3*e_6*e_8^2-e_2*e_5*e_7*e_10,e_1*e_6*e_8^2-e_2*e_5*e_7*e_9)
+NumGens: 25
+GenDegrees: {2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+8*T+23*T^2+24*T^3+3*T^4-T^5)/((1-T)^8)
+SecondsKer: .0389736
+SecondsDepth: .197343
+SecondsHilbert: .00415959
+========================
+GraphNumber: 6582
+Graph6: GQhVV{
+NumEdges: 17
+Edges: {{1, 3}, {2, 4}, {1, 5}, {3, 5}, {2, 6}, {4, 6}, {1, 7}, {2, 7}, {3, 7}, {5, 7}, {1, 8}, {2, 8}, {3, 8}, {4, 8}, {5, 8}, {6, 8}, {7, 8}}
+ToricIdeal: ideal(e_8*e_16-e_5*e_17,e_9*e_15-e_4*e_17,e_7*e_15-e_3*e_17,e_8*e_14-e_2*e_17,e_5*e_14-e_2*e_16,e_10*e_13-e_4*e_17,e_7*e_13-e_1*e_17,e_3*e_13-e_1*e_15,e_10*e_12-e_8*e_15,e_9*e_12-e_8*e_13,e_6*e_12-e_2*e_16,e_10*e_11-e_3*e_17,e_9*e_11-e_1*e_17,e_8*e_11-e_7*e_12,e_4*e_11-e_1*e_15,e_3*e_9-e_1*e_10,e_4*e_7-e_1*e_10,e_10*e_14*e_16-e_6*e_15*e_17,e_9*e_14*e_16-e_6*e_13*e_17,e_7*e_14*e_16-e_6*e_11*e_17,e_6*e_13*e_15-e_4*e_14*e_16,e_5*e_13*e_15-e_4*e_12*e_16,e_6*e_11*e_15-e_3*e_14*e_16,e_5*e_11*e_15-e_3*e_12*e_16,e_4*e_12*e_14-e_2*e_13*e_15,e_3*e_12*e_14-e_2*e_11*e_15,e_6*e_11*e_13-e_1*e_14*e_16,e_5*e_11*e_13-e_1*e_12*e_16,e_2*e_11*e_13-e_1*e_12*e_14,e_4*e_6*e_8^2-e_2*e_5*e_9*e_10,e_3*e_6*e_8^2-e_2*e_5*e_7*e_10,e_1*e_6*e_8^2-e_2*e_5*e_7*e_9)
+NumGens: 32
+GenDegrees: {2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+9*T+28*T^2+25*T^3+3*T^4-T^5)/((1-T)^8)
+SecondsKer: .162805
+SecondsDepth: 1.68121
+SecondsHilbert: .00350005
+========================
+GraphNumber: 6583
+Graph6: GQhVvo
+NumEdges: 16
+Edges: {{1, 3}, {2, 4}, {1, 5}, {3, 5}, {2, 6}, {4, 6}, {1, 7}, {2, 7}, {3, 7}, {4, 7}, {5, 7}, {1, 8}, {2, 8}, {3, 8}, {4, 8}, {5, 8}}
+ToricIdeal: ideal(e_11*e_15-e_10*e_16,e_11*e_14-e_9*e_16,e_10*e_14-e_9*e_15,e_3*e_14-e_1*e_16,e_11*e_13-e_8*e_16,e_10*e_13-e_8*e_15,e_9*e_13-e_8*e_14,e_6*e_13-e_5*e_15,e_11*e_12-e_7*e_16,e_10*e_12-e_7*e_15,e_9*e_12-e_7*e_14,e_8*e_12-e_7*e_13,e_4*e_12-e_1*e_16,e_3*e_9-e_1*e_11,e_6*e_8-e_5*e_10,e_4*e_7-e_1*e_11,e_4*e_13*e_15-e_2*e_14*e_16,e_3*e_13*e_15-e_2*e_12*e_16,e_4*e_8*e_15-e_2*e_9*e_16,e_3*e_8*e_15-e_2*e_7*e_16,e_2*e_12*e_14-e_1*e_13*e_15,e_2*e_7*e_14-e_1*e_8*e_15,e_4*e_8*e_10-e_2*e_9*e_11,e_3*e_8*e_10-e_2*e_7*e_11,e_2*e_7*e_9-e_1*e_8*e_10)
+NumGens: 25
+GenDegrees: {2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+8*T+20*T^2+18*T^3+3*T^4-T^5)/((1-T)^8)
+SecondsKer: .226621
+SecondsDepth: .275721
+SecondsHilbert: .00158539
+========================
+GraphNumber: 6584
+Graph6: GQhVvg
+NumEdges: 16
+Edges: {{1, 3}, {2, 4}, {1, 5}, {3, 5}, {2, 6}, {4, 6}, {1, 7}, {2, 7}, {3, 7}, {4, 7}, {5, 7}, {1, 8}, {2, 8}, {3, 8}, {4, 8}, {6, 8}}
+ToricIdeal: ideal(e_5*e_15-e_2*e_16,e_10*e_14-e_9*e_15,e_10*e_13-e_8*e_15,e_9*e_13-e_8*e_14,e_6*e_13-e_2*e_16,e_10*e_12-e_7*e_15,e_9*e_12-e_7*e_14,e_8*e_12-e_7*e_13,e_4*e_12-e_3*e_14,e_3*e_9-e_1*e_11,e_6*e_8-e_5*e_10,e_4*e_7-e_1*e_11,e_6*e_12*e_14-e_1*e_15*e_16,e_5*e_12*e_14-e_1*e_13*e_16,e_2*e_12*e_14-e_1*e_13*e_15,e_6*e_11*e_14-e_4*e_10*e_16,e_5*e_11*e_14-e_4*e_8*e_16,e_2*e_11*e_14-e_4*e_8*e_15,e_6*e_7*e_14-e_1*e_10*e_16,e_5*e_7*e_14-e_1*e_8*e_16,e_2*e_7*e_14-e_1*e_8*e_15,e_6*e_11*e_12-e_3*e_10*e_16,e_5*e_11*e_12-e_3*e_8*e_16,e_2*e_11*e_12-e_3*e_8*e_15,e_4*e_8*e_10-e_2*e_9*e_11,e_3*e_8*e_10-e_2*e_7*e_11,e_2*e_7*e_9-e_1*e_8*e_10)
+NumGens: 27
+GenDegrees: {2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+8*T+24*T^2+25*T^3+3*T^4-T^5)/((1-T)^8)
+SecondsKer: .0188808
+SecondsDepth: .262492
+SecondsHilbert: .0022969
+========================
+GraphNumber: 6585
+Graph6: GQhVvW
+NumEdges: 16
+Edges: {{1, 3}, {2, 4}, {1, 5}, {3, 5}, {2, 6}, {4, 6}, {1, 7}, {2, 7}, {3, 7}, {4, 7}, {5, 7}, {1, 8}, {2, 8}, {3, 8}, {5, 8}, {6, 8}}
+ToricIdeal: ideal(e_11*e_14-e_9*e_15,e_3*e_14-e_1*e_15,e_11*e_13-e_8*e_15,e_9*e_13-e_8*e_14,e_6*e_13-e_2*e_16,e_11*e_12-e_7*e_15,e_9*e_12-e_7*e_14,e_8*e_12-e_7*e_13,e_4*e_12-e_1*e_15,e_3*e_9-e_1*e_11,e_6*e_8-e_5*e_10,e_4*e_7-e_1*e_11,e_5*e_14*e_15-e_4*e_13*e_16,e_5*e_12*e_15-e_3*e_13*e_16,e_6*e_9*e_15-e_4*e_10*e_16,e_5*e_9*e_15-e_4*e_8*e_16,e_6*e_7*e_15-e_3*e_10*e_16,e_5*e_7*e_15-e_3*e_8*e_16,e_5*e_12*e_14-e_1*e_13*e_16,e_6*e_7*e_14-e_1*e_10*e_16,e_5*e_7*e_14-e_1*e_8*e_16,e_4*e_10*e_13-e_2*e_9*e_15,e_3*e_10*e_13-e_2*e_7*e_15,e_1*e_10*e_13-e_2*e_7*e_14,e_4*e_8*e_10-e_2*e_9*e_11,e_3*e_8*e_10-e_2*e_7*e_11,e_2*e_7*e_9-e_1*e_8*e_10)
+NumGens: 27
+GenDegrees: {2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+8*T+24*T^2+25*T^3+3*T^4-T^5)/((1-T)^8)
+SecondsKer: .0339645
+SecondsDepth: .460292
+SecondsHilbert: .002954
+========================
+GraphNumber: 6586
+Graph6: GQhVvw
+NumEdges: 17
+Edges: {{1, 3}, {2, 4}, {1, 5}, {3, 5}, {2, 6}, {4, 6}, {1, 7}, {2, 7}, {3, 7}, {4, 7}, {5, 7}, {1, 8}, {2, 8}, {3, 8}, {4, 8}, {5, 8}, {6, 8}}
+ToricIdeal: ideal(e_11*e_15-e_10*e_16,e_5*e_15-e_2*e_17,e_11*e_14-e_9*e_16,e_10*e_14-e_9*e_15,e_3*e_14-e_1*e_16,e_11*e_13-e_8*e_16,e_10*e_13-e_8*e_15,e_9*e_13-e_8*e_14,e_6*e_13-e_2*e_17,e_11*e_12-e_7*e_16,e_10*e_12-e_7*e_15,e_9*e_12-e_7*e_14,e_8*e_12-e_7*e_13,e_4*e_12-e_1*e_16,e_3*e_9-e_1*e_11,e_6*e_8-e_5*e_10,e_4*e_7-e_1*e_11,e_6*e_14*e_16-e_4*e_15*e_17,e_5*e_14*e_16-e_4*e_13*e_17,e_6*e_12*e_16-e_3*e_15*e_17,e_5*e_12*e_16-e_3*e_13*e_17,e_6*e_9*e_16-e_4*e_10*e_17,e_5*e_9*e_16-e_4*e_8*e_17,e_6*e_7*e_16-e_3*e_10*e_17,e_5*e_7*e_16-e_3*e_8*e_17,e_4*e_13*e_15-e_2*e_14*e_16,e_3*e_13*e_15-e_2*e_12*e_16,e_4*e_8*e_15-e_2*e_9*e_16,e_3*e_8*e_15-e_2*e_7*e_16,e_6*e_12*e_14-e_1*e_15*e_17,e_5*e_12*e_14-e_1*e_13*e_17,e_2*e_12*e_14-e_1*e_13*e_15,e_6*e_7*e_14-e_1*e_10*e_17,e_5*e_7*e_14-e_1*e_8*e_17,e_2*e_7*e_14-e_1*e_8*e_15,e_4*e_8*e_10-e_2*e_9*e_11,e_3*e_8*e_10-e_2*e_7*e_11,e_2*e_7*e_9-e_1*e_8*e_10)
+NumGens: 38
+GenDegrees: {2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+9*T+28*T^2+26*T^3+3*T^4-T^5)/((1-T)^8)
+SecondsKer: .0281052
+SecondsDepth: 1.49473
+SecondsHilbert: .0056914
+========================
+GraphNumber: 6587
+Graph6: GQhVvs
+NumEdges: 17
+Edges: {{1, 3}, {2, 4}, {1, 5}, {3, 5}, {2, 6}, {4, 6}, {1, 7}, {2, 7}, {3, 7}, {4, 7}, {5, 7}, {1, 8}, {2, 8}, {3, 8}, {4, 8}, {5, 8}, {7, 8}}
+ToricIdeal: ideal(e_9*e_16-e_4*e_17,e_7*e_16-e_3*e_17,e_11*e_15-e_10*e_16,e_8*e_15-e_2*e_17,e_11*e_14-e_4*e_17,e_10*e_14-e_9*e_15,e_7*e_14-e_1*e_17,e_3*e_14-e_1*e_16,e_11*e_13-e_8*e_16,e_10*e_13-e_2*e_17,e_9*e_13-e_8*e_14,e_6*e_13-e_5*e_15,e_11*e_12-e_3*e_17,e_10*e_12-e_7*e_15,e_9*e_12-e_1*e_17,e_8*e_12-e_7*e_13,e_4*e_12-e_1*e_16,e_3*e_9-e_1*e_11,e_6*e_8-e_5*e_10,e_4*e_7-e_1*e_11,e_4*e_13*e_15-e_2*e_14*e_16,e_3*e_13*e_15-e_2*e_12*e_16,e_2*e_12*e_14-e_1*e_13*e_15,e_4*e_8*e_10-e_2*e_9*e_11,e_3*e_8*e_10-e_2*e_7*e_11,e_2*e_7*e_9-e_1*e_8*e_10)
+NumGens: 26
+GenDegrees: {2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+9*T+25*T^2+21*T^3+3*T^4-T^5)/((1-T)^8)
+SecondsKer: .0383356
+SecondsDepth: 1.38701
+SecondsHilbert: .00282166
+========================
+GraphNumber: 6588
+Graph6: GQhVvk
+NumEdges: 17
+Edges: {{1, 3}, {2, 4}, {1, 5}, {3, 5}, {2, 6}, {4, 6}, {1, 7}, {2, 7}, {3, 7}, {4, 7}, {5, 7}, {1, 8}, {2, 8}, {3, 8}, {4, 8}, {6, 8}, {7, 8}}
+ToricIdeal: ideal(e_10*e_16-e_6*e_17,e_8*e_16-e_5*e_17,e_8*e_15-e_2*e_17,e_5*e_15-e_2*e_16,e_11*e_14-e_4*e_17,e_10*e_14-e_9*e_15,e_7*e_14-e_1*e_17,e_10*e_13-e_2*e_17,e_9*e_13-e_8*e_14,e_6*e_13-e_2*e_16,e_11*e_12-e_3*e_17,e_10*e_12-e_7*e_15,e_9*e_12-e_1*e_17,e_8*e_12-e_7*e_13,e_4*e_12-e_3*e_14,e_3*e_9-e_1*e_11,e_6*e_8-e_5*e_10,e_4*e_7-e_1*e_11,e_6*e_12*e_14-e_1*e_15*e_16,e_5*e_12*e_14-e_1*e_13*e_16,e_2*e_12*e_14-e_1*e_13*e_15,e_4*e_8*e_10-e_2*e_9*e_11,e_3*e_8*e_10-e_2*e_7*e_11,e_2*e_7*e_9-e_1*e_8*e_10)
+NumGens: 24
+GenDegrees: {2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+9*T+27*T^2+25*T^3+3*T^4-T^5)/((1-T)^8)
+SecondsKer: .0446935
+SecondsDepth: 1.64109
+SecondsHilbert: .0036745
+========================
+GraphNumber: 6589
+Graph6: GQhVv[
+NumEdges: 17
+Edges: {{1, 3}, {2, 4}, {1, 5}, {3, 5}, {2, 6}, {4, 6}, {1, 7}, {2, 7}, {3, 7}, {4, 7}, {5, 7}, {1, 8}, {2, 8}, {3, 8}, {5, 8}, {6, 8}, {7, 8}}
+ToricIdeal: ideal(e_10*e_16-e_6*e_17,e_8*e_16-e_5*e_17,e_9*e_15-e_4*e_17,e_7*e_15-e_3*e_17,e_11*e_14-e_4*e_17,e_7*e_14-e_1*e_17,e_3*e_14-e_1*e_15,e_11*e_13-e_8*e_15,e_10*e_13-e_2*e_17,e_9*e_13-e_8*e_14,e_6*e_13-e_2*e_16,e_11*e_12-e_3*e_17,e_9*e_12-e_1*e_17,e_8*e_12-e_7*e_13,e_4*e_12-e_1*e_15,e_3*e_9-e_1*e_11,e_6*e_8-e_5*e_10,e_4*e_7-e_1*e_11,e_5*e_14*e_15-e_4*e_13*e_16,e_5*e_12*e_15-e_3*e_13*e_16,e_5*e_12*e_14-e_1*e_13*e_16,e_4*e_8*e_10-e_2*e_9*e_11,e_3*e_8*e_10-e_2*e_7*e_11,e_2*e_7*e_9-e_1*e_8*e_10)
+NumGens: 24
+GenDegrees: {2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+9*T+27*T^2+25*T^3+3*T^4-T^5)/((1-T)^8)
+SecondsKer: .0471408
+SecondsDepth: 2.0053
+SecondsHilbert: .00501167
+========================
+GraphNumber: 6590
+Graph6: GQhVv{
+NumEdges: 18
+Edges: {{1, 3}, {2, 4}, {1, 5}, {3, 5}, {2, 6}, {4, 6}, {1, 7}, {2, 7}, {3, 7}, {4, 7}, {5, 7}, {1, 8}, {2, 8}, {3, 8}, {4, 8}, {5, 8}, {6, 8}, {7, 8}}
+ToricIdeal: ideal(e_10*e_17-e_6*e_18,e_8*e_17-e_5*e_18,e_9*e_16-e_4*e_18,e_7*e_16-e_3*e_18,e_11*e_15-e_10*e_16,e_8*e_15-e_2*e_18,e_5*e_15-e_2*e_17,e_11*e_14-e_4*e_18,e_10*e_14-e_9*e_15,e_7*e_14-e_1*e_18,e_3*e_14-e_1*e_16,e_11*e_13-e_8*e_16,e_10*e_13-e_2*e_18,e_9*e_13-e_8*e_14,e_6*e_13-e_2*e_17,e_11*e_12-e_3*e_18,e_10*e_12-e_7*e_15,e_9*e_12-e_1*e_18,e_8*e_12-e_7*e_13,e_4*e_12-e_1*e_16,e_3*e_9-e_1*e_11,e_6*e_8-e_5*e_10,e_4*e_7-e_1*e_11,e_6*e_14*e_16-e_4*e_15*e_17,e_5*e_14*e_16-e_4*e_13*e_17,e_6*e_12*e_16-e_3*e_15*e_17,e_5*e_12*e_16-e_3*e_13*e_17,e_4*e_13*e_15-e_2*e_14*e_16,e_3*e_13*e_15-e_2*e_12*e_16,e_6*e_12*e_14-e_1*e_15*e_17,e_5*e_12*e_14-e_1*e_13*e_17,e_2*e_12*e_14-e_1*e_13*e_15,e_4*e_8*e_10-e_2*e_9*e_11,e_3*e_8*e_10-e_2*e_7*e_11,e_2*e_7*e_9-e_1*e_8*e_10)
+NumGens: 35
+GenDegrees: {2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+10*T+32*T^2+26*T^3+3*T^4-T^5)/((1-T)^8)
+SecondsKer: .0564113
+SecondsDepth: 12.6051
+SecondsHilbert: .00746788
+========================
+GraphNumber: 6591
+Graph6: GQhV~w
+NumEdges: 18
+Edges: {{1, 3}, {2, 4}, {1, 5}, {3, 5}, {2, 6}, {4, 6}, {1, 7}, {2, 7}, {3, 7}, {4, 7}, {5, 7}, {6, 7}, {1, 8}, {2, 8}, {3, 8}, {4, 8}, {5, 8}, {6, 8}}
+ToricIdeal: ideal(e_12*e_17-e_11*e_18,e_12*e_16-e_10*e_18,e_11*e_16-e_10*e_17,e_5*e_16-e_2*e_18,e_12*e_15-e_9*e_18,e_11*e_15-e_9*e_17,e_10*e_15-e_9*e_16,e_3*e_15-e_1*e_17,e_12*e_14-e_8*e_18,e_11*e_14-e_8*e_17,e_10*e_14-e_8*e_16,e_9*e_14-e_8*e_15,e_6*e_14-e_2*e_18,e_12*e_13-e_7*e_18,e_11*e_13-e_7*e_17,e_10*e_13-e_7*e_16,e_9*e_13-e_7*e_15,e_8*e_13-e_7*e_14,e_4*e_13-e_1*e_17,e_5*e_10-e_2*e_12,e_3*e_9-e_1*e_11,e_6*e_8-e_2*e_12,e_4*e_7-e_1*e_11,e_6*e_15*e_17-e_4*e_16*e_18,e_5*e_15*e_17-e_4*e_14*e_18,e_6*e_13*e_17-e_3*e_16*e_18,e_5*e_13*e_17-e_3*e_14*e_18,e_6*e_9*e_17-e_4*e_10*e_18,e_5*e_9*e_17-e_4*e_8*e_18,e_6*e_7*e_17-e_3*e_10*e_18,e_5*e_7*e_17-e_3*e_8*e_18,e_4*e_14*e_16-e_2*e_15*e_17,e_3*e_14*e_16-e_2*e_13*e_17,e_4*e_8*e_16-e_2*e_9*e_17,e_3*e_8*e_16-e_2*e_7*e_17,e_6*e_13*e_15-e_1*e_16*e_18,e_5*e_13*e_15-e_1*e_14*e_18,e_2*e_13*e_15-e_1*e_14*e_16,e_6*e_7*e_15-e_1*e_10*e_18,e_5*e_7*e_15-e_1*e_8*e_18,e_2*e_7*e_15-e_1*e_8*e_16,e_6*e_9*e_11-e_4*e_10*e_12,e_5*e_9*e_11-e_4*e_8*e_12,e_6*e_7*e_11-e_3*e_10*e_12,e_5*e_7*e_11-e_3*e_8*e_12,e_4*e_8*e_10-e_2*e_9*e_11,e_3*e_8*e_10-e_2*e_7*e_11,e_6*e_7*e_9-e_1*e_10*e_12,e_5*e_7*e_9-e_1*e_8*e_12,e_2*e_7*e_9-e_1*e_8*e_10)
+NumGens: 50
+GenDegrees: {2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+10*T+32*T^2+27*T^3+3*T^4-T^5)/((1-T)^8)
+SecondsKer: .08599
+SecondsDepth: 5.69086
+SecondsHilbert: .00671826
+========================
+GraphNumber: 6592
+Graph6: GQhV~{
+NumEdges: 19
+Edges: {{1, 3}, {2, 4}, {1, 5}, {3, 5}, {2, 6}, {4, 6}, {1, 7}, {2, 7}, {3, 7}, {4, 7}, {5, 7}, {6, 7}, {1, 8}, {2, 8}, {3, 8}, {4, 8}, {5, 8}, {6, 8}, {7, 8}}
+ToricIdeal: ideal(e_10*e_18-e_6*e_19,e_8*e_18-e_5*e_19,e_12*e_17-e_11*e_18,e_9*e_17-e_4*e_19,e_7*e_17-e_3*e_19,e_12*e_16-e_6*e_19,e_11*e_16-e_10*e_17,e_8*e_16-e_2*e_19,e_5*e_16-e_2*e_18,e_12*e_15-e_9*e_18,e_11*e_15-e_4*e_19,e_10*e_15-e_9*e_16,e_7*e_15-e_1*e_19,e_3*e_15-e_1*e_17,e_12*e_14-e_5*e_19,e_11*e_14-e_8*e_17,e_10*e_14-e_2*e_19,e_9*e_14-e_8*e_15,e_6*e_14-e_2*e_18,e_12*e_13-e_7*e_18,e_11*e_13-e_3*e_19,e_10*e_13-e_7*e_16,e_9*e_13-e_1*e_19,e_8*e_13-e_7*e_14,e_4*e_13-e_1*e_17,e_5*e_10-e_2*e_12,e_3*e_9-e_1*e_11,e_6*e_8-e_2*e_12,e_4*e_7-e_1*e_11,e_6*e_15*e_17-e_4*e_16*e_18,e_5*e_15*e_17-e_4*e_14*e_18,e_6*e_13*e_17-e_3*e_16*e_18,e_5*e_13*e_17-e_3*e_14*e_18,e_4*e_14*e_16-e_2*e_15*e_17,e_3*e_14*e_16-e_2*e_13*e_17,e_6*e_13*e_15-e_1*e_16*e_18,e_5*e_13*e_15-e_1*e_14*e_18,e_2*e_13*e_15-e_1*e_14*e_16,e_6*e_9*e_11-e_4*e_10*e_12,e_5*e_9*e_11-e_4*e_8*e_12,e_6*e_7*e_11-e_3*e_10*e_12,e_5*e_7*e_11-e_3*e_8*e_12,e_4*e_8*e_10-e_2*e_9*e_11,e_3*e_8*e_10-e_2*e_7*e_11,e_6*e_7*e_9-e_1*e_10*e_12,e_5*e_7*e_9-e_1*e_8*e_12,e_2*e_7*e_9-e_1*e_8*e_10)
+NumGens: 47
+GenDegrees: {2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+11*T+37*T^2+27*T^3+3*T^4-T^5)/((1-T)^8)
+SecondsKer: .647919
+SecondsDepth: 59.4512
+SecondsHilbert: .00728242
+========================
+GraphNumber: 6653
+Graph6: GQjRdW
+NumEdges: 14
+Edges: {{1, 3}, {2, 4}, {1, 5}, {3, 5}, {1, 6}, {2, 6}, {4, 6}, {2, 7}, {3, 7}, {4, 7}, {1, 8}, {3, 8}, {5, 8}, {6, 8}}
+ToricIdeal: ideal(e_5*e_13-e_3*e_14,e_5*e_12-e_1*e_14,e_3*e_12-e_1*e_13,e_4*e_11-e_1*e_13,e_7*e_8-e_6*e_10,e_7*e_9*e_13-e_4*e_10*e_14,e_6*e_9*e_13-e_4*e_8*e_14,e_6*e_10*e_12-e_2*e_9*e_14,e_7*e_9*e_11-e_1*e_10*e_14,e_6*e_9*e_11-e_1*e_8*e_14,e_6*e_7*e_11-e_2*e_5*e_14,e_3*e_7*e_9-e_4*e_5*e_10,e_2*e_5*e_9-e_1*e_6*e_10,e_4*e_5*e_8-e_3*e_6*e_9,e_6*e_7*e_12*e_13-e_2*e_4*e_14^2,e_4*e_8*e_10*e_12-e_2*e_9^2*e_13,e_2*e_9^2*e_11-e_1*e_8*e_10*e_12,e_2*e_3*e_9^2-e_1*e_4*e_8*e_10,e_2*e_4*e_5^2-e_1*e_3*e_6*e_7)
+NumGens: 19
+GenDegrees: {2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+6*T+16*T^2+19*T^3+3*T^4-T^5)/((1-T)^8)
+SecondsKer: .0195092
+SecondsDepth: .0229245
+SecondsHilbert: .00186126
+========================
+GraphNumber: 6658
+Graph6: GQjRak
+NumEdges: 14
+Edges: {{1, 3}, {2, 4}, {1, 5}, {3, 5}, {1, 6}, {2, 6}, {4, 6}, {2, 7}, {3, 7}, {4, 7}, {2, 8}, {4, 8}, {6, 8}, {7, 8}}
+ToricIdeal: ideal(e_10*e_13-e_7*e_14,e_8*e_13-e_6*e_14,e_8*e_12-e_2*e_14,e_6*e_12-e_2*e_13,e_10*e_11-e_2*e_14,e_7*e_11-e_2*e_13,e_7*e_8-e_6*e_10,e_3*e_9*e_13-e_4*e_5*e_14,e_5*e_9*e_12-e_1*e_7*e_14,e_5*e_9*e_11-e_1*e_6*e_14,e_3*e_7*e_9-e_4*e_5*e_10,e_2*e_5*e_9-e_1*e_6*e_10,e_4*e_5*e_8-e_3*e_6*e_9,e_3*e_9^2*e_12-e_1*e_4*e_10*e_14,e_4*e_5^2*e_12-e_1*e_3*e_7*e_13,e_3*e_9^2*e_11-e_1*e_4*e_8*e_14,e_4*e_5^2*e_11-e_1*e_3*e_6*e_13,e_2*e_3*e_9^2-e_1*e_4*e_8*e_10,e_2*e_4*e_5^2-e_1*e_3*e_6*e_7)
+NumGens: 19
+GenDegrees: {2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 4}
+Depth: 7
+VerticesMinusDepth: 1
+ReducedHilbertSeries: (1+6*T+14*T^2+16*T^3+3*T^4-T^5)/((1-T)^8)
+SecondsKer: .0248009
+SecondsDepth: .0318882
+SecondsHilbert: .00242364
+========================
