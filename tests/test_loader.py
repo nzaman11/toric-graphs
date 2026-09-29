@@ -6,6 +6,30 @@ from toric_graphs import db, loader
 from toric_graphs.m2parse import binomial_degree, h_vector, hilbert_dim, ideal_generators
 
 
+def test_run_verdict_uses_only_proofs():
+    v = loader.run_verdict
+    assert v({"n": 9, "decided_by": "negative_h", "is_cm": 0}) == (0, "negative_h")
+    assert v({"n": 9, "depth_zzp": 9}) == (1, "depth_ZZp_eq_n")
+    # first-run format: QQ confirmation timed out after ZZ/p already proved CM
+    assert v({"n": 9, "status": "timeout", "stage": "depth_QQ", "depth_zzp": 9}) == (1, "depth_ZZp_eq_n")
+    # ZZ/p depth < n alone is only a screen, never "not CM"
+    assert v({"n": 9, "decided_by": "depth_ZZp", "is_cm": 0, "depth_zzp": 8}) == (None, "screen_ZZp")
+    assert v({"n": 9, "depth_zzp": 8, "depth": 9}) == (1, "depth_QQ")
+    assert v({"n": 9, "status": "timeout", "stage": "ideal"}) == (None, None)
+
+
+def test_latest_runs_prefers_final_records(tmp_path):
+    p = tmp_path / "runs.jsonl"
+    rows = [{"graph_number": 5, "status": "timeout", "stage": "ideal"},
+            {"graph_number": 5, "status": "done", "is_cm": 1},
+            {"graph_number": 5, "status": "error"},
+            {"graph_number": 6, "status": "timeout"},
+            {"graph_number": 6, "status": "timeout", "stage": "depth_ZZp"}]
+    p.write_text("\n".join(json.dumps(r) for r in rows) + '\n{"graph_number": 7, "sta')
+    recs = loader.latest_runs(p)
+    assert recs[5]["status"] == "done" and recs[6]["stage"] == "depth_ZZp" and 7 not in recs
+
+
 def test_h_vector_parsing():
     assert h_vector("(1+5*T)/((1-T)^8)") == [1, 5]
     assert h_vector("(1+2*T+2*T^2+2*T^3+2*T^4-T^5)/((1-T)^8)") == [1, 2, 2, 2, 2, -1]

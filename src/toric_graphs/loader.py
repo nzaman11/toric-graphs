@@ -36,7 +36,7 @@ def upsert_result(conn: sqlite3.Connection, g6: str, source: str, *, depth: int 
                   is_cm: int | None = None, decided_by: str = "depth_QQ") -> None:
     n, adj = parse_g6(g6)
     m = num_edges(adj)
-    if is_cm is None:
+    if is_cm is None and depth is not None:
         is_cm = int(depth == n)
     h = h_vector(hilbert_series) if hilbert_series else None
     if hilbert_series and hilbert_dim(hilbert_series) != n:
@@ -56,7 +56,8 @@ def upsert_result(conn: sqlite3.Connection, g6: str, source: str, *, depth: int 
             gen_degrees, gens_minimal, is_ci, toric_ideal, seconds_ker, seconds_depth, seconds_hilbert)
            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)""",
         (g6, source, depth, is_cm, decided_by, json.dumps(h) if h else None, sym,
-         (int(is_cm and sym) if sym is not None else (0 if not is_cm else None)),
+         # Gorenstein = CM + symmetric h (Stanley); unknown when CM is unknown
+         (None if is_cm is None else 0 if not is_cm else sym),
          len(gens) if gens is not None else None, json.dumps(degs) if degs is not None else None,
          gens_minimal, is_ci, toric_ideal, *seconds),
     )
@@ -81,33 +82,55 @@ def load_ssri_n8(conn: sqlite3.Connection, raw: Path = RAW) -> int:
 
 
 def latest_runs(path: Path) -> dict[int, dict]:
-    """Last record per graph from a runner .jsonl file (a retried timeout supersedes the timeout)."""
+    """Best record per graph from a runner .jsonl file: a final record (done/unconfirmed) beats a
+    timeout/error, and later lines beat earlier ones of the same kind (retries)."""
+    from .runner import FINAL, read_records
+
     recs: dict[int, dict] = {}
-    if path.exists():
-        for line in path.read_text().splitlines():
-            if line.strip():
-                try:
-                    r = json.loads(line)
-                except json.JSONDecodeError:  # last line of a file still being written
-                    continue
-                if r["status"] == "done" or r["graph_number"] not in recs:
-                    recs[r["graph_number"]] = r
+    for r in read_records(path):
+        old = recs.get(r["graph_number"])
+        if old is None or r["status"] in FINAL or old["status"] not in FINAL:
+            recs[r["graph_number"]] = r
     return recs
 
 
+def run_verdict(r: dict) -> tuple[int | None, str | None]:
+    """(is_cm, decided_by) from one runner record, using only what is PROVEN.
+
+    depth_ZZp = n proves CM over QQ (depth_ZZp <= depth_QQ <= n for toric rings); a negative
+    h-coefficient proves not CM; depth over QQ decides exactly. A ZZ/p depth < n alone is only a
+    screen (is_cm None). Also reinterprets records from the first n = 9 run, whose runner still ran
+    the (redundant) QQ confirmation and labelled ZZ/p screens 'depth_ZZp'.
+    """
+    n = r.get("n")
+    if r.get("depth_zzp") is not None and r["depth_zzp"] == n:
+        return 1, "depth_ZZp_eq_n"
+    if r.get("decided_by") == "negative_h":
+        return 0, "negative_h"
+    if r.get("depth") is not None:
+        return int(r["depth"] == n), "depth_QQ"
+    if r.get("depth_zzp") is not None:
+        return None, "screen_ZZp"
+    return None, None
+
+
 def load_runs_jsonl(conn: sqlite3.Connection, path: Path, source: str = "runner_n9") -> tuple[int, int]:
-    """Runner output. Every graph gets a graphs row; finished ones also get m2_results."""
-    done = timeouts = 0
+    """Runner output. Every graph gets a graphs row; graphs with a computed ideal get m2_results.
+    Returns (graphs with a proven CM verdict, graphs without one)."""
+    decided = undecided = 0
     for r in latest_runs(path).values():
         upsert_graph(conn, r["graph6"], r["graph_number"])
-        if r["status"] != "done":
-            timeouts += 1
+        is_cm, how = run_verdict(r)
+        if "hilbert_series" not in r:  # timed out or failed before the ideal stage
+            undecided += 1
             continue
+        depth_cpu = r.get("seconds_depth_qq", r.get("seconds_depth_zzp"))
         upsert_result(conn, r["graph6"], source, depth=r.get("depth"), hilbert_series=r["hilbert_series"],
-                      toric_ideal=r["toric_ideal"], gens_minimal=1, is_cm=r["is_cm"], decided_by=r["decided_by"],
-                      seconds=(r.get("seconds_ker"), r.get("wall_depth_zzp"), r.get("seconds_hilbert")))
-        done += 1
-    return done, timeouts
+                      toric_ideal=r["toric_ideal"], gens_minimal=1, is_cm=is_cm, decided_by=how,
+                      seconds=(r.get("seconds_ker"), depth_cpu, r.get("seconds_hilbert")))
+        decided += is_cm is not None
+        undecided += is_cm is None
+    return decided, undecided
 
 
 def load_m2_results(conn: sqlite3.Connection, path: Path, source: str = "recomputed") -> int:

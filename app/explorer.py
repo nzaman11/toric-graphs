@@ -45,9 +45,12 @@ def load() -> tuple[pd.DataFrame, list[str]]:
     feature_cols = [c for c in f.columns if c not in ("graph6", "n", "m") and pd.api.types.is_numeric_dtype(f[c])]
     df = g.merge(r, on="graph6", how="left").merge(f.drop(columns=["n", "m"]), on="graph6", how="left")
     df["status"] = df.apply(lambda x: "satisfies OCC" if not x.fails_occ
+                            else "fails OCC · screened not CM (unproven)" if x.decided_by == "screen_ZZp"
                             else "fails OCC · not computed yet" if pd.isna(x.is_cm)
                             else ("fails OCC · CM" if x.is_cm == 1 else "fails OCC · not CM"), axis=1)
     df["h"] = df.h_vector.map(lambda s: tuple(json.loads(s)) if isinstance(s, str) else None)
+    # graph numbers repeat across n, so graphs are identified by graph6 and labelled "n=9 #7161"
+    df["label"] = df.apply(lambda x: f"n={x.n} #{x.graph_number}", axis=1)
     return df.sort_values(["n", "graph_number"]).reset_index(drop=True), feature_cols
 
 
@@ -179,8 +182,8 @@ def on_clear() -> None:
     ss.page = 1
 
 
-def on_open(num: int) -> None:
-    ss.sel_graph = num
+def on_open(g6: str) -> None:
+    ss.sel_graph = g6
     ss.lookup = ""
     ss.view = "Graph"
 
@@ -284,7 +287,7 @@ def graph_panel(row: pd.Series, key: str, size: float = 4.2) -> None:
         c1.caption("1 separated pair" if n_pairs == 1 else "No separated pairs (satisfies OCC)")
     odd = c2.toggle("Show all chordless odd cycles", key=f"odd{key}")
     st.image(png(row.graph6, pair, odd, size=size))
-    st.markdown(f"**Graph #{row.graph_number}** · n = {row.n}, m = {row.m} · {row.status}")
+    st.markdown(f"**Graph {row.label}** · m = {row.m} · {row.status}")
     st.code(row.graph6, language=None)  # graph6 may contain backticks, so never put it in markdown
     st.markdown("**Hilbert numerator**" + (" (symmetric)" if row.h_symmetric == 1 else ""))
     st.latex(h_latex(row.h))
@@ -307,9 +310,11 @@ def graph_panel(row: pd.Series, key: str, size: float = 4.2) -> None:
             st.code("\n".join(ideal_generators(row.toric_ideal)), language=None)
 
 
-def option_label(num: int) -> str:
-    r = df.loc[df.graph_number == num].iloc[0]
-    return f"#{num} · m={r.m} · {r.status}"
+OPTION_LABELS = dict(zip(df.graph6, df.label + " · m=" + df.m.astype(str) + " · " + df.status))
+
+
+def option_label(g6: str) -> str:
+    return OPTION_LABELS[g6]
 
 
 # ------------------------------------------------------------------ views
@@ -330,39 +335,48 @@ if current == "Gallery":
     for k, (_, row) in enumerate(chunk.iterrows()):
         with cols[k % ncols].container(border=True):
             st.image(png(row.graph6, size=2.2, labels=False))
-            st.markdown(f"**#{row.graph_number}** · m = {row.m}")
+            st.markdown(f"**{row.label}** · m = {row.m}")
             st.caption(f"{row.status}  \nh = ({', '.join(map(str, row.h)) if row.h else '–'})")
-            st.button("Open", key=f"open{row.graph6}", on_click=on_open, args=(int(row.graph_number),),
+            st.button("Open", key=f"open{row.graph6}", on_click=on_open, args=(row.graph6,),
                       width="stretch")
 
 elif current == "Graph":
-    nums = view.graph_number.astype(int).tolist()
+    g6s = view.graph6.tolist()
     c1, c2 = st.columns([2, 1])
-    if nums:
-        if ss.get("sel_graph") not in nums:
-            ss.sel_graph = nums[0]
-        c1.selectbox("Choose from current results", nums, format_func=option_label, key="sel_graph")
+    if g6s:
+        if ss.get("sel_graph") not in g6s:
+            ss.sel_graph = g6s[0]
+        c1.selectbox("Choose from current results", g6s, format_func=option_label, key="sel_graph")
     else:
         c1.info("No graphs in the current results — look one up instead.")
-    lookup = c2.text_input("…or look up any graph", key="lookup", placeholder="graph number or graph6")
+    lookup = c2.text_input("…or look up any graph", key="lookup",
+                           placeholder="graph6, or n:number like 9:7161")
     if lookup.strip():
-        hit = df[(df.graph6 == lookup.strip()) | (df.graph_number.astype(str) == lookup.strip())]
-        if hit.empty:
-            st.warning(f"No graph “{lookup.strip()}” in the database.")
+        q = lookup.strip()
+        if ":" in q and q.split(":")[0].isdigit():
+            n_q, num_q = q.split(":", 1)
+            hit = df[(df.n.astype(str) == n_q) & (df.graph_number.astype(str) == num_q.strip())]
         else:
+            hit = df[(df.graph6 == q) | (df.graph_number.astype(str) == q)]
+        if hit.empty:
+            st.warning(f"No graph “{q}” in the database.")
+        else:
+            if len(hit) > 1:
+                st.info(f"Number {q} exists for n = {', '.join(map(str, hit.n))}; showing n = {hit.n.iloc[-1]}. "
+                        f"Type e.g. {hit.n.iloc[0]}:{q} for another.")
             st.caption("Showing the looked-up graph. Clear the lookup box to go back to your results.")
-            graph_panel(hit.iloc[0], "g")
-    elif nums:
-        graph_panel(view[view.graph_number == ss.sel_graph].iloc[0], "g")
+            graph_panel(hit.iloc[-1], "g")
+    elif g6s:
+        graph_panel(view[view.graph6 == ss.sel_graph].iloc[0], "g")
 
 elif current == "Compare":
-    nums = view.graph_number.astype(int).tolist()
+    g6s = view.graph6.tolist()
     left, right = st.columns(2)
     for col, key, idx in ((left, "L", 0), (right, "R", 1)):
         with col:
-            num = st.selectbox("Graph", nums, index=min(idx, len(nums) - 1), format_func=option_label,
-                               key=f"cmp{key}")
-            graph_panel(view[view.graph_number == num].iloc[0], key, size=3.6)
+            g6 = st.selectbox("Graph", g6s, index=min(idx, len(g6s) - 1), format_func=option_label,
+                              key=f"cmp{key}")
+            graph_panel(view[view.graph6 == g6].iloc[0], key, size=3.6)
 
 else:  # Table
     default_cols = ["graph_number", "n", "m", "status", "depth", "h_vector", "h_symmetric", "is_gorenstein",
