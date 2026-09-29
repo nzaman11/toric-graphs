@@ -62,7 +62,12 @@ Note: a negative h-coefficient ⇒ not CM is automatic (CM ⇒ h ≥ 0). The con
 at n = 8, non-CM is *always detected* by the Hilbert series, so CM could be decided from the
 Hilbert series alone (much cheaper than a resolution).
 
-**Status.** Open. Test at n = 9. Also: why depth exactly n − 1?
+**Status (n = 9, 2026-09-29).** The strong form (negative *top* coefficient, others ≥ 0) is
+**false**: 3,667 of the 6,400 non-CM graphs have a positive top coefficient. The weak form holds
+**exactly**: every one of the 7,125 failing 9-vertex graphs is not CM iff some h-coefficient is
+negative (6,400 negative; all 725 with h ≥ 0 have depth 9 over ZZ/32003, hence are CM).
+Restated conjecture **C2′: for G failing OCC, k[G] is CM iff its h-vector is nonnegative.**
+Exact for all 7,292 failing graphs with n ≤ 9. Also: why depth exactly n − 1 at n = 8?
 
 **Proof notes.** _(Navila)_
 
@@ -80,8 +85,9 @@ are non-CM. The other 69 (every separated pair linked only through a cut vertex)
 
 Related: 1 separated pair → 107 non-CM / 16 CM; ≥ 2 separated pairs → 3 non-CM / 35 CM.
 
-**Status.** Open, first look only (univariate crosstabs, no model yet). Next: what separates the
-51 CM from the 18 non-CM among the cut-vertex-linked graphs? Test at n = 9.
+**Status. FALSE at n = 9 (2026-09-29).** 89 CM failing 9-vertex graphs have a separated pair
+inside one block (e.g. 52930, 92788, 92948, …; 5,913 such graphs are not CM). CM here is proved
+(depth 9 over ZZ/32003 and also over QQ).
 
 **Proof notes.** _(Navila)_
 
@@ -107,8 +113,10 @@ cycle between two vertices have opposite parity, so the arc of C can be chosen t
 even.
 
 **C4′ (the half that is not refuted).** If some even cycle meets both cycles of a separated
-pair, then k[G] is not CM. The n = 9 counterexamples below all go the *other* way (predicted CM,
-actually not CM), so C4′ is still open; its n = 9 test is in `reports/n9_results.md`.
+pair, then k[G] is not CM. **Also FALSE at n = 9:** 107 CM graphs have such a cycle (so C3,
+which follows from C4′, fails too). Final n = 9 scorecard for C4 (pre-registered): accuracy
+0.982; 21 predicted-CM graphs are not CM, 107 predicted-not-CM graphs are CM
+(`reports/n9_results.md`).
 
 **How it was found.** A depth-1 decision tree on the 161 n = 8 failing graphs split on
 "has a 6-cycle" (108/108 not CM; 2 errors: graphs 89 and 2003). Asking *which* 6-cycles matter
