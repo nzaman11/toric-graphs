@@ -16,6 +16,7 @@ import streamlit as st
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "src"))
+from toric_graphs.build import build  # noqa: E402
 from toric_graphs.db import DEFAULT_DB  # noqa: E402
 from toric_graphs.draw import graph_png  # noqa: E402
 from toric_graphs.m2parse import ideal_generators  # noqa: E402
@@ -26,9 +27,18 @@ ss = st.session_state
 
 # ------------------------------------------------------------------ data
 
+@st.cache_resource(show_spinner=False)
+def ensure_db() -> Path:
+    """Build the database on first start (e.g. on Streamlit Cloud, where it isn't committed)."""
+    if not DEFAULT_DB.exists():
+        with st.spinner("First start: building the database from the Macaulay2 results (about 1–2 minutes)…"):
+            build(DEFAULT_DB, processes=1)  # no forking inside the Streamlit server
+    return DEFAULT_DB
+
+
 @st.cache_data
 def load() -> tuple[pd.DataFrame, list[str]]:
-    with sqlite3.connect(DEFAULT_DB) as c:
+    with sqlite3.connect(ensure_db()) as c:
         g = pd.read_sql("SELECT * FROM graphs", c)
         r = pd.read_sql("SELECT * FROM m2_results", c)
         f = pd.read_sql("SELECT * FROM features", c)

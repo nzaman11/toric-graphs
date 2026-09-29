@@ -29,7 +29,7 @@ python3 -m venv .venv
 ## Build the database
 
 ```bash
-.venv/bin/python scripts/build_db.py --fresh
+.venv/bin/python scripts/build_db.py
 ```
 
 Creates `data/toric_graphs.sqlite` (not committed; rebuilt from the text files in ~15 s) with
@@ -45,6 +45,12 @@ tables `graphs`, `m2_results` and `features` (82 graph-only features, see
 Opens at http://localhost:8501. Gallery, single-graph view (separated odd-cycle pair in
 blue/orange, Hilbert numerator, generators), side-by-side compare, and a filterable table.
 Presets include the Gorenstein graphs and the C3 groups from `conjectures.md`.
+
+### Hosting (Streamlit Community Cloud, invite-only)
+
+The app builds `data/toric_graphs.sqlite` itself on first start (~1 min), so it deploys straight
+from this repo: main file `app/explorer.py`, Python 3.12+, dependencies from `requirements.txt`.
+Keep the app's sharing setting on "Only specific people can view this app".
 
 ## Recompute graphs with Macaulay2
 
