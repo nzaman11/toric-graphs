@@ -116,8 +116,20 @@ def hilbert_rows(n: int) -> dict[int, list[str]]:
     return rows
 
 
-def stage_hilbert(n: int, workers: int, batch: int, timeout: float) -> None:
-    run_batches(read_graphs(n), ROOT / "m2" / "compute_hilbert.m2", paths(n)["hilbert.tsv"], n,
+def take_share(items: list, share: str | None) -> list:
+    """share 'k/K' or 'k1,k2/K': keep items whose position i has i % K in {k...} (interleaved, so
+    shares are equally hard). E.g. laptop '1,2/3' and droplet '0/3' split the work 2:1."""
+    if not share:
+        return items
+    ks, big_k = share.split("/")
+    keep, big_k = {int(k) for k in ks.split(",")}, int(big_k)
+    return [it for i, it in enumerate(items) if i % big_k in keep]
+
+
+def stage_hilbert(n: int, workers: int, batch: int, timeout: float, share: str | None = None) -> None:
+    items = take_share(read_graphs(n), share)
+    log(f"hilbert: {len(items)} graphs" + (f" (share {share})" if share else ""))
+    run_batches(items, ROOT / "m2" / "compute_hilbert.m2", paths(n)["hilbert.tsv"], n,
                 workers=workers, batch_size=batch, timeout=timeout, min_fields=5, log=log)
 
 
@@ -175,12 +187,14 @@ def main() -> None:
     ap.add_argument("--slices", type=int, default=400, help="geng res/mod slices for enumeration")
     ap.add_argument("--batch", type=int, default=500, help="graphs per Macaulay2 session")
     ap.add_argument("--timeout", type=float, default=4 * 3600, help="seconds per Macaulay2 session")
+    ap.add_argument("--share", default=None,
+                    help="k/K: hilbert step only does every K-th graph from position k (split across machines)")
     a = ap.parse_args()
     DERIVED.mkdir(parents=True, exist_ok=True)
     if a.step in ("enumerate", "all"):
         enumerate_failing(a.n, a.workers, a.slices)
     if a.step in ("hilbert", "all"):
-        stage_hilbert(a.n, a.workers, a.batch, a.timeout)
+        stage_hilbert(a.n, a.workers, a.batch, a.timeout, a.share)
     if a.step in ("depth", "all"):
         stage_depth(a.n, a.workers, max(1, a.batch // 5), a.timeout)
     if a.step in ("summary", "all"):
