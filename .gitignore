@@ -14,3 +14,10 @@ data/derived/*.jsonl.tmp
 *-shm
 .streamlit/secrets.toml
 .env
+# n=10 run: work-in-progress and merged copies (the merged results are committed)
+data/derived/*.parts/
+data/derived/*.bak
+data/derived/*.before_merge_*
+data/derived/fail10_hilbert.tsv
+data/derived/fail10_hilbert_*.tsv
+data/derived/fail10_depth_droplet.txt

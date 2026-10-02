@@ -3,7 +3,7 @@
 Data-driven conjecture testing for toric ideals of graphs that fail the odd cycle condition (OCC):
 which edge rings k[G] are Cohen–Macaulay (CM) and Gorenstein, over k = ℚ.
 
-> Private work in progress. Underlying research: Navila Zaman (Connecticut College), SSRI 2026.
+> Work in progress. Underlying research: Navila Zaman (Connecticut College), SSRI 2026.
 
 ## Results so far
 
@@ -12,8 +12,13 @@ which edge rings k[G] are Cohen–Macaulay (CM) and Gorenstein, over k = ℚ.
   ideal, Hilbert series and a proven CM verdict for each failing graph.
 - **Edge-threshold theorem** (Navila): failing OCC forces n + 1 ≤ m ≤ C(n,2) − 9 for n ≥ 7, sharp;
   verified on all graphs with n = 7, 8.
-- **Surviving conjecture C2′:** for G failing OCC, k[G] is CM **iff its h-vector is nonnegative**.
-  Exact on all 7,292 failing graphs with n ≤ 9.
+- **Conjecture C2′:** for G failing OCC, k[G] is CM **iff its h-vector is nonnegative**.
+  Exact on all 7,292 failing graphs with n ≤ 9, but **false at n = 10** (e.g. graph 840203:
+  h = (1, 5, 10, 14, 11) ≥ 0, depth 9 over ℚ).
+- **n = 10 (in progress).** All 596,940 OCC-failing 10-vertex graphs have a Hilbert series
+  (`data/derived/fail10_hilbert.tsv.gz`); the depth step for the 31,798 with h ≥ 0 is still running
+  (`fail10_depth.txt` is a snapshot). C5 (Hamiltonian ⇒ not CM), exact for n ≤ 9, also fails at
+  n = 10 (489 counterexamples, e.g. graph 344101).
 - **Pre-registered test at n = 9.** Rule C4 (conjectured from n ≤ 8 with help from a decision tree)
   was committed before any n = 9 computation. It classified 98.2% of the 7,125 graphs correctly but
   was refuted (21 + 107 counterexamples), as were C1 (Gorenstein ⇔ complete intersection; 18
@@ -75,12 +80,12 @@ blue/orange, Hilbert numerator, generators), side-by-side compare, and a filtera
 presets for the conjecture groups. Graphs are labelled `n=9 #7161` because graph numbers repeat
 across n; look up a graph by graph6 or `n:number`.
 
-### Hosting (Streamlit Community Cloud, invite-only)
+### Hosting (Streamlit Community Cloud, public)
 
 Main file `app/explorer.py`, Python 3.12+, `requirements.txt`. On start the app unpacks the
 committed prebuilt database (seconds) and redoes this whenever pushed data changes it; if the
-prebuilt copy is stale it rebuilds from the text files (several minutes). Keep the sharing setting
-on "Only specific people can view this app"; invited viewers can download the data as CSV.
+prebuilt copy is stale it rebuilds from the text files (several minutes). The app is public, and
+viewers can download the data as CSV.
 
 ## Computing with Macaulay2
 

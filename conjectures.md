@@ -69,6 +69,13 @@ negative (6,400 negative; all 725 with h ≥ 0 have depth 9 over ZZ/32003, hence
 Restated conjecture **C2′: for G failing OCC, k[G] is CM iff its h-vector is nonnegative.**
 Exact for all 7,292 failing graphs with n ≤ 9. Also: why depth exactly n − 1 at n = 8?
 
+**C2′ is FALSE at n = 10 (2026-09-30).** Graph 840203 has h = (1, 5, 10, 14, 11) ≥ 0 but depth
+9 over QQ (checked on Macaulay2 1.26 and 1.22), so it is not CM. In the depth screen over
+ZZ/32003 (11,437 of the 31,798 graphs with h ≥ 0 done as of 2026-10-01), 4,834 graphs with h ≥ 0
+have depth < 10; these are C2′ counterexamples once confirmed over QQ. The direction
+"some h_i < 0 ⇒ not CM" is a theorem and still holds. Full n = 10 counts will go in the n = 10
+summary when the depth step finishes.
+
 **Proof notes.** _(Navila)_
 
 ---
@@ -157,6 +164,54 @@ refine only after the full n = 9 run.
 **Intuition to probe:** a cycle in the "connector" between C and C' gives closed walks that mix
 the two odd cycles, which might produce the extra relations that break CM. The right notion of
 "connector" is the open question.
+
+**Proof notes.** _(Navila)_
+
+---
+
+## C5. Hamiltonian failing graphs are not CM
+
+**Statement.** If G fails OCC and has a Hamiltonian cycle, then k[G] is not Cohen–Macaulay.
+
+**Evidence (n ≤ 9, 2026-10-01).** Exact for every failing graph with n ≤ 9:
+
+| n | Hamiltonian: CM / not CM | not Hamiltonian: CM / not CM |
+|---|---|---|
+| 7 | 0 / 0 | 6 / 0 |
+| 8 | 0 / 92 | 51 / 18 |
+| 9 | 0 / 5,676 | 725 / 724 |
+
+Hamiltonian ⇒ 2-connected, so at n = 8 the 92 Hamiltonian graphs are exactly the 92 same-block
+graphs of C3. At n = 9 C5 is strictly stronger than C3: all 89 CM graphs with a separated pair
+inside one block are non-Hamiltonian. For even n a Hamiltonian cycle is an even cycle meeting
+every odd cycle, so C5 at n = 8 is also an instance of C4′; for odd n it is not.
+
+How it was found: asked after the fact (post hoc, n ≤ 9 data already known), so n = 10 was the test.
+
+**Status. FALSE at n = 10 (2026-10-01).** Checked against the existing n = 10 files
+(`fail10_hilbert.tsv`, `fail10_depth.txt`, `fail10_depth_droplet.txt`; no new Macaulay2 runs).
+Of the 554,086 Hamiltonian failing 10-vertex graphs:
+
+| status | count |
+|---|---|
+| negative h-coefficient ⇒ not CM (proved) | 536,289 |
+| h ≥ 0, depth < 10 over ZZ/32003 (screen; not CM over QQ not yet confirmed) | 2,963 |
+| **h ≥ 0, depth 10 over ZZ/32003 ⇒ CM (proved)** | **489** |
+| h ≥ 0, depth not yet computed (paused depth step) | 14,345 |
+
+The 489 counterexamples have m = 15–22 (15: 4, 16: 9, 17: 34, 18: 71, 19: 107, 20: 122,
+21: 113, 22: 29). Smallest-m example, graph **344101** (`I?B@dPke_`):
+
+- edges 16 18 1-10 26 29 37 38 39 47 4-10 58 59 5-10 69 7-10 (m = 15);
+- separated pair {2, 6, 9}, {4, 7, 10};
+- Hamiltonian cycle 1-6-2-9-3-7-4-10-5-8-1;
+- h = (1, 5, 13, 18, 13) (not symmetric, so CM but not Gorenstein).
+
+CM is rigorous given Macaulay2: depth over ZZ/32003 ≤ depth over QQ (semicontinuity), so depth 10
+over ZZ/p gives depth 10 over QQ. **To do:** recheck 344101 directly over QQ before citing it.
+
+Hamiltonicity is still a strong signal: of the Hamiltonian graphs whose status is known, about
+99.9% are not CM. Like C2′, C5 first breaks at n = 10.
 
 **Proof notes.** _(Navila)_
 

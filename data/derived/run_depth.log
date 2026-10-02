@@ -1,0 +1,1180 @@
+[2026-09-30 05:06:06] depth: 21198 graphs with nonnegative h-vector (share 1,2/3)
+[2026-09-30 05:06:06] round 1: 21198 graphs to do in 424 batches on 8 workers
+[2026-09-30 05:06:21] [05:06:21] 50/21198 graphs · 3.5/s · elapsed 0.00 h · ETA 1.7 h
+[2026-09-30 05:06:23] [05:06:23] 100/21198 graphs · 6.2/s · elapsed 0.00 h · ETA 0.9 h
+[2026-09-30 05:06:23] [05:06:23] 150/21198 graphs · 9.2/s · elapsed 0.00 h · ETA 0.6 h
+[2026-09-30 05:06:25] [05:06:25] 200/21198 graphs · 10.5/s · elapsed 0.01 h · ETA 0.6 h
+[2026-09-30 05:06:36] [05:06:36] 250/21198 graphs · 8.4/s · elapsed 0.01 h · ETA 0.7 h
+[2026-09-30 05:06:41] [05:06:41] 300/21198 graphs · 8.6/s · elapsed 0.01 h · ETA 0.7 h
+[2026-09-30 05:06:47] [05:06:47] 350/21198 graphs · 8.6/s · elapsed 0.01 h · ETA 0.7 h
+[2026-09-30 05:06:51] [05:06:51] 400/21198 graphs · 8.9/s · elapsed 0.01 h · ETA 0.6 h
+[2026-09-30 05:06:59] [05:06:59] 450/21198 graphs · 8.5/s · elapsed 0.01 h · ETA 0.7 h
+[2026-09-30 05:07:02] [05:07:02] 500/21198 graphs · 9.0/s · elapsed 0.02 h · ETA 0.6 h
+[2026-09-30 05:07:06] [05:07:06] 550/21198 graphs · 9.3/s · elapsed 0.02 h · ETA 0.6 h
+[2026-09-30 05:07:14] [05:07:14] 600/21198 graphs · 8.9/s · elapsed 0.02 h · ETA 0.6 h
+[2026-09-30 05:07:14] [05:07:14] 650/21198 graphs · 9.6/s · elapsed 0.02 h · ETA 0.6 h
+[2026-09-30 05:07:24] [05:07:24] 700/21198 graphs · 9.1/s · elapsed 0.02 h · ETA 0.6 h
+[2026-09-30 05:07:29] [05:07:29] 750/21198 graphs · 9.1/s · elapsed 0.02 h · ETA 0.6 h
+[2026-09-30 05:07:30] [05:07:30] 800/21198 graphs · 9.5/s · elapsed 0.02 h · ETA 0.6 h
+[2026-09-30 05:07:35] [05:07:35] 850/21198 graphs · 9.6/s · elapsed 0.02 h · ETA 0.6 h
+[2026-09-30 05:07:42] [05:07:42] 900/21198 graphs · 9.4/s · elapsed 0.03 h · ETA 0.6 h
+[2026-09-30 05:07:47] [05:07:47] 950/21198 graphs · 9.4/s · elapsed 0.03 h · ETA 0.6 h
+[2026-09-30 05:07:48] [05:07:48] 1000/21198 graphs · 9.8/s · elapsed 0.03 h · ETA 0.6 h
+[2026-09-30 05:07:53] [05:07:53] 1050/21198 graphs · 9.8/s · elapsed 0.03 h · ETA 0.6 h
+[2026-09-30 05:07:57] [05:07:57] 1100/21198 graphs · 10.0/s · elapsed 0.03 h · ETA 0.6 h
+[2026-09-30 05:08:02] [05:08:02] 1150/21198 graphs · 9.9/s · elapsed 0.03 h · ETA 0.6 h
+[2026-09-30 05:08:10] [05:08:10] 1200/21198 graphs · 9.7/s · elapsed 0.03 h · ETA 0.6 h
+[2026-09-30 05:08:22] [05:08:22] 1250/21198 graphs · 9.2/s · elapsed 0.04 h · ETA 0.6 h
+[2026-09-30 05:08:25] [05:08:25] 1300/21198 graphs · 9.4/s · elapsed 0.04 h · ETA 0.6 h
+[2026-09-30 05:08:39] [05:08:39] 1350/21198 graphs · 8.8/s · elapsed 0.04 h · ETA 0.6 h
+[2026-09-30 05:08:57] [05:08:57] 1400/21198 graphs · 8.2/s · elapsed 0.05 h · ETA 0.7 h
+[2026-09-30 05:08:59] [05:08:59] 1450/21198 graphs · 8.4/s · elapsed 0.05 h · ETA 0.7 h
+[2026-09-30 05:09:03] [05:09:03] 1500/21198 graphs · 8.5/s · elapsed 0.05 h · ETA 0.6 h
+[2026-09-30 05:09:21] [05:09:21] 1550/21198 graphs · 7.9/s · elapsed 0.05 h · ETA 0.7 h
+[2026-09-30 05:09:23] [05:09:23] 1600/21198 graphs · 8.1/s · elapsed 0.05 h · ETA 0.7 h
+[2026-09-30 05:09:33] [05:09:33] 1650/21198 graphs · 8.0/s · elapsed 0.06 h · ETA 0.7 h
+[2026-09-30 05:10:39] [05:10:39] 1700/21198 graphs · 6.2/s · elapsed 0.08 h · ETA 0.9 h
+[2026-09-30 05:10:44] [05:10:44] 1750/21198 graphs · 6.3/s · elapsed 0.08 h · ETA 0.9 h
+[2026-09-30 05:10:48] [05:10:48] 1800/21198 graphs · 6.4/s · elapsed 0.08 h · ETA 0.8 h
+[2026-09-30 05:10:53] [05:10:53] 1850/21198 graphs · 6.4/s · elapsed 0.08 h · ETA 0.8 h
+[2026-09-30 05:11:03] [05:11:03] 1900/21198 graphs · 6.4/s · elapsed 0.08 h · ETA 0.8 h
+[2026-09-30 05:18:06] depth: 21198 graphs with nonnegative h-vector (share 1,2/3)
+[2026-09-30 05:18:06] round 1: 19179 graphs to do in 768 batches on 7 workers
+[2026-09-30 05:18:09] [05:18:09] 2044/21198 graphs · 6.7/s · elapsed 0.00 h · ETA 0.8 h
+[2026-09-30 05:18:11] [05:18:11] 2069/21198 graphs · 9.3/s · elapsed 0.00 h · ETA 0.6 h
+[2026-09-30 05:18:12] [05:18:12] 2094/21198 graphs · 12.8/s · elapsed 0.00 h · ETA 0.4 h
+[2026-09-30 05:18:14] [05:18:14] 2119/21198 graphs · 11.4/s · elapsed 0.00 h · ETA 0.5 h
+[2026-09-30 05:18:16] [05:18:16] 2144/21198 graphs · 12.6/s · elapsed 0.00 h · ETA 0.4 h
+[2026-09-30 05:18:16] [05:18:16] 2169/21198 graphs · 14.8/s · elapsed 0.00 h · ETA 0.4 h
+[2026-09-30 05:18:16] [05:18:16] 2194/21198 graphs · 16.7/s · elapsed 0.00 h · ETA 0.3 h
+[2026-09-30 05:18:18] [05:18:18] 2219/21198 graphs · 16.3/s · elapsed 0.00 h · ETA 0.3 h
+[2026-09-30 05:18:18] [05:18:18] 2244/21198 graphs · 17.7/s · elapsed 0.00 h · ETA 0.3 h
+[2026-09-30 05:18:21] [05:18:21] 2269/21198 graphs · 16.7/s · elapsed 0.00 h · ETA 0.3 h
+[2026-09-30 05:18:21] [05:18:21] 2294/21198 graphs · 17.9/s · elapsed 0.00 h · ETA 0.3 h
+[2026-09-30 05:18:21] [05:18:21] 2319/21198 graphs · 19.2/s · elapsed 0.00 h · ETA 0.3 h
+[2026-09-30 05:18:24] [05:18:24] 2344/21198 graphs · 17.5/s · elapsed 0.01 h · ETA 0.3 h
+[2026-09-30 05:18:26] [05:18:26] 2369/21198 graphs · 17.5/s · elapsed 0.01 h · ETA 0.3 h
+[2026-09-30 05:18:27] [05:18:27] 2394/21198 graphs · 18.0/s · elapsed 0.01 h · ETA 0.3 h
+[2026-09-30 05:18:29] [05:18:29] 2419/21198 graphs · 17.5/s · elapsed 0.01 h · ETA 0.3 h
+[2026-09-30 05:18:29] [05:18:29] 2444/21198 graphs · 18.1/s · elapsed 0.01 h · ETA 0.3 h
+[2026-09-30 05:18:32] [05:18:32] 2469/21198 graphs · 17.1/s · elapsed 0.01 h · ETA 0.3 h
+[2026-09-30 05:18:33] [05:18:33] 2494/21198 graphs · 17.6/s · elapsed 0.01 h · ETA 0.3 h
+[2026-09-30 05:18:33] [05:18:33] 2519/21198 graphs · 18.3/s · elapsed 0.01 h · ETA 0.3 h
+[2026-09-30 05:18:35] [05:18:35] 2544/21198 graphs · 18.2/s · elapsed 0.01 h · ETA 0.3 h
+[2026-09-30 05:18:36] [05:18:36] 2569/21198 graphs · 18.2/s · elapsed 0.01 h · ETA 0.3 h
+[2026-09-30 05:18:38] [05:18:38] 2594/21198 graphs · 18.0/s · elapsed 0.01 h · ETA 0.3 h
+[2026-09-30 05:18:38] [05:18:38] 2619/21198 graphs · 18.6/s · elapsed 0.01 h · ETA 0.3 h
+[2026-09-30 05:18:39] [05:18:39] 2644/21198 graphs · 18.5/s · elapsed 0.01 h · ETA 0.3 h
+[2026-09-30 05:18:45] [05:18:45] 2669/21198 graphs · 16.5/s · elapsed 0.01 h · ETA 0.3 h
+[2026-09-30 05:18:47] [05:18:47] 2694/21198 graphs · 16.4/s · elapsed 0.01 h · ETA 0.3 h
+[2026-09-30 05:18:47] [05:18:47] 2719/21198 graphs · 16.9/s · elapsed 0.01 h · ETA 0.3 h
+[2026-09-30 05:18:49] [05:18:49] 2744/21198 graphs · 16.6/s · elapsed 0.01 h · ETA 0.3 h
+[2026-09-30 05:19:08] [05:19:08] 2769/21198 graphs · 12.1/s · elapsed 0.02 h · ETA 0.4 h
+[2026-09-30 05:19:12] [05:19:12] 2794/21198 graphs · 11.7/s · elapsed 0.02 h · ETA 0.4 h
+[2026-09-30 05:19:16] [05:19:16] 2819/21198 graphs · 11.4/s · elapsed 0.02 h · ETA 0.4 h
+[2026-09-30 05:19:19] [05:19:19] 2844/21198 graphs · 11.3/s · elapsed 0.02 h · ETA 0.5 h
+[2026-09-30 05:19:20] [05:19:20] 2869/21198 graphs · 11.4/s · elapsed 0.02 h · ETA 0.4 h
+[2026-09-30 05:19:23] [05:19:23] 2894/21198 graphs · 11.3/s · elapsed 0.02 h · ETA 0.5 h
+[2026-09-30 05:19:26] [05:19:26] 2919/21198 graphs · 11.2/s · elapsed 0.02 h · ETA 0.5 h
+[2026-09-30 05:19:30] [05:19:30] 2944/21198 graphs · 10.9/s · elapsed 0.02 h · ETA 0.5 h
+[2026-09-30 05:19:33] [05:19:33] 2969/21198 graphs · 10.8/s · elapsed 0.02 h · ETA 0.5 h
+[2026-09-30 05:19:34] [05:19:34] 2994/21198 graphs · 11.1/s · elapsed 0.02 h · ETA 0.5 h
+[2026-09-30 05:19:37] [05:19:37] 3019/21198 graphs · 10.9/s · elapsed 0.03 h · ETA 0.5 h
+[2026-09-30 05:19:37] [05:19:37] 3044/21198 graphs · 11.2/s · elapsed 0.03 h · ETA 0.5 h
+[2026-09-30 05:19:41] [05:19:41] 3069/21198 graphs · 11.0/s · elapsed 0.03 h · ETA 0.5 h
+[2026-09-30 05:19:41] [05:19:41] 3094/21198 graphs · 11.2/s · elapsed 0.03 h · ETA 0.4 h
+[2026-09-30 05:19:42] [05:19:42] 3119/21198 graphs · 11.4/s · elapsed 0.03 h · ETA 0.4 h
+[2026-09-30 05:19:45] [05:19:45] 3144/21198 graphs · 11.4/s · elapsed 0.03 h · ETA 0.4 h
+[2026-09-30 05:19:46] [05:19:46] 3169/21198 graphs · 11.4/s · elapsed 0.03 h · ETA 0.4 h
+[2026-09-30 05:19:48] [05:19:48] 3194/21198 graphs · 11.5/s · elapsed 0.03 h · ETA 0.4 h
+[2026-09-30 05:19:49] [05:19:49] 3219/21198 graphs · 11.6/s · elapsed 0.03 h · ETA 0.4 h
+[2026-09-30 05:19:50] [05:19:50] 3244/21198 graphs · 11.7/s · elapsed 0.03 h · ETA 0.4 h
+[2026-09-30 05:19:52] [05:19:52] 3269/21198 graphs · 11.8/s · elapsed 0.03 h · ETA 0.4 h
+[2026-09-30 05:19:54] [05:19:54] 3294/21198 graphs · 11.8/s · elapsed 0.03 h · ETA 0.4 h
+[2026-09-30 05:19:57] [05:19:57] 3319/21198 graphs · 11.7/s · elapsed 0.03 h · ETA 0.4 h
+[2026-09-30 05:20:00] [05:20:00] 3344/21198 graphs · 11.6/s · elapsed 0.03 h · ETA 0.4 h
+[2026-09-30 05:20:03] [05:20:03] 3369/21198 graphs · 11.5/s · elapsed 0.03 h · ETA 0.4 h
+[2026-09-30 05:20:04] [05:20:04] 3394/21198 graphs · 11.6/s · elapsed 0.03 h · ETA 0.4 h
+[2026-09-30 05:20:04] [05:20:04] 3419/21198 graphs · 11.8/s · elapsed 0.03 h · ETA 0.4 h
+[2026-09-30 05:20:06] [05:20:06] 3444/21198 graphs · 11.8/s · elapsed 0.03 h · ETA 0.4 h
+[2026-09-30 05:20:08] [05:20:08] 3469/21198 graphs · 11.8/s · elapsed 0.03 h · ETA 0.4 h
+[2026-09-30 05:20:09] [05:20:09] 3494/21198 graphs · 12.0/s · elapsed 0.03 h · ETA 0.4 h
+[2026-09-30 05:20:13] [05:20:13] 3519/21198 graphs · 11.8/s · elapsed 0.04 h · ETA 0.4 h
+[2026-09-30 05:20:13] [05:20:13] 3544/21198 graphs · 12.0/s · elapsed 0.04 h · ETA 0.4 h
+[2026-09-30 05:20:20] [05:20:20] 3569/21198 graphs · 11.6/s · elapsed 0.04 h · ETA 0.4 h
+[2026-09-30 05:20:21] [05:20:21] 3594/21198 graphs · 11.6/s · elapsed 0.04 h · ETA 0.4 h
+[2026-09-30 05:20:23] [05:20:23] 3619/21198 graphs · 11.7/s · elapsed 0.04 h · ETA 0.4 h
+[2026-09-30 05:20:25] [05:20:25] 3644/21198 graphs · 11.7/s · elapsed 0.04 h · ETA 0.4 h
+[2026-09-30 05:20:27] [05:20:27] 3669/21198 graphs · 11.7/s · elapsed 0.04 h · ETA 0.4 h
+[2026-09-30 05:20:31] [05:20:31] 3694/21198 graphs · 11.5/s · elapsed 0.04 h · ETA 0.4 h
+[2026-09-30 05:20:31] [05:20:31] 3719/21198 graphs · 11.7/s · elapsed 0.04 h · ETA 0.4 h
+[2026-09-30 05:20:33] [05:20:33] 3744/21198 graphs · 11.7/s · elapsed 0.04 h · ETA 0.4 h
+[2026-09-30 05:20:36] [05:20:36] 3769/21198 graphs · 11.6/s · elapsed 0.04 h · ETA 0.4 h
+[2026-09-30 05:20:39] [05:20:39] 3794/21198 graphs · 11.5/s · elapsed 0.04 h · ETA 0.4 h
+[2026-09-30 05:20:50] [05:20:50] 3819/21198 graphs · 10.9/s · elapsed 0.05 h · ETA 0.4 h
+[2026-09-30 05:20:52] [05:20:52] 3844/21198 graphs · 11.0/s · elapsed 0.05 h · ETA 0.4 h
+[2026-09-30 05:20:53] [05:20:53] 3869/21198 graphs · 11.1/s · elapsed 0.05 h · ETA 0.4 h
+[2026-09-30 05:20:56] [05:20:56] 3894/21198 graphs · 11.0/s · elapsed 0.05 h · ETA 0.4 h
+[2026-09-30 05:20:56] [05:20:56] 3919/21198 graphs · 11.2/s · elapsed 0.05 h · ETA 0.4 h
+[2026-09-30 05:21:03] [05:21:03] 3944/21198 graphs · 10.8/s · elapsed 0.05 h · ETA 0.4 h
+[2026-09-30 05:21:16] [05:21:16] 3969/21198 graphs · 10.2/s · elapsed 0.05 h · ETA 0.5 h
+[2026-09-30 05:21:17] [05:21:17] 3994/21198 graphs · 10.3/s · elapsed 0.05 h · ETA 0.5 h
+[2026-09-30 05:21:37] [05:21:37] 4019/21198 graphs · 9.4/s · elapsed 0.06 h · ETA 0.5 h
+[2026-09-30 05:21:47] [05:21:47] 4044/21198 graphs · 9.1/s · elapsed 0.06 h · ETA 0.5 h
+[2026-09-30 05:21:52] [05:21:52] 4069/21198 graphs · 9.1/s · elapsed 0.06 h · ETA 0.5 h
+[2026-09-30 05:21:53] [05:21:53] 4094/21198 graphs · 9.1/s · elapsed 0.06 h · ETA 0.5 h
+[2026-09-30 05:22:10] [05:22:10] 4119/21198 graphs · 8.6/s · elapsed 0.07 h · ETA 0.6 h
+[2026-09-30 05:22:12] [05:22:12] 4144/21198 graphs · 8.6/s · elapsed 0.07 h · ETA 0.6 h
+[2026-09-30 05:22:49] [05:22:49] 4169/21198 graphs · 7.6/s · elapsed 0.08 h · ETA 0.6 h
+[2026-09-30 05:22:51] [05:22:51] 4194/21198 graphs · 7.6/s · elapsed 0.08 h · ETA 0.6 h
+[2026-09-30 05:22:56] [05:22:56] 4219/21198 graphs · 7.6/s · elapsed 0.08 h · ETA 0.6 h
+[2026-09-30 05:28:25] depth: 21198 graphs with nonnegative h-vector (share 1,2/3)
+[2026-09-30 05:28:25] round 1: 16926 graphs to do in 678 batches on 4 workers
+[2026-09-30 05:29:24] [05:29:24] 4297/21198 graphs · 0.4/s · elapsed 0.02 h · ETA 11.1 h
+[2026-10-01 10:51:32] depth: 31798 graphs with nonnegative h-vector
+[2026-10-01 10:51:32] round 1: 20170 graphs to do in 807 batches on 3 workers
+[2026-10-01 10:52:00]   batch r1_b0_1656: M2 exited 1: *** out of memory trying to allocate 120 bytes, exiting ***
+[2026-10-01 10:52:00] [10:52:00] 11628/31798 graphs · 0.0/s · elapsed 0.01 h · ETA nan h
+[2026-10-01 10:52:26]   batch r1_b2_1656: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 10:52:26] [10:52:26] 11630/31798 graphs · 0.0/s · elapsed 0.02 h · ETA 152.2 h
+[2026-10-01 10:52:53]   batch r1_b1_1656: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 10:52:53] [10:52:53] 11632/31798 graphs · 0.0/s · elapsed 0.02 h · ETA 114.3 h
+[2026-10-01 10:53:08] [10:53:08] 11657/31798 graphs · 0.3/s · elapsed 0.03 h · ETA 18.7 h
+[2026-10-01 10:53:13] [10:53:13] 11682/31798 graphs · 0.5/s · elapsed 0.03 h · ETA 10.5 h
+[2026-10-01 10:53:16]   batch r1_b4_1656: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 10:53:16] [10:53:16] 11683/31798 graphs · 0.5/s · elapsed 0.03 h · ETA 10.6 h
+[2026-10-01 10:53:17] [10:53:17] 11708/31798 graphs · 0.8/s · elapsed 0.03 h · ETA 7.3 h
+[2026-10-01 10:53:25] [10:53:25] 11733/31798 graphs · 0.9/s · elapsed 0.03 h · ETA 6.0 h
+[2026-10-01 10:53:39]   batch r1_b3_1656: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 10:53:39] [10:53:39] 11738/31798 graphs · 0.9/s · elapsed 0.04 h · ETA 6.4 h
+[2026-10-01 10:53:44] [10:53:44] 11763/31798 graphs · 1.0/s · elapsed 0.04 h · ETA 5.5 h
+[2026-10-01 10:54:16]   batch r1_b12_1656: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 10:54:16] [10:54:16] 11763/31798 graphs · 0.8/s · elapsed 0.05 h · ETA 6.8 h
+[2026-10-01 10:54:28] [10:54:28] 11788/31798 graphs · 0.9/s · elapsed 0.05 h · ETA 6.1 h
+[2026-10-01 10:54:43] [10:54:43] 11813/31798 graphs · 1.0/s · elapsed 0.05 h · ETA 5.8 h
+[2026-10-01 10:55:10] [10:55:10] 11838/31798 graphs · 1.0/s · elapsed 0.06 h · ETA 5.8 h
+[2026-10-01 10:55:46] [10:55:46] 11863/31798 graphs · 0.9/s · elapsed 0.07 h · ETA 6.0 h
+[2026-10-01 10:56:04] [10:56:04] 11888/31798 graphs · 1.0/s · elapsed 0.08 h · ETA 5.8 h
+[2026-10-01 10:56:53] [10:56:53] 11913/31798 graphs · 0.9/s · elapsed 0.09 h · ETA 6.2 h
+[2026-10-01 10:56:58] [10:56:58] 11938/31798 graphs · 0.9/s · elapsed 0.09 h · ETA 5.8 h
+[2026-10-01 10:57:20]   batch r1_b16_1656: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 10:57:20] [10:57:20] 11957/31798 graphs · 0.9/s · elapsed 0.10 h · ETA 5.8 h
+[2026-10-01 10:57:24]   batch r1_b18_1656: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 10:57:24] [10:57:24] 11973/31798 graphs · 1.0/s · elapsed 0.10 h · ETA 5.6 h
+[2026-10-01 10:57:25] [10:57:25] 11998/31798 graphs · 1.0/s · elapsed 0.10 h · ETA 5.3 h
+[2026-10-01 10:57:39] [10:57:39] 12023/31798 graphs · 1.1/s · elapsed 0.10 h · ETA 5.1 h
+[2026-10-01 10:57:52] [10:57:52] 12048/31798 graphs · 1.1/s · elapsed 0.11 h · ETA 5.0 h
+[2026-10-01 10:58:10] [10:58:10] 12073/31798 graphs · 1.1/s · elapsed 0.11 h · ETA 4.9 h
+[2026-10-01 10:58:58]   batch r1_b26_1656: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 10:58:58] [10:58:58] 12082/31798 graphs · 1.0/s · elapsed 0.12 h · ETA 5.4 h
+[2026-10-01 10:59:09] [10:59:09] 12107/31798 graphs · 1.0/s · elapsed 0.13 h · ETA 5.2 h
+[2026-10-01 10:59:10]   batch r1_b23_1656: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 10:59:10] [10:59:10] 12126/31798 graphs · 1.1/s · elapsed 0.13 h · ETA 5.0 h
+[2026-10-01 10:59:49]   batch r1_b29_1656: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 10:59:49] [10:59:49] 12129/31798 graphs · 1.0/s · elapsed 0.14 h · ETA 5.4 h
+[2026-10-01 11:00:12]   batch r1_b27_1656: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 11:00:12] [11:00:12] 12138/31798 graphs · 1.0/s · elapsed 0.14 h · ETA 5.6 h
+[2026-10-01 11:00:33]   batch r1_b30_1656: M2 exited 1: *** out of memory trying to allocate 84 bytes, exiting ***
+[2026-10-01 11:00:33] [11:00:33] 12139/31798 graphs · 0.9/s · elapsed 0.15 h · ETA 5.8 h
+[2026-10-01 11:00:51]   batch r1_b32_1656: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 11:00:51] [11:00:51] 12139/31798 graphs · 0.9/s · elapsed 0.16 h · ETA 6.0 h
+[2026-10-01 11:01:54]   batch r1_b28_1656: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 11:01:54] [11:01:54] 12153/31798 graphs · 0.8/s · elapsed 0.17 h · ETA 6.5 h
+[2026-10-01 11:02:06]   batch r1_b33_1656: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 11:02:06] [11:02:06] 12155/31798 graphs · 0.8/s · elapsed 0.18 h · ETA 6.6 h
+[2026-10-01 11:02:08]   batch r1_b31_1656: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 11:02:08] [11:02:08] 12162/31798 graphs · 0.8/s · elapsed 0.18 h · ETA 6.5 h
+[2026-10-01 11:02:18] [11:02:18] 12187/31798 graphs · 0.9/s · elapsed 0.18 h · ETA 6.3 h
+[2026-10-01 11:02:30]   batch r1_b35_1656: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 11:02:30] [11:02:30] 12187/31798 graphs · 0.8/s · elapsed 0.18 h · ETA 6.4 h
+[2026-10-01 11:03:06]   batch r1_b34_1656: M2 exited 1: *** out of memory trying to allocate 104 bytes, exiting ***
+[2026-10-01 11:03:06] [11:03:06] 12188/31798 graphs · 0.8/s · elapsed 0.19 h · ETA 6.8 h
+[2026-10-01 11:03:17] [11:03:17] 12213/31798 graphs · 0.8/s · elapsed 0.20 h · ETA 6.6 h
+[2026-10-01 11:03:20] [11:03:20] 12238/31798 graphs · 0.9/s · elapsed 0.20 h · ETA 6.3 h
+[2026-10-01 11:03:21] [11:03:21] 12263/31798 graphs · 0.9/s · elapsed 0.20 h · ETA 6.1 h
+[2026-10-01 11:03:23] [11:03:23] 12288/31798 graphs · 0.9/s · elapsed 0.20 h · ETA 5.8 h
+[2026-10-01 11:03:25] [11:03:25] 12313/31798 graphs · 1.0/s · elapsed 0.20 h · ETA 5.6 h
+[2026-10-01 11:03:41] [11:03:41] 12338/31798 graphs · 1.0/s · elapsed 0.20 h · ETA 5.6 h
+[2026-10-01 11:03:46] [11:03:46] 12363/31798 graphs · 1.0/s · elapsed 0.20 h · ETA 5.4 h
+[2026-10-01 11:03:50] [11:03:50] 12388/31798 graphs · 1.0/s · elapsed 0.21 h · ETA 5.2 h
+[2026-10-01 11:03:56] [11:03:56] 12413/31798 graphs · 1.1/s · elapsed 0.21 h · ETA 5.1 h
+[2026-10-01 11:04:09] [11:04:09] 12438/31798 graphs · 1.1/s · elapsed 0.21 h · ETA 5.0 h
+[2026-10-01 11:04:34] [11:04:34] 12463/31798 graphs · 1.1/s · elapsed 0.22 h · ETA 5.0 h
+[2026-10-01 11:04:36] [11:04:36] 12488/31798 graphs · 1.1/s · elapsed 0.22 h · ETA 4.9 h
+[2026-10-01 11:04:38]   batch r1_b38_1656: M2 exited 1: *** out of memory trying to allocate 144 bytes, exiting ***
+[2026-10-01 11:04:38] [11:04:38] 12497/31798 graphs · 1.1/s · elapsed 0.22 h · ETA 4.9 h
+[2026-10-01 11:04:41] [11:04:41] 12522/31798 graphs · 1.1/s · elapsed 0.22 h · ETA 4.7 h
+[2026-10-01 11:04:43] [11:04:43] 12547/31798 graphs · 1.2/s · elapsed 0.22 h · ETA 4.6 h
+[2026-10-01 11:04:47] [11:04:47] 12572/31798 graphs · 1.2/s · elapsed 0.22 h · ETA 4.5 h
+[2026-10-01 11:04:49] [11:04:49] 12597/31798 graphs · 1.2/s · elapsed 0.22 h · ETA 4.4 h
+[2026-10-01 11:04:53] [11:04:53] 12622/31798 graphs · 1.2/s · elapsed 0.22 h · ETA 4.3 h
+[2026-10-01 11:05:06] [11:05:06] 12647/31798 graphs · 1.3/s · elapsed 0.23 h · ETA 4.3 h
+[2026-10-01 11:05:08] [11:05:08] 12672/31798 graphs · 1.3/s · elapsed 0.23 h · ETA 4.2 h
+[2026-10-01 11:05:13] [11:05:13] 12697/31798 graphs · 1.3/s · elapsed 0.23 h · ETA 4.1 h
+[2026-10-01 11:05:16]   batch r1_b44_1656: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 11:05:16] [11:05:16] 12717/31798 graphs · 1.3/s · elapsed 0.23 h · ETA 4.0 h
+[2026-10-01 11:05:18] [11:05:18] 12742/31798 graphs · 1.3/s · elapsed 0.23 h · ETA 3.9 h
+[2026-10-01 11:05:25] [11:05:25] 12767/31798 graphs · 1.4/s · elapsed 0.23 h · ETA 3.9 h
+[2026-10-01 11:05:43] [11:05:43] 12792/31798 graphs · 1.4/s · elapsed 0.24 h · ETA 3.9 h
+[2026-10-01 11:05:51] [11:05:51] 12817/31798 graphs · 1.4/s · elapsed 0.24 h · ETA 3.8 h
+[2026-10-01 11:05:54] [11:05:54] 12842/31798 graphs · 1.4/s · elapsed 0.24 h · ETA 3.7 h
+[2026-10-01 11:05:56] [11:05:56] 12867/31798 graphs · 1.4/s · elapsed 0.24 h · ETA 3.7 h
+[2026-10-01 11:06:01] [11:06:01] 12892/31798 graphs · 1.5/s · elapsed 0.24 h · ETA 3.6 h
+[2026-10-01 11:06:05] [11:06:05] 12917/31798 graphs · 1.5/s · elapsed 0.24 h · ETA 3.6 h
+[2026-10-01 11:06:09] [11:06:09] 12942/31798 graphs · 1.5/s · elapsed 0.24 h · ETA 3.5 h
+[2026-10-01 11:06:09] [11:06:09] 12967/31798 graphs · 1.5/s · elapsed 0.24 h · ETA 3.4 h
+[2026-10-01 11:06:17] [11:06:17] 12992/31798 graphs · 1.5/s · elapsed 0.25 h · ETA 3.4 h
+[2026-10-01 11:06:22] [11:06:22] 13017/31798 graphs · 1.6/s · elapsed 0.25 h · ETA 3.3 h
+[2026-10-01 11:06:25] [11:06:25] 13042/31798 graphs · 1.6/s · elapsed 0.25 h · ETA 3.3 h
+[2026-10-01 11:06:35] [11:06:35] 13067/31798 graphs · 1.6/s · elapsed 0.25 h · ETA 3.3 h
+[2026-10-01 11:06:57] [11:06:57] 13092/31798 graphs · 1.6/s · elapsed 0.26 h · ETA 3.3 h
+[2026-10-01 11:07:04] [11:07:04] 13117/31798 graphs · 1.6/s · elapsed 0.26 h · ETA 3.3 h
+[2026-10-01 11:07:09] [11:07:09] 13142/31798 graphs · 1.6/s · elapsed 0.26 h · ETA 3.2 h
+[2026-10-01 11:07:14] [11:07:14] 13167/31798 graphs · 1.6/s · elapsed 0.26 h · ETA 3.2 h
+[2026-10-01 11:07:21] [11:07:21] 13192/31798 graphs · 1.6/s · elapsed 0.26 h · ETA 3.1 h
+[2026-10-01 11:07:27] [11:07:27] 13217/31798 graphs · 1.7/s · elapsed 0.27 h · ETA 3.1 h
+[2026-10-01 11:07:38] [11:07:38] 13242/31798 graphs · 1.7/s · elapsed 0.27 h · ETA 3.1 h
+[2026-10-01 11:07:47] [11:07:47] 13267/31798 graphs · 1.7/s · elapsed 0.27 h · ETA 3.1 h
+[2026-10-01 11:07:49] [11:07:49] 13292/31798 graphs · 1.7/s · elapsed 0.27 h · ETA 3.0 h
+[2026-10-01 11:07:53] [11:07:53] 13317/31798 graphs · 1.7/s · elapsed 0.27 h · ETA 3.0 h
+[2026-10-01 11:08:01] [11:08:01] 13342/31798 graphs · 1.7/s · elapsed 0.27 h · ETA 3.0 h
+[2026-10-01 11:08:07] [11:08:07] 13367/31798 graphs · 1.7/s · elapsed 0.28 h · ETA 2.9 h
+[2026-10-01 11:08:17] [11:08:17] 13392/31798 graphs · 1.8/s · elapsed 0.28 h · ETA 2.9 h
+[2026-10-01 11:08:17] [11:08:17] 13417/31798 graphs · 1.8/s · elapsed 0.28 h · ETA 2.9 h
+[2026-10-01 11:08:36] [11:08:36] 13442/31798 graphs · 1.8/s · elapsed 0.28 h · ETA 2.9 h
+[2026-10-01 11:09:13] [11:09:13] 13467/31798 graphs · 1.7/s · elapsed 0.29 h · ETA 2.9 h
+[2026-10-01 11:09:21]   batch r1_b88_1656: M2 exited 1: *** out of memory trying to allocate 48 bytes, exiting ***
+[2026-10-01 11:09:21] [11:09:21] 13489/31798 graphs · 1.7/s · elapsed 0.30 h · ETA 2.9 h
+[2026-10-01 11:09:33] [11:09:33] 13514/31798 graphs · 1.7/s · elapsed 0.30 h · ETA 2.9 h
+[2026-10-01 11:09:35]   batch r1_b90_1656: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 11:09:35] [11:09:35] 13518/31798 graphs · 1.7/s · elapsed 0.30 h · ETA 2.9 h
+[2026-10-01 11:11:05] [11:11:05] 13543/31798 graphs · 1.6/s · elapsed 0.33 h · ETA 3.1 h
+[2026-10-01 11:12:35]   batch r1_b95_1656: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 11:12:35] [11:12:35] 13544/31798 graphs · 1.5/s · elapsed 0.35 h · ETA 3.3 h
+[2026-10-01 11:13:39]   batch r1_b93_1656: M2 exited 1: *** out of memory trying to allocate 48 bytes, exiting ***
+[2026-10-01 11:13:39] [11:13:39] 13561/31798 graphs · 1.5/s · elapsed 0.37 h · ETA 3.5 h
+[2026-10-01 11:13:57]   batch r1_b94_1656: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 11:13:57] [11:13:57] 13583/31798 graphs · 1.5/s · elapsed 0.37 h · ETA 3.5 h
+[2026-10-01 11:14:23] [11:14:23] 13608/31798 graphs · 1.4/s · elapsed 0.38 h · ETA 3.5 h
+[2026-10-01 11:15:21]   batch r1_b99_1656: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 11:15:21] [11:15:21] 13628/31798 graphs · 1.4/s · elapsed 0.40 h · ETA 3.6 h
+[2026-10-01 11:15:31]   batch r1_b96_1656: M2 exited 1: *** out of memory trying to allocate 152 bytes, exiting ***
+[2026-10-01 11:15:31] [11:15:31] 13643/31798 graphs · 1.4/s · elapsed 0.40 h · ETA 3.6 h
+[2026-10-01 11:15:32]   batch r1_b97_1656: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 11:15:32] [11:15:32] 13665/31798 graphs · 1.4/s · elapsed 0.40 h · ETA 3.6 h
+[2026-10-01 11:15:42]   batch r1_b100_1656: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 11:15:42] [11:15:42] 13665/31798 graphs · 1.4/s · elapsed 0.40 h · ETA 3.6 h
+[2026-10-01 11:16:25] [11:16:25] 13690/31798 graphs · 1.4/s · elapsed 0.41 h · ETA 3.6 h
+[2026-10-01 11:16:32]   batch r1_b103_1656: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 11:16:32] [11:16:32] 13694/31798 graphs · 1.4/s · elapsed 0.42 h · ETA 3.7 h
+[2026-10-01 11:16:33]   batch r1_b101_1656: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 11:16:33] [11:16:33] 13714/31798 graphs · 1.4/s · elapsed 0.42 h · ETA 3.6 h
+[2026-10-01 11:16:59]   batch r1_b106_1656: M2 exited 1: *** out of memory trying to allocate 104 bytes, exiting ***
+[2026-10-01 11:16:59] [11:16:59] 13714/31798 graphs · 1.4/s · elapsed 0.42 h · ETA 3.7 h
+[2026-10-01 11:17:09]   batch r1_b104_1656: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 11:17:09] [11:17:09] 13715/31798 graphs · 1.4/s · elapsed 0.43 h · ETA 3.7 h
+[2026-10-01 11:17:43]   batch r1_b105_1656: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 11:17:43] [11:17:43] 13717/31798 graphs · 1.3/s · elapsed 0.44 h · ETA 3.8 h
+[2026-10-01 11:17:44]   batch r1_b107_1656: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 11:17:44] [11:17:44] 13718/31798 graphs · 1.3/s · elapsed 0.44 h · ETA 3.8 h
+[2026-10-01 11:42:42] depth: 31798 graphs with nonnegative h-vector
+[2026-10-01 11:42:42] round 1: 18037 graphs to do in 722 batches on 2 workers
+[2026-10-01 11:42:51] [11:42:51] 13786/31798 graphs · 2.8/s · elapsed 0.00 h · ETA 1.8 h
+[2026-10-01 11:43:17] [11:43:17] 13811/31798 graphs · 1.5/s · elapsed 0.01 h · ETA 3.4 h
+[2026-10-01 11:43:51]   batch r1_b3_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 11:43:51] [11:43:51] 13823/31798 graphs · 0.9/s · elapsed 0.02 h · ETA 5.6 h
+[2026-10-01 11:44:05]   batch r1_b2_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 11:44:05] [11:44:05] 13840/31798 graphs · 0.9/s · elapsed 0.02 h · ETA 5.3 h
+[2026-10-01 11:44:23]   batch r1_b4_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 11:44:23] [11:44:23] 13842/31798 graphs · 0.8/s · elapsed 0.03 h · ETA 6.2 h
+[2026-10-01 11:44:38]   batch r1_b6_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 11:44:38] [11:44:38] 13842/31798 graphs · 0.7/s · elapsed 0.03 h · ETA 7.1 h
+[2026-10-01 11:44:45]   batch r1_b5_899: M2 exited 1: *** out of memory trying to allocate 104 bytes, exiting ***
+[2026-10-01 11:44:45] [11:44:45] 13863/31798 graphs · 0.8/s · elapsed 0.03 h · ETA 6.0 h
+[2026-10-01 11:45:12]   batch r1_b8_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 11:45:12] [11:45:12] 13865/31798 graphs · 0.7/s · elapsed 0.04 h · ETA 7.2 h
+[2026-10-01 11:45:19]   batch r1_b7_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 11:45:19] [11:45:19] 13882/31798 graphs · 0.8/s · elapsed 0.04 h · ETA 6.4 h
+[2026-10-01 11:45:28]   batch r1_b9_899: M2 exited 1: *** out of memory trying to allocate 120 bytes, exiting ***
+[2026-10-01 11:45:28] [11:45:28] 13882/31798 graphs · 0.7/s · elapsed 0.05 h · ETA 6.8 h
+[2026-10-01 11:46:29]   batch r1_b11_899: M2 exited 1: *** out of memory trying to allocate 136 bytes, exiting ***
+[2026-10-01 11:46:29] [11:46:29] 13887/31798 graphs · 0.6/s · elapsed 0.06 h · ETA 9.0 h
+[2026-10-01 11:46:40]   batch r1_b10_899: M2 exited 1: *** out of memory trying to allocate 48 bytes, exiting ***
+[2026-10-01 11:46:40] [11:46:40] 13891/31798 graphs · 0.5/s · elapsed 0.07 h · ETA 9.1 h
+[2026-10-01 11:46:54]   batch r1_b13_899: M2 exited 1: *** out of memory trying to allocate 120 bytes, exiting ***
+[2026-10-01 11:46:54] [11:46:54] 13891/31798 graphs · 0.5/s · elapsed 0.07 h · ETA 9.6 h
+[2026-10-01 11:46:57]   batch r1_b12_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 11:46:57] [11:46:57] 13892/31798 graphs · 0.5/s · elapsed 0.07 h · ETA 9.7 h
+[2026-10-01 11:47:35]   batch r1_b14_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 11:47:35] [11:47:35] 13909/31798 graphs · 0.5/s · elapsed 0.08 h · ETA 9.8 h
+[2026-10-01 11:48:03]   batch r1_b15_899: M2 exited 1: *** out of memory trying to allocate 48 bytes, exiting ***
+[2026-10-01 11:48:03] [11:48:03] 13916/31798 graphs · 0.5/s · elapsed 0.09 h · ETA 10.3 h
+[2026-10-01 11:48:19]   batch r1_b16_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 11:48:19] [11:48:19] 13935/31798 graphs · 0.5/s · elapsed 0.09 h · ETA 9.6 h
+[2026-10-01 11:48:39]   batch r1_b17_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 11:48:39] [11:48:39] 13940/31798 graphs · 0.5/s · elapsed 0.10 h · ETA 9.9 h
+[2026-10-01 11:48:46]   batch r1_b18_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 11:48:46] [11:48:46] 13949/31798 graphs · 0.5/s · elapsed 0.10 h · ETA 9.6 h
+[2026-10-01 11:49:47]   batch r1_b19_899: M2 exited 1: *** out of memory trying to allocate 136 bytes, exiting ***
+[2026-10-01 11:49:47] [11:49:47] 13955/31798 graphs · 0.5/s · elapsed 0.12 h · ETA 10.9 h
+[2026-10-01 11:50:06]   batch r1_b20_899: M2 exited 1: *** out of memory trying to allocate 104 bytes, exiting ***
+[2026-10-01 11:50:06] [11:50:06] 13964/31798 graphs · 0.5/s · elapsed 0.12 h · ETA 10.8 h
+[2026-10-01 11:50:53]   batch r1_b21_899: M2 exited 1: *** out of memory trying to allocate 84 bytes, exiting ***
+[2026-10-01 11:50:53] [11:50:53] 13967/31798 graphs · 0.4/s · elapsed 0.14 h · ETA 11.8 h
+[2026-10-01 11:51:51]   batch r1_b22_899: M2 exited 1: *** out of memory trying to allocate 32 bytes, exiting ***
+[2026-10-01 11:51:51] [11:51:51] 13974/31798 graphs · 0.4/s · elapsed 0.15 h · ETA 12.8 h
+[2026-10-01 11:51:53]   batch r1_b23_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 11:51:53] [11:51:53] 13975/31798 graphs · 0.4/s · elapsed 0.15 h · ETA 12.7 h
+[2026-10-01 11:52:10]   batch r1_b25_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 11:52:10] [11:52:10] 13975/31798 graphs · 0.4/s · elapsed 0.16 h · ETA 13.1 h
+[2026-10-01 11:52:27]   batch r1_b26_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 11:52:27] [11:52:27] 13975/31798 graphs · 0.4/s · elapsed 0.16 h · ETA 13.5 h
+[2026-10-01 11:52:30] [11:52:30] 14000/31798 graphs · 0.4/s · elapsed 0.16 h · ETA 12.2 h
+[2026-10-01 11:52:34]   batch r1_b24_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 11:52:34] [11:52:34] 14008/31798 graphs · 0.4/s · elapsed 0.16 h · ETA 11.8 h
+[2026-10-01 11:52:34] [11:52:34] 14033/31798 graphs · 0.5/s · elapsed 0.16 h · ETA 10.7 h
+[2026-10-01 11:52:42] [11:52:42] 14058/31798 graphs · 0.5/s · elapsed 0.17 h · ETA 10.0 h
+[2026-10-01 11:52:47] [11:52:47] 14083/31798 graphs · 0.5/s · elapsed 0.17 h · ETA 9.2 h
+[2026-10-01 11:52:56] [11:52:56] 14108/31798 graphs · 0.6/s · elapsed 0.17 h · ETA 8.7 h
+[2026-10-01 11:53:02] [11:53:02] 14133/31798 graphs · 0.6/s · elapsed 0.17 h · ETA 8.2 h
+[2026-10-01 11:53:04] [11:53:04] 14158/31798 graphs · 0.6/s · elapsed 0.17 h · ETA 7.7 h
+[2026-10-01 11:53:10] [11:53:10] 14183/31798 graphs · 0.7/s · elapsed 0.17 h · ETA 7.3 h
+[2026-10-01 11:53:22] [11:53:22] 14208/31798 graphs · 0.7/s · elapsed 0.18 h · ETA 7.0 h
+[2026-10-01 11:53:24] [11:53:24] 14233/31798 graphs · 0.7/s · elapsed 0.18 h · ETA 6.6 h
+[2026-10-01 11:53:55] [11:53:55] 14258/31798 graphs · 0.7/s · elapsed 0.19 h · ETA 6.6 h
+[2026-10-01 11:54:04] [11:54:04] 14283/31798 graphs · 0.8/s · elapsed 0.19 h · ETA 6.4 h
+[2026-10-01 11:54:05] [11:54:05] 14308/31798 graphs · 0.8/s · elapsed 0.19 h · ETA 6.1 h
+[2026-10-01 11:54:19] [11:54:19] 14333/31798 graphs · 0.8/s · elapsed 0.19 h · ETA 5.9 h
+[2026-10-01 11:54:29] [11:54:29] 14358/31798 graphs · 0.8/s · elapsed 0.20 h · ETA 5.7 h
+[2026-10-01 11:54:34] [11:54:34] 14383/31798 graphs · 0.9/s · elapsed 0.20 h · ETA 5.5 h
+[2026-10-01 11:55:21]   batch r1_b43_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 11:55:21] [11:55:21] 14407/31798 graphs · 0.9/s · elapsed 0.21 h · ETA 5.7 h
+[2026-10-01 11:55:46]   batch r1_b44_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 11:55:46] [11:55:46] 14412/31798 graphs · 0.8/s · elapsed 0.22 h · ETA 5.8 h
+[2026-10-01 11:56:02] [11:56:02] 14437/31798 graphs · 0.8/s · elapsed 0.22 h · ETA 5.7 h
+[2026-10-01 11:56:11]   batch r1_b45_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 11:56:11] [11:56:11] 14449/31798 graphs · 0.9/s · elapsed 0.22 h · ETA 5.7 h
+[2026-10-01 11:56:18] [11:56:18] 14474/31798 graphs · 0.9/s · elapsed 0.23 h · ETA 5.5 h
+[2026-10-01 11:56:49] [11:56:49] 14499/31798 graphs · 0.9/s · elapsed 0.24 h · ETA 5.5 h
+[2026-10-01 11:57:31]   batch r1_b49_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 11:57:31] [11:57:31] 14523/31798 graphs · 0.9/s · elapsed 0.25 h · ETA 5.6 h
+[2026-10-01 11:58:31]   batch r1_b50_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 11:58:31] [11:58:31] 14530/31798 graphs · 0.8/s · elapsed 0.26 h · ETA 5.9 h
+[2026-10-01 11:58:45]   batch r1_b51_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 11:58:45] [11:58:45] 14552/31798 graphs · 0.8/s · elapsed 0.27 h · ETA 5.8 h
+[2026-10-01 11:59:25]   batch r1_b52_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 11:59:25] [11:59:25] 14555/31798 graphs · 0.8/s · elapsed 0.28 h · ETA 6.0 h
+[2026-10-01 12:00:00] [12:00:00] 14580/31798 graphs · 0.8/s · elapsed 0.29 h · ETA 6.1 h
+[2026-10-01 12:00:57]   batch r1_b55_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 12:00:57] [12:00:57] 14599/31798 graphs · 0.8/s · elapsed 0.30 h · ETA 6.2 h
+[2026-10-01 12:01:14]   batch r1_b56_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 12:01:14] [12:01:14] 14599/31798 graphs · 0.8/s · elapsed 0.31 h · ETA 6.3 h
+[2026-10-01 12:01:20]   batch r1_b54_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 12:01:20] [12:01:20] 14606/31798 graphs · 0.8/s · elapsed 0.31 h · ETA 6.3 h
+[2026-10-01 12:01:44]   batch r1_b58_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 12:01:44] [12:01:44] 14607/31798 graphs · 0.7/s · elapsed 0.32 h · ETA 6.4 h
+[2026-10-01 12:01:58] [12:01:58] 14632/31798 graphs · 0.8/s · elapsed 0.32 h · ETA 6.3 h
+[2026-10-01 12:02:09]   batch r1_b57_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 12:02:09] [12:02:09] 14652/31798 graphs · 0.8/s · elapsed 0.32 h · ETA 6.2 h
+[2026-10-01 12:03:07]   batch r1_b60_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 12:03:07] [12:03:07] 14676/31798 graphs · 0.7/s · elapsed 0.34 h · ETA 6.4 h
+[2026-10-01 12:03:12]   batch r1_b61_899: M2 exited 1: *** out of memory trying to allocate 48 bytes, exiting ***
+[2026-10-01 12:03:12] [12:03:12] 14680/31798 graphs · 0.7/s · elapsed 0.34 h · ETA 6.4 h
+[2026-10-01 12:03:25] [12:03:25] 14705/31798 graphs · 0.8/s · elapsed 0.35 h · ETA 6.3 h
+[2026-10-01 12:04:01]   batch r1_b62_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 12:04:01] [12:04:01] 14709/31798 graphs · 0.7/s · elapsed 0.36 h · ETA 6.4 h
+[2026-10-01 12:04:09] [12:04:09] 14734/31798 graphs · 0.8/s · elapsed 0.36 h · ETA 6.3 h
+[2026-10-01 12:04:27] [12:04:27] 14759/31798 graphs · 0.8/s · elapsed 0.36 h · ETA 6.2 h
+[2026-10-01 12:04:28]   batch r1_b65_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 12:04:28] [12:04:28] 14762/31798 graphs · 0.8/s · elapsed 0.36 h · ETA 6.2 h
+[2026-10-01 12:04:41] [12:04:41] 14787/31798 graphs · 0.8/s · elapsed 0.37 h · ETA 6.1 h
+[2026-10-01 12:05:18] [12:05:18] 14812/31798 graphs · 0.8/s · elapsed 0.38 h · ETA 6.1 h
+[2026-10-01 12:05:19]   batch r1_b69_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 12:05:19] [12:05:19] 14824/31798 graphs · 0.8/s · elapsed 0.38 h · ETA 6.0 h
+[2026-10-01 12:05:58]   batch r1_b71_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 12:05:58] [12:05:58] 14827/31798 graphs · 0.8/s · elapsed 0.39 h · ETA 6.2 h
+[2026-10-01 12:06:14]   batch r1_b70_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 12:06:14] [12:06:14] 14850/31798 graphs · 0.8/s · elapsed 0.39 h · ETA 6.1 h
+[2026-10-01 12:06:36]   batch r1_b72_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 12:06:36] [12:06:36] 14864/31798 graphs · 0.8/s · elapsed 0.40 h · ETA 6.1 h
+[2026-10-01 12:07:03] [12:07:03] 14889/31798 graphs · 0.8/s · elapsed 0.41 h · ETA 6.1 h
+[2026-10-01 12:07:16]   batch r1_b75_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 12:07:16] [12:07:16] 14889/31798 graphs · 0.8/s · elapsed 0.41 h · ETA 6.1 h
+[2026-10-01 12:07:18]   batch r1_b74_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 12:07:18] [12:07:18] 14898/31798 graphs · 0.8/s · elapsed 0.41 h · ETA 6.1 h
+[2026-10-01 12:07:34]   batch r1_b77_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 12:07:34] [12:07:34] 14898/31798 graphs · 0.8/s · elapsed 0.41 h · ETA 6.2 h
+[2026-10-01 12:07:43]   batch r1_b76_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 12:07:43] [12:07:43] 14899/31798 graphs · 0.8/s · elapsed 0.42 h · ETA 6.2 h
+[2026-10-01 12:08:25]   batch r1_b79_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 12:08:25] [12:08:25] 14901/31798 graphs · 0.7/s · elapsed 0.43 h · ETA 6.4 h
+[2026-10-01 12:08:56]   batch r1_b80_899: M2 exited 1: *** out of memory trying to allocate 24 bytes, exiting ***
+[2026-10-01 12:08:56] [12:08:56] 14901/31798 graphs · 0.7/s · elapsed 0.44 h · ETA 6.5 h
+[2026-10-01 12:09:42]   batch r1_b78_899: M2 exited 1: *** out of memory trying to allocate 152 bytes, exiting ***
+[2026-10-01 12:09:42] [12:09:42] 14917/31798 graphs · 0.7/s · elapsed 0.45 h · ETA 6.6 h
+[2026-10-01 12:10:12]   batch r1_b82_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 12:10:12] [12:10:12] 14918/31798 graphs · 0.7/s · elapsed 0.46 h · ETA 6.7 h
+[2026-10-01 12:10:18]   batch r1_b81_899: M2 exited 1: Insufficient memory for the allocation
+[2026-10-01 12:10:18] [12:10:18] 14928/31798 graphs · 0.7/s · elapsed 0.46 h · ETA 6.7 h
+[2026-10-01 12:10:40]   batch r1_b83_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 12:10:40] [12:10:40] 14930/31798 graphs · 0.7/s · elapsed 0.47 h · ETA 6.7 h
+[2026-10-01 12:10:57]   batch r1_b84_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 12:10:57] [12:10:57] 14936/31798 graphs · 0.7/s · elapsed 0.47 h · ETA 6.8 h
+[2026-10-01 12:11:07]   batch r1_b86_899: M2 exited 1: *** out of memory trying to allocate 120 bytes, exiting ***
+[2026-10-01 12:11:07] [12:11:07] 14936/31798 graphs · 0.7/s · elapsed 0.47 h · ETA 6.8 h
+[2026-10-01 12:11:12] [12:11:12] 14961/31798 graphs · 0.7/s · elapsed 0.47 h · ETA 6.7 h
+[2026-10-01 12:11:17] [12:11:17] 14986/31798 graphs · 0.7/s · elapsed 0.48 h · ETA 6.5 h
+[2026-10-01 12:11:21] [12:11:21] 15011/31798 graphs · 0.7/s · elapsed 0.48 h · ETA 6.4 h
+[2026-10-01 12:11:22]   batch r1_b85_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 12:11:22] [12:11:22] 15013/31798 graphs · 0.7/s · elapsed 0.48 h · ETA 6.4 h
+[2026-10-01 12:11:23] [12:11:23] 15038/31798 graphs · 0.7/s · elapsed 0.48 h · ETA 6.3 h
+[2026-10-01 12:11:24] [12:11:24] 15063/31798 graphs · 0.8/s · elapsed 0.48 h · ETA 6.1 h
+[2026-10-01 12:11:24] [12:11:24] 15088/31798 graphs · 0.8/s · elapsed 0.48 h · ETA 6.0 h
+[2026-10-01 12:11:26] [12:11:26] 15113/31798 graphs · 0.8/s · elapsed 0.48 h · ETA 5.9 h
+[2026-10-01 12:11:26] [12:11:26] 15138/31798 graphs · 0.8/s · elapsed 0.48 h · ETA 5.8 h
+[2026-10-01 12:11:27] [12:11:27] 15163/31798 graphs · 0.8/s · elapsed 0.48 h · ETA 5.7 h
+[2026-10-01 12:11:29] [12:11:29] 15188/31798 graphs · 0.8/s · elapsed 0.48 h · ETA 5.6 h
+[2026-10-01 12:11:31] [12:11:31] 15213/31798 graphs · 0.8/s · elapsed 0.48 h · ETA 5.5 h
+[2026-10-01 12:11:31] [12:11:31] 15238/31798 graphs · 0.9/s · elapsed 0.48 h · ETA 5.4 h
+[2026-10-01 12:11:35] [12:11:35] 15263/31798 graphs · 0.9/s · elapsed 0.48 h · ETA 5.3 h
+[2026-10-01 12:11:47] [12:11:47] 15288/31798 graphs · 0.9/s · elapsed 0.48 h · ETA 5.2 h
+[2026-10-01 12:11:47] [12:11:47] 15313/31798 graphs · 0.9/s · elapsed 0.48 h · ETA 5.1 h
+[2026-10-01 12:12:12] [12:12:12] 15338/31798 graphs · 0.9/s · elapsed 0.49 h · ETA 5.1 h
+[2026-10-01 12:12:13] [12:12:13] 15363/31798 graphs · 0.9/s · elapsed 0.49 h · ETA 5.0 h
+[2026-10-01 12:12:20] [12:12:20] 15388/31798 graphs · 0.9/s · elapsed 0.49 h · ETA 5.0 h
+[2026-10-01 12:12:22] [12:12:22] 15413/31798 graphs · 0.9/s · elapsed 0.49 h · ETA 4.9 h
+[2026-10-01 12:12:30] [12:12:30] 15438/31798 graphs · 0.9/s · elapsed 0.50 h · ETA 4.8 h
+[2026-10-01 12:12:38] [12:12:38] 15463/31798 graphs · 0.9/s · elapsed 0.50 h · ETA 4.8 h
+[2026-10-01 12:12:39] [12:12:39] 15488/31798 graphs · 1.0/s · elapsed 0.50 h · ETA 4.7 h
+[2026-10-01 12:12:41] [12:12:41] 15513/31798 graphs · 1.0/s · elapsed 0.50 h · ETA 4.6 h
+[2026-10-01 12:12:44] [12:12:44] 15538/31798 graphs · 1.0/s · elapsed 0.50 h · ETA 4.6 h
+[2026-10-01 12:12:47] [12:12:47] 15563/31798 graphs · 1.0/s · elapsed 0.50 h · ETA 4.5 h
+[2026-10-01 12:12:53] [12:12:53] 15588/31798 graphs · 1.0/s · elapsed 0.50 h · ETA 4.5 h
+[2026-10-01 12:13:16]   batch r1_b103_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 12:13:16] [12:13:16] 15607/31798 graphs · 1.0/s · elapsed 0.51 h · ETA 4.5 h
+[2026-10-01 12:13:18] [12:13:18] 15632/31798 graphs · 1.0/s · elapsed 0.51 h · ETA 4.4 h
+[2026-10-01 12:13:19] [12:13:19] 15657/31798 graphs · 1.0/s · elapsed 0.51 h · ETA 4.3 h
+[2026-10-01 12:13:21] [12:13:21] 15682/31798 graphs · 1.0/s · elapsed 0.51 h · ETA 4.3 h
+[2026-10-01 12:13:24] [12:13:24] 15707/31798 graphs · 1.1/s · elapsed 0.51 h · ETA 4.2 h
+[2026-10-01 12:13:28] [12:13:28] 15732/31798 graphs · 1.1/s · elapsed 0.51 h · ETA 4.2 h
+[2026-10-01 12:13:28] [12:13:28] 15757/31798 graphs · 1.1/s · elapsed 0.51 h · ETA 4.1 h
+[2026-10-01 12:13:30] [12:13:30] 15782/31798 graphs · 1.1/s · elapsed 0.51 h · ETA 4.1 h
+[2026-10-01 12:13:33] [12:13:33] 15807/31798 graphs · 1.1/s · elapsed 0.51 h · ETA 4.0 h
+[2026-10-01 12:13:40] [12:13:40] 15832/31798 graphs · 1.1/s · elapsed 0.52 h · ETA 4.0 h
+[2026-10-01 12:13:42] [12:13:42] 15857/31798 graphs · 1.1/s · elapsed 0.52 h · ETA 3.9 h
+[2026-10-01 12:13:45] [12:13:45] 15882/31798 graphs · 1.1/s · elapsed 0.52 h · ETA 3.9 h
+[2026-10-01 12:13:46] [12:13:46] 15907/31798 graphs · 1.2/s · elapsed 0.52 h · ETA 3.8 h
+[2026-10-01 12:13:55] [12:13:55] 15932/31798 graphs · 1.2/s · elapsed 0.52 h · ETA 3.8 h
+[2026-10-01 12:14:11] [12:14:11] 15957/31798 graphs · 1.2/s · elapsed 0.52 h · ETA 3.8 h
+[2026-10-01 12:14:20]   batch r1_b127_899: M2 exited 1: *** out of memory trying to allocate 48 bytes, exiting ***
+[2026-10-01 12:14:20] [12:14:20] 15975/31798 graphs · 1.2/s · elapsed 0.53 h · ETA 3.8 h
+[2026-10-01 12:14:25] [12:14:25] 16000/31798 graphs · 1.2/s · elapsed 0.53 h · ETA 3.7 h
+[2026-10-01 12:14:29] [12:14:29] 16025/31798 graphs · 1.2/s · elapsed 0.53 h · ETA 3.7 h
+[2026-10-01 12:14:41] [12:14:41] 16050/31798 graphs · 1.2/s · elapsed 0.53 h · ETA 3.7 h
+[2026-10-01 12:14:45]   batch r1_b129_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 12:14:45] [12:14:45] 16060/31798 graphs · 1.2/s · elapsed 0.53 h · ETA 3.7 h
+[2026-10-01 12:14:56] [12:14:56] 16085/31798 graphs · 1.2/s · elapsed 0.54 h · ETA 3.6 h
+[2026-10-01 12:15:01] [12:15:01] 16110/31798 graphs · 1.2/s · elapsed 0.54 h · ETA 3.6 h
+[2026-10-01 12:15:14] [12:15:14] 16135/31798 graphs · 1.2/s · elapsed 0.54 h · ETA 3.6 h
+[2026-10-01 12:15:32]   batch r1_b134_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 12:15:32] [12:15:32] 16152/31798 graphs · 1.2/s · elapsed 0.55 h · ETA 3.6 h
+[2026-10-01 12:16:03] [12:16:03] 16177/31798 graphs · 1.2/s · elapsed 0.56 h · ETA 3.6 h
+[2026-10-01 12:16:13] [12:16:13] 16202/31798 graphs · 1.2/s · elapsed 0.56 h · ETA 3.6 h
+[2026-10-01 12:16:20]   batch r1_b138_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 12:16:20] [12:16:20] 16209/31798 graphs · 1.2/s · elapsed 0.56 h · ETA 3.6 h
+[2026-10-01 12:16:55]   batch r1_b141_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 12:16:55] [12:16:55] 16220/31798 graphs · 1.2/s · elapsed 0.57 h · ETA 3.6 h
+[2026-10-01 12:16:56] [12:16:56] 16245/31798 graphs · 1.2/s · elapsed 0.57 h · ETA 3.6 h
+[2026-10-01 12:17:02] [12:17:02] 16270/31798 graphs · 1.2/s · elapsed 0.57 h · ETA 3.5 h
+[2026-10-01 12:17:10] [12:17:10] 16295/31798 graphs · 1.2/s · elapsed 0.57 h · ETA 3.5 h
+[2026-10-01 12:17:44] [12:17:44] 16320/31798 graphs · 1.2/s · elapsed 0.58 h · ETA 3.5 h
+[2026-10-01 12:18:00]   batch r1_b145_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 12:18:00] [12:18:00] 16338/31798 graphs · 1.2/s · elapsed 0.59 h · ETA 3.5 h
+[2026-10-01 12:18:11] [12:18:11] 16363/31798 graphs · 1.2/s · elapsed 0.59 h · ETA 3.5 h
+[2026-10-01 12:18:19] [12:18:19] 16388/31798 graphs · 1.2/s · elapsed 0.59 h · ETA 3.5 h
+[2026-10-01 12:18:40] [12:18:40] 16413/31798 graphs · 1.2/s · elapsed 0.60 h · ETA 3.5 h
+[2026-10-01 12:19:28]   batch r1_b146_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 12:19:28] [12:19:28] 16426/31798 graphs · 1.2/s · elapsed 0.61 h · ETA 3.5 h
+[2026-10-01 12:19:55]   batch r1_b150_899: M2 exited 1: *** out of memory trying to allocate 104 bytes, exiting ***
+[2026-10-01 12:19:55] [12:19:55] 16450/31798 graphs · 1.2/s · elapsed 0.62 h · ETA 3.5 h
+[2026-10-01 12:20:11] [12:20:11] 16475/31798 graphs · 1.2/s · elapsed 0.62 h · ETA 3.5 h
+[2026-10-01 12:20:15] [12:20:15] 16500/31798 graphs · 1.2/s · elapsed 0.63 h · ETA 3.5 h
+[2026-10-01 12:20:16] [12:20:16] 16525/31798 graphs · 1.2/s · elapsed 0.63 h · ETA 3.5 h
+[2026-10-01 12:20:18] [12:20:18] 16550/31798 graphs · 1.2/s · elapsed 0.63 h · ETA 3.4 h
+[2026-10-01 12:20:23] [12:20:23] 16575/31798 graphs · 1.2/s · elapsed 0.63 h · ETA 3.4 h
+[2026-10-01 12:20:48] [12:20:48] 16600/31798 graphs · 1.2/s · elapsed 0.63 h · ETA 3.4 h
+[2026-10-01 12:20:50] [12:20:50] 16625/31798 graphs · 1.3/s · elapsed 0.64 h · ETA 3.4 h
+[2026-10-01 12:20:51]   batch r1_b151_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 12:20:51] [12:20:51] 16638/31798 graphs · 1.3/s · elapsed 0.64 h · ETA 3.4 h
+[2026-10-01 12:20:53] [12:20:53] 16663/31798 graphs · 1.3/s · elapsed 0.64 h · ETA 3.3 h
+[2026-10-01 12:20:57] [12:20:57] 16688/31798 graphs · 1.3/s · elapsed 0.64 h · ETA 3.3 h
+[2026-10-01 12:21:07] [12:21:07] 16713/31798 graphs · 1.3/s · elapsed 0.64 h · ETA 3.3 h
+[2026-10-01 12:21:20] [12:21:20] 16738/31798 graphs · 1.3/s · elapsed 0.64 h · ETA 3.3 h
+[2026-10-01 12:21:37] [12:21:37] 16763/31798 graphs · 1.3/s · elapsed 0.65 h · ETA 3.2 h
+[2026-10-01 12:21:41]   batch r1_b162_899: M2 exited 1: *** out of memory trying to allocate 136 bytes, exiting ***
+[2026-10-01 12:21:41] [12:21:41] 16778/31798 graphs · 1.3/s · elapsed 0.65 h · ETA 3.2 h
+[2026-10-01 12:22:20]   batch r1_b166_899: M2 exited 1: *** out of memory trying to allocate 84 bytes, exiting ***
+[2026-10-01 12:22:20] [12:22:20] 16780/31798 graphs · 1.3/s · elapsed 0.66 h · ETA 3.3 h
+[2026-10-01 12:22:37] [12:22:37] 16805/31798 graphs · 1.3/s · elapsed 0.67 h · ETA 3.3 h
+[2026-10-01 12:22:51]   batch r1_b165_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 12:22:51] [12:22:51] 16827/31798 graphs · 1.3/s · elapsed 0.67 h · ETA 3.3 h
+[2026-10-01 12:23:03]   batch r1_b169_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 12:23:03] [12:23:03] 16827/31798 graphs · 1.3/s · elapsed 0.67 h · ETA 3.3 h
+[2026-10-01 12:23:19] [12:23:19] 16852/31798 graphs · 1.3/s · elapsed 0.68 h · ETA 3.3 h
+[2026-10-01 12:23:38] [12:23:38] 16877/31798 graphs · 1.3/s · elapsed 0.68 h · ETA 3.3 h
+[2026-10-01 12:23:55]   batch r1_b168_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 12:23:55] [12:23:55] 16897/31798 graphs · 1.3/s · elapsed 0.69 h · ETA 3.3 h
+[2026-10-01 12:24:33] [12:24:33] 16922/31798 graphs · 1.3/s · elapsed 0.70 h · ETA 3.3 h
+[2026-10-01 12:24:37]   batch r1_b173_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 12:24:37] [12:24:37] 16933/31798 graphs · 1.3/s · elapsed 0.70 h · ETA 3.3 h
+[2026-10-01 12:24:49] [12:24:49] 16958/31798 graphs · 1.3/s · elapsed 0.70 h · ETA 3.3 h
+[2026-10-01 12:25:13] [12:25:13] 16983/31798 graphs · 1.3/s · elapsed 0.71 h · ETA 3.3 h
+[2026-10-01 12:25:18] [12:25:18] 17008/31798 graphs · 1.3/s · elapsed 0.71 h · ETA 3.2 h
+[2026-10-01 12:25:34] [12:25:34] 17033/31798 graphs · 1.3/s · elapsed 0.71 h · ETA 3.2 h
+[2026-10-01 12:25:42]   batch r1_b176_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 12:25:42] [12:25:42] 17047/31798 graphs · 1.3/s · elapsed 0.72 h · ETA 3.2 h
+[2026-10-01 12:26:16] [12:26:16] 17072/31798 graphs · 1.3/s · elapsed 0.73 h · ETA 3.2 h
+[2026-10-01 12:26:19]   batch r1_b180_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 12:26:19] [12:26:19] 17081/31798 graphs · 1.3/s · elapsed 0.73 h · ETA 3.2 h
+[2026-10-01 12:26:35]   batch r1_b182_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 12:26:35] [12:26:35] 17081/31798 graphs · 1.3/s · elapsed 0.73 h · ETA 3.2 h
+[2026-10-01 12:26:48]   batch r1_b181_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 12:26:48] [12:26:48] 17088/31798 graphs · 1.3/s · elapsed 0.74 h · ETA 3.3 h
+[2026-10-01 12:27:13]   batch r1_b184_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 12:27:13] [12:27:13] 17089/31798 graphs · 1.2/s · elapsed 0.74 h · ETA 3.3 h
+[2026-10-01 12:27:30]   batch r1_b185_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 12:27:30] [12:27:30] 17089/31798 graphs · 1.2/s · elapsed 0.75 h · ETA 3.3 h
+[2026-10-01 12:27:41]   batch r1_b183_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 12:27:41] [12:27:41] 17111/31798 graphs · 1.2/s · elapsed 0.75 h · ETA 3.3 h
+[2026-10-01 12:28:03]   batch r1_b187_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 12:28:03] [12:28:03] 17112/31798 graphs · 1.2/s · elapsed 0.76 h · ETA 3.3 h
+[2026-10-01 12:28:05]   batch r1_b186_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 12:28:05] [12:28:05] 17120/31798 graphs · 1.2/s · elapsed 0.76 h · ETA 3.3 h
+[2026-10-01 12:28:28]   batch r1_b189_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 12:28:28] [12:28:28] 17121/31798 graphs · 1.2/s · elapsed 0.76 h · ETA 3.3 h
+[2026-10-01 12:28:35]   batch r1_b188_899: M2 exited 1: *** out of memory trying to allocate 84 bytes, exiting ***
+[2026-10-01 12:28:35] [12:28:35] 17126/31798 graphs · 1.2/s · elapsed 0.76 h · ETA 3.3 h
+[2026-10-01 12:29:22]   batch r1_b190_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 12:29:22] [12:29:22] 17142/31798 graphs · 1.2/s · elapsed 0.78 h · ETA 3.4 h
+[2026-10-01 12:29:37]   batch r1_b191_899: M2 exited 1: *** out of memory trying to allocate 104 bytes, exiting ***
+[2026-10-01 12:29:37] [12:29:37] 17146/31798 graphs · 1.2/s · elapsed 0.78 h · ETA 3.4 h
+[2026-10-01 12:30:01]   batch r1_b193_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 12:30:01] [12:30:01] 17147/31798 graphs · 1.2/s · elapsed 0.79 h · ETA 3.4 h
+[2026-10-01 12:30:57]   batch r1_b194_899: M2 exited 1: Insufficient memory for the allocation
+[2026-10-01 12:30:57] [12:30:57] 17161/31798 graphs · 1.2/s · elapsed 0.80 h · ETA 3.5 h
+[2026-10-01 12:31:10]   batch r1_b192_899: M2 exited 1: *** out of memory trying to allocate 84 bytes, exiting ***
+[2026-10-01 12:31:10] [12:31:10] 17180/31798 graphs · 1.2/s · elapsed 0.81 h · ETA 3.5 h
+[2026-10-01 12:31:20]   batch r1_b195_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 12:31:20] [12:31:20] 17181/31798 graphs · 1.2/s · elapsed 0.81 h · ETA 3.5 h
+[2026-10-01 12:31:41]   batch r1_b197_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 12:31:41] [12:31:41] 17182/31798 graphs · 1.2/s · elapsed 0.82 h · ETA 3.5 h
+[2026-10-01 12:32:34]   batch r1_b196_899: M2 exited 1: *** out of memory trying to allocate 104 bytes, exiting ***
+[2026-10-01 12:32:34] [12:32:34] 17199/31798 graphs · 1.1/s · elapsed 0.83 h · ETA 3.5 h
+[2026-10-01 12:32:48] [12:32:48] 17224/31798 graphs · 1.2/s · elapsed 0.84 h · ETA 3.5 h
+[2026-10-01 12:33:40]   batch r1_b199_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 12:33:40] [12:33:40] 17245/31798 graphs · 1.1/s · elapsed 0.85 h · ETA 3.5 h
+[2026-10-01 12:33:56]   batch r1_b201_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 12:33:56] [12:33:56] 17245/31798 graphs · 1.1/s · elapsed 0.85 h · ETA 3.6 h
+[2026-10-01 12:33:58]   batch r1_b200_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 12:33:58] [12:33:58] 17249/31798 graphs · 1.1/s · elapsed 0.85 h · ETA 3.6 h
+[2026-10-01 12:34:51]   batch r1_b203_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 12:34:51] [12:34:51] 17252/31798 graphs · 1.1/s · elapsed 0.87 h · ETA 3.6 h
+[2026-10-01 12:35:04]   batch r1_b202_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 12:35:04] [12:35:04] 17272/31798 graphs · 1.1/s · elapsed 0.87 h · ETA 3.6 h
+[2026-10-01 12:35:08]   batch r1_b204_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 12:35:08] [12:35:08] 17272/31798 graphs · 1.1/s · elapsed 0.87 h · ETA 3.6 h
+[2026-10-01 12:35:28]   batch r1_b206_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 12:35:28] [12:35:28] 17273/31798 graphs · 1.1/s · elapsed 0.88 h · ETA 3.6 h
+[2026-10-01 12:35:55]   batch r1_b205_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 12:35:55] [12:35:55] 17289/31798 graphs · 1.1/s · elapsed 0.89 h · ETA 3.6 h
+[2026-10-01 12:36:32]   batch r1_b207_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 12:36:32] [12:36:32] 17306/31798 graphs · 1.1/s · elapsed 0.90 h · ETA 3.7 h
+[2026-10-01 12:36:33]   batch r1_b208_899: M2 exited 1: *** out of memory trying to allocate 104 bytes, exiting ***
+[2026-10-01 12:36:33] [12:36:33] 17307/31798 graphs · 1.1/s · elapsed 0.90 h · ETA 3.7 h
+[2026-10-01 12:36:55]   batch r1_b210_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 12:36:55] [12:36:55] 17312/31798 graphs · 1.1/s · elapsed 0.90 h · ETA 3.7 h
+[2026-10-01 12:37:24]   batch r1_b211_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 12:37:24] [12:37:24] 17313/31798 graphs · 1.1/s · elapsed 0.91 h · ETA 3.7 h
+[2026-10-01 12:37:51] [12:37:51] 17338/31798 graphs · 1.1/s · elapsed 0.92 h · ETA 3.7 h
+[2026-10-01 12:38:30]   batch r1_b212_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 12:38:30] [12:38:30] 17349/31798 graphs · 1.1/s · elapsed 0.93 h · ETA 3.7 h
+[2026-10-01 12:38:34]   batch r1_b213_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 12:38:34] [12:38:34] 17351/31798 graphs · 1.1/s · elapsed 0.93 h · ETA 3.7 h
+[2026-10-01 12:38:48]   batch r1_b215_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 12:38:48] [12:38:48] 17351/31798 graphs · 1.1/s · elapsed 0.93 h · ETA 3.8 h
+[2026-10-01 12:39:11]   batch r1_b216_899: M2 exited 1: *** out of memory trying to allocate 120 bytes, exiting ***
+[2026-10-01 12:39:11] [12:39:11] 17351/31798 graphs · 1.1/s · elapsed 0.94 h · ETA 3.8 h
+[2026-10-01 12:39:29]   batch r1_b217_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 12:39:29] [12:39:29] 17351/31798 graphs · 1.1/s · elapsed 0.95 h · ETA 3.8 h
+[2026-10-01 12:39:42]   batch r1_b214_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 12:39:42] [12:39:42] 17359/31798 graphs · 1.1/s · elapsed 0.95 h · ETA 3.8 h
+[2026-10-01 12:39:48]   batch r1_b218_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 12:39:48] [12:39:48] 17359/31798 graphs · 1.1/s · elapsed 0.95 h · ETA 3.8 h
+[2026-10-01 12:39:59]   batch r1_b219_899: M2 exited 1: *** out of memory trying to allocate 120 bytes, exiting ***
+[2026-10-01 12:39:59] [12:39:59] 17359/31798 graphs · 1.0/s · elapsed 0.95 h · ETA 3.8 h
+[2026-10-01 12:40:23]   batch r1_b221_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 12:40:23] [12:40:23] 17359/31798 graphs · 1.0/s · elapsed 0.96 h · ETA 3.9 h
+[2026-10-01 12:40:37]   batch r1_b220_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 12:40:37] [12:40:37] 17360/31798 graphs · 1.0/s · elapsed 0.97 h · ETA 3.9 h
+[2026-10-01 12:40:39]   batch r1_b222_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 12:40:39] [12:40:39] 17360/31798 graphs · 1.0/s · elapsed 0.97 h · ETA 3.9 h
+[2026-10-01 12:40:54]   batch r1_b223_899: M2 exited 1: *** out of memory trying to allocate 120 bytes, exiting ***
+[2026-10-01 12:40:54] [12:40:54] 17360/31798 graphs · 1.0/s · elapsed 0.97 h · ETA 3.9 h
+[2026-10-01 12:41:11]   batch r1_b225_899: M2 exited 1: *** out of memory trying to allocate 88 bytes, exiting ***
+[2026-10-01 12:41:11] [12:41:11] 17360/31798 graphs · 1.0/s · elapsed 0.97 h · ETA 3.9 h
+[2026-10-01 12:41:17]   batch r1_b224_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 12:41:17] [12:41:17] 17361/31798 graphs · 1.0/s · elapsed 0.98 h · ETA 3.9 h
+[2026-10-01 12:41:46]   batch r1_b226_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 12:41:46] [12:41:46] 17363/31798 graphs · 1.0/s · elapsed 0.98 h · ETA 3.9 h
+[2026-10-01 12:42:01]   batch r1_b228_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 12:42:01] [12:42:01] 17363/31798 graphs · 1.0/s · elapsed 0.99 h · ETA 4.0 h
+[2026-10-01 12:42:19]   batch r1_b229_899: M2 exited 1: *** out of memory trying to allocate 120 bytes, exiting ***
+[2026-10-01 12:42:19] [12:42:19] 17363/31798 graphs · 1.0/s · elapsed 0.99 h · ETA 4.0 h
+[2026-10-01 12:42:20]   batch r1_b227_899: M2 exited 1: Insufficient memory for the allocation
+[2026-10-01 12:42:20] [12:42:20] 17366/31798 graphs · 1.0/s · elapsed 0.99 h · ETA 4.0 h
+[2026-10-01 12:42:40]   batch r1_b230_899: M2 exited 1: *** out of memory trying to allocate 120 bytes, exiting ***
+[2026-10-01 12:42:40] [12:42:40] 17366/31798 graphs · 1.0/s · elapsed 1.00 h · ETA 4.0 h
+[2026-10-01 12:42:42] [12:42:42] 17391/31798 graphs · 1.0/s · elapsed 1.00 h · ETA 4.0 h
+[2026-10-01 12:43:05] [12:43:05] 17416/31798 graphs · 1.0/s · elapsed 1.01 h · ETA 4.0 h
+[2026-10-01 12:43:29]   batch r1_b232_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 12:43:29] [12:43:29] 17420/31798 graphs · 1.0/s · elapsed 1.01 h · ETA 4.0 h
+[2026-10-01 12:43:39] [12:43:39] 17445/31798 graphs · 1.0/s · elapsed 1.02 h · ETA 4.0 h
+[2026-10-01 12:43:45] [12:43:45] 17470/31798 graphs · 1.0/s · elapsed 1.02 h · ETA 3.9 h
+[2026-10-01 12:43:47]   batch r1_b234_899: M2 exited 1: *** out of memory trying to allocate 104 bytes, exiting ***
+[2026-10-01 12:43:47] [12:43:47] 17484/31798 graphs · 1.0/s · elapsed 1.02 h · ETA 3.9 h
+[2026-10-01 12:43:50] [12:43:50] 17509/31798 graphs · 1.0/s · elapsed 1.02 h · ETA 3.9 h
+[2026-10-01 12:43:53] [12:43:53] 17534/31798 graphs · 1.0/s · elapsed 1.02 h · ETA 3.9 h
+[2026-10-01 12:43:55] [12:43:55] 17559/31798 graphs · 1.0/s · elapsed 1.02 h · ETA 3.8 h
+[2026-10-01 12:43:57] [12:43:57] 17584/31798 graphs · 1.0/s · elapsed 1.02 h · ETA 3.8 h
+[2026-10-01 12:43:59] [12:43:59] 17609/31798 graphs · 1.0/s · elapsed 1.02 h · ETA 3.8 h
+[2026-10-01 12:44:01] [12:44:01] 17634/31798 graphs · 1.1/s · elapsed 1.02 h · ETA 3.7 h
+[2026-10-01 12:44:04] [12:44:04] 17659/31798 graphs · 1.1/s · elapsed 1.02 h · ETA 3.7 h
+[2026-10-01 12:44:06] [12:44:06] 17684/31798 graphs · 1.1/s · elapsed 1.02 h · ETA 3.7 h
+[2026-10-01 12:44:08] [12:44:08] 17709/31798 graphs · 1.1/s · elapsed 1.02 h · ETA 3.7 h
+[2026-10-01 12:44:15] [12:44:15] 17734/31798 graphs · 1.1/s · elapsed 1.03 h · ETA 3.6 h
+[2026-10-01 12:44:17] [12:44:17] 17759/31798 graphs · 1.1/s · elapsed 1.03 h · ETA 3.6 h
+[2026-10-01 12:44:21] [12:44:21] 17784/31798 graphs · 1.1/s · elapsed 1.03 h · ETA 3.6 h
+[2026-10-01 12:44:22] [12:44:22] 17809/31798 graphs · 1.1/s · elapsed 1.03 h · ETA 3.6 h
+[2026-10-01 12:44:25] [12:44:25] 17834/31798 graphs · 1.1/s · elapsed 1.03 h · ETA 3.5 h
+[2026-10-01 12:44:34] [12:44:34] 17859/31798 graphs · 1.1/s · elapsed 1.03 h · ETA 3.5 h
+[2026-10-01 12:44:37] [12:44:37] 17884/31798 graphs · 1.1/s · elapsed 1.03 h · ETA 3.5 h
+[2026-10-01 12:44:40] [12:44:40] 17909/31798 graphs · 1.1/s · elapsed 1.03 h · ETA 3.5 h
+[2026-10-01 12:44:57]   batch r1_b253_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 12:44:57] [12:44:57] 17911/31798 graphs · 1.1/s · elapsed 1.04 h · ETA 3.5 h
+[2026-10-01 12:45:01] [12:45:01] 17936/31798 graphs · 1.1/s · elapsed 1.04 h · ETA 3.4 h
+[2026-10-01 12:45:08] [12:45:08] 17961/31798 graphs · 1.1/s · elapsed 1.04 h · ETA 3.4 h
+[2026-10-01 12:45:26]   batch r1_b257_899: M2 exited 1: *** out of memory trying to allocate 104 bytes, exiting ***
+[2026-10-01 12:45:26] [12:45:26] 17975/31798 graphs · 1.1/s · elapsed 1.05 h · ETA 3.4 h
+[2026-10-01 12:45:28] [12:45:28] 18000/31798 graphs · 1.1/s · elapsed 1.05 h · ETA 3.4 h
+[2026-10-01 12:45:35] [12:45:35] 18025/31798 graphs · 1.1/s · elapsed 1.05 h · ETA 3.4 h
+[2026-10-01 12:45:36] [12:45:36] 18050/31798 graphs · 1.1/s · elapsed 1.05 h · ETA 3.4 h
+[2026-10-01 12:45:38] [12:45:38] 18075/31798 graphs · 1.1/s · elapsed 1.05 h · ETA 3.3 h
+[2026-10-01 12:45:41]   batch r1_b258_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 12:45:41] [12:45:41] 18093/31798 graphs · 1.1/s · elapsed 1.05 h · ETA 3.3 h
+[2026-10-01 12:45:42] [12:45:42] 18118/31798 graphs · 1.2/s · elapsed 1.05 h · ETA 3.3 h
+[2026-10-01 12:45:48] [12:45:48] 18143/31798 graphs · 1.2/s · elapsed 1.05 h · ETA 3.3 h
+[2026-10-01 12:45:53] [12:45:53] 18168/31798 graphs · 1.2/s · elapsed 1.05 h · ETA 3.3 h
+[2026-10-01 12:46:04] [12:46:04] 18193/31798 graphs · 1.2/s · elapsed 1.06 h · ETA 3.2 h
+[2026-10-01 12:46:19] [12:46:19] 18218/31798 graphs · 1.2/s · elapsed 1.06 h · ETA 3.2 h
+[2026-10-01 12:46:33]   batch r1_b268_899: M2 exited 1: *** out of memory trying to allocate 104 bytes, exiting ***
+[2026-10-01 12:46:33] [12:46:33] 18234/31798 graphs · 1.2/s · elapsed 1.06 h · ETA 3.2 h
+[2026-10-01 12:46:38] [12:46:38] 18259/31798 graphs · 1.2/s · elapsed 1.07 h · ETA 3.2 h
+[2026-10-01 12:46:41] [12:46:41] 18284/31798 graphs · 1.2/s · elapsed 1.07 h · ETA 3.2 h
+[2026-10-01 12:46:44] [12:46:44] 18309/31798 graphs · 1.2/s · elapsed 1.07 h · ETA 3.2 h
+[2026-10-01 12:46:56] [12:46:56] 18334/31798 graphs · 1.2/s · elapsed 1.07 h · ETA 3.2 h
+[2026-10-01 12:47:07] [12:47:07] 18359/31798 graphs · 1.2/s · elapsed 1.07 h · ETA 3.1 h
+[2026-10-01 12:47:09] [12:47:09] 18384/31798 graphs · 1.2/s · elapsed 1.07 h · ETA 3.1 h
+[2026-10-01 12:47:14] [12:47:14] 18409/31798 graphs · 1.2/s · elapsed 1.08 h · ETA 3.1 h
+[2026-10-01 12:47:40] [12:47:40] 18434/31798 graphs · 1.2/s · elapsed 1.08 h · ETA 3.1 h
+[2026-10-01 12:47:58]   batch r1_b278_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 12:47:58] [12:47:58] 18434/31798 graphs · 1.2/s · elapsed 1.09 h · ETA 3.1 h
+[2026-10-01 12:48:18]   batch r1_b277_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 12:48:18] [12:48:18] 18457/31798 graphs · 1.2/s · elapsed 1.09 h · ETA 3.1 h
+[2026-10-01 12:48:39]   batch r1_b279_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 12:48:39] [12:48:39] 18465/31798 graphs · 1.2/s · elapsed 1.10 h · ETA 3.1 h
+[2026-10-01 12:49:06]   batch r1_b280_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 12:49:06] [12:49:06] 18489/31798 graphs · 1.2/s · elapsed 1.11 h · ETA 3.1 h
+[2026-10-01 12:49:38]   batch r1_b281_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 12:49:38] [12:49:38] 18493/31798 graphs · 1.2/s · elapsed 1.12 h · ETA 3.1 h
+[2026-10-01 12:49:39] [12:49:39] 18518/31798 graphs · 1.2/s · elapsed 1.12 h · ETA 3.1 h
+[2026-10-01 12:50:13]   batch r1_b283_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 12:50:13] [12:50:13] 18522/31798 graphs · 1.2/s · elapsed 1.13 h · ETA 3.1 h
+[2026-10-01 12:50:17]   batch r1_b284_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 12:50:17] [12:50:17] 18544/31798 graphs · 1.2/s · elapsed 1.13 h · ETA 3.1 h
+[2026-10-01 12:50:46]   batch r1_b285_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 12:50:46] [12:50:46] 18546/31798 graphs · 1.2/s · elapsed 1.13 h · ETA 3.1 h
+[2026-10-01 12:51:01]   batch r1_b286_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 12:51:01] [12:51:01] 18553/31798 graphs · 1.2/s · elapsed 1.14 h · ETA 3.1 h
+[2026-10-01 12:51:21]   batch r1_b287_899: M2 exited 1: *** out of memory trying to allocate 48 bytes, exiting ***
+[2026-10-01 12:51:21] [12:51:21] 18556/31798 graphs · 1.2/s · elapsed 1.14 h · ETA 3.2 h
+[2026-10-01 12:51:46]   batch r1_b289_899: M2 exited 1: *** out of memory trying to allocate 104 bytes, exiting ***
+[2026-10-01 12:51:46] [12:51:46] 18558/31798 graphs · 1.2/s · elapsed 1.15 h · ETA 3.2 h
+[2026-10-01 12:51:53]   batch r1_b288_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 12:51:53] [12:51:53] 18561/31798 graphs · 1.2/s · elapsed 1.15 h · ETA 3.2 h
+[2026-10-01 12:51:54] [12:51:54] 18586/31798 graphs · 1.2/s · elapsed 1.15 h · ETA 3.2 h
+[2026-10-01 12:51:57] [12:51:57] 18611/31798 graphs · 1.2/s · elapsed 1.15 h · ETA 3.1 h
+[2026-10-01 12:52:00]   batch r1_b290_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 12:52:00] [12:52:00] 18611/31798 graphs · 1.2/s · elapsed 1.16 h · ETA 3.1 h
+[2026-10-01 12:52:04] [12:52:04] 18636/31798 graphs · 1.2/s · elapsed 1.16 h · ETA 3.1 h
+[2026-10-01 12:52:05] [12:52:05] 18661/31798 graphs · 1.2/s · elapsed 1.16 h · ETA 3.1 h
+[2026-10-01 12:52:28] [12:52:28] 18686/31798 graphs · 1.2/s · elapsed 1.16 h · ETA 3.1 h
+[2026-10-01 12:52:34]   batch r1_b296_899: M2 exited 1: *** out of memory trying to allocate 8 bytes, exiting ***
+[2026-10-01 12:52:34] [12:52:34] 18693/31798 graphs · 1.2/s · elapsed 1.16 h · ETA 3.1 h
+[2026-10-01 12:52:37] [12:52:37] 18718/31798 graphs · 1.2/s · elapsed 1.17 h · ETA 3.1 h
+[2026-10-01 12:52:53] [12:52:53] 18743/31798 graphs · 1.2/s · elapsed 1.17 h · ETA 3.1 h
+[2026-10-01 12:52:59] [12:52:59] 18768/31798 graphs · 1.2/s · elapsed 1.17 h · ETA 3.0 h
+[2026-10-01 12:53:11]   batch r1_b298_899: M2 exited 1: *** out of memory trying to allocate 96 bytes, exiting ***
+[2026-10-01 12:53:11] [12:53:11] 18789/31798 graphs · 1.2/s · elapsed 1.17 h · ETA 3.0 h
+[2026-10-01 12:53:15] [12:53:15] 18814/31798 graphs · 1.2/s · elapsed 1.18 h · ETA 3.0 h
+[2026-10-01 12:53:24] [12:53:24] 18839/31798 graphs · 1.2/s · elapsed 1.18 h · ETA 3.0 h
+[2026-10-01 12:53:27] [12:53:27] 18864/31798 graphs · 1.2/s · elapsed 1.18 h · ETA 3.0 h
+[2026-10-01 12:53:30] [12:53:30] 18889/31798 graphs · 1.2/s · elapsed 1.18 h · ETA 3.0 h
+[2026-10-01 12:53:36] [12:53:36] 18914/31798 graphs · 1.2/s · elapsed 1.18 h · ETA 3.0 h
+[2026-10-01 12:53:48] [12:53:48] 18939/31798 graphs · 1.2/s · elapsed 1.18 h · ETA 2.9 h
+[2026-10-01 12:54:04]   batch r1_b304_899: M2 exited 1: *** out of memory trying to allocate 48 bytes, exiting ***
+[2026-10-01 12:54:04] [12:54:04] 18953/31798 graphs · 1.2/s · elapsed 1.19 h · ETA 2.9 h
+[2026-10-01 12:54:07] [12:54:07] 18978/31798 graphs · 1.2/s · elapsed 1.19 h · ETA 2.9 h
+[2026-10-01 12:54:15] [12:54:15] 19003/31798 graphs · 1.2/s · elapsed 1.19 h · ETA 2.9 h
+[2026-10-01 12:54:23]   batch r1_b308_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 12:54:23] [12:54:23] 19020/31798 graphs · 1.2/s · elapsed 1.19 h · ETA 2.9 h
+[2026-10-01 12:54:46]   batch r1_b311_899: M2 exited 1: *** out of memory trying to allocate 104 bytes, exiting ***
+[2026-10-01 12:54:46] [12:54:46] 19027/31798 graphs · 1.2/s · elapsed 1.20 h · ETA 2.9 h
+[2026-10-01 12:54:50] [12:54:50] 19052/31798 graphs · 1.2/s · elapsed 1.20 h · ETA 2.9 h
+[2026-10-01 12:54:57]   batch r1_b312_899: M2 exited 1: *** out of memory trying to allocate 48 bytes, exiting ***
+[2026-10-01 12:54:57] [12:54:57] 19076/31798 graphs · 1.2/s · elapsed 1.20 h · ETA 2.9 h
+[2026-10-01 12:55:02] [12:55:02] 19101/31798 graphs · 1.2/s · elapsed 1.21 h · ETA 2.9 h
+[2026-10-01 12:55:22] [12:55:22] 19126/31798 graphs · 1.2/s · elapsed 1.21 h · ETA 2.9 h
+[2026-10-01 12:55:26] [12:55:26] 19151/31798 graphs · 1.2/s · elapsed 1.21 h · ETA 2.8 h
+[2026-10-01 12:55:31]   batch r1_b315_899: M2 exited 1: *** out of memory trying to allocate 48 bytes, exiting ***
+[2026-10-01 12:55:31] [12:55:31] 19168/31798 graphs · 1.2/s · elapsed 1.21 h · ETA 2.8 h
+[2026-10-01 12:55:51] [12:55:51] 19193/31798 graphs · 1.2/s · elapsed 1.22 h · ETA 2.8 h
+[2026-10-01 12:55:56]   batch r1_b319_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 12:55:56] [12:55:56] 19213/31798 graphs · 1.2/s · elapsed 1.22 h · ETA 2.8 h
+[2026-10-01 12:56:22] [12:56:22] 19238/31798 graphs · 1.2/s · elapsed 1.23 h · ETA 2.8 h
+[2026-10-01 12:56:31]   batch r1_b321_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 12:56:31] [12:56:31] 19247/31798 graphs · 1.2/s · elapsed 1.23 h · ETA 2.8 h
+[2026-10-01 12:56:46] [12:56:46] 19272/31798 graphs · 1.2/s · elapsed 1.23 h · ETA 2.8 h
+[2026-10-01 12:57:37]   batch r1_b322_899: M2 exited 1: *** out of memory trying to allocate 96 bytes, exiting ***
+[2026-10-01 12:57:37] [12:57:37] 19288/31798 graphs · 1.2/s · elapsed 1.25 h · ETA 2.8 h
+[2026-10-01 12:57:42] [12:57:42] 19313/31798 graphs · 1.2/s · elapsed 1.25 h · ETA 2.8 h
+[2026-10-01 12:57:54]   batch r1_b325_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 12:57:54] [12:57:54] 19313/31798 graphs · 1.2/s · elapsed 1.25 h · ETA 2.8 h
+[2026-10-01 12:58:33] [12:58:33] 19338/31798 graphs · 1.2/s · elapsed 1.26 h · ETA 2.8 h
+[2026-10-01 12:59:15]   batch r1_b328_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 12:59:15] [12:59:15] 19342/31798 graphs · 1.2/s · elapsed 1.28 h · ETA 2.8 h
+[2026-10-01 12:59:15]   batch r1_b326_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 12:59:15] [12:59:15] 19358/31798 graphs · 1.2/s · elapsed 1.28 h · ETA 2.8 h
+[2026-10-01 12:59:51] [12:59:51] 19383/31798 graphs · 1.2/s · elapsed 1.29 h · ETA 2.8 h
+[2026-10-01 13:23:52]   batch r1_b330_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 13:23:52] [13:23:52] 19400/31798 graphs · 0.9/s · elapsed 1.69 h · ETA 3.7 h
+[2026-10-01 13:23:55]   batch r1_b331_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 13:23:55] [13:23:55] 19408/31798 graphs · 0.9/s · elapsed 1.69 h · ETA 3.7 h
+[2026-10-01 13:24:34]   batch r1_b332_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 13:24:34] [13:24:34] 19415/31798 graphs · 0.9/s · elapsed 1.70 h · ETA 3.7 h
+[2026-10-01 13:24:45]   batch r1_b333_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 13:24:45] [13:24:45] 19422/31798 graphs · 0.9/s · elapsed 1.70 h · ETA 3.7 h
+[2026-10-01 13:25:20]   batch r1_b335_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 13:25:20] [13:25:20] 19423/31798 graphs · 0.9/s · elapsed 1.71 h · ETA 3.7 h
+[2026-10-01 13:26:15]   batch r1_b334_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 13:26:15] [13:26:15] 19446/31798 graphs · 0.9/s · elapsed 1.73 h · ETA 3.7 h
+[2026-10-01 13:26:42]   batch r1_b336_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 13:26:42] [13:26:42] 19459/31798 graphs · 0.9/s · elapsed 1.73 h · ETA 3.8 h
+[2026-10-01 13:27:29]   batch r1_b338_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 13:27:29] [13:27:29] 19467/31798 graphs · 0.9/s · elapsed 1.75 h · ETA 3.8 h
+[2026-10-01 13:28:03]   batch r1_b337_899: M2 exited 1: *** out of memory trying to allocate 152 bytes, exiting ***
+[2026-10-01 13:28:03] [13:28:03] 19486/31798 graphs · 0.9/s · elapsed 1.76 h · ETA 3.8 h
+[2026-10-01 13:28:42]   batch r1_b339_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 13:28:42] [13:28:42] 19508/31798 graphs · 0.9/s · elapsed 1.77 h · ETA 3.8 h
+[2026-10-01 13:29:03]   batch r1_b340_899: M2 exited 1: *** out of memory trying to allocate 120 bytes, exiting ***
+[2026-10-01 13:29:03] [13:29:03] 19513/31798 graphs · 0.9/s · elapsed 1.77 h · ETA 3.8 h
+[2026-10-01 13:30:24]   batch r1_b341_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 13:30:24] [13:30:24] 19526/31798 graphs · 0.9/s · elapsed 1.79 h · ETA 3.8 h
+[2026-10-01 13:30:40]   batch r1_b343_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 13:30:40] [13:30:40] 19526/31798 graphs · 0.9/s · elapsed 1.80 h · ETA 3.8 h
+[2026-10-01 13:32:09]   batch r1_b342_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 13:32:09] [13:32:09] 19537/31798 graphs · 0.9/s · elapsed 1.82 h · ETA 3.9 h
+[2026-10-01 13:32:31]   batch r1_b345_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 13:32:31] [13:32:31] 19537/31798 graphs · 0.9/s · elapsed 1.83 h · ETA 3.9 h
+[2026-10-01 13:33:01]   batch r1_b344_899: M2 exited 1: *** out of memory trying to allocate 84 bytes, exiting ***
+[2026-10-01 13:33:01] [13:33:01] 19547/31798 graphs · 0.9/s · elapsed 1.84 h · ETA 3.9 h
+[2026-10-01 13:33:53]   batch r1_b347_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 13:33:53] [13:33:53] 19549/31798 graphs · 0.9/s · elapsed 1.85 h · ETA 3.9 h
+[2026-10-01 13:34:03]   batch r1_b346_899: M2 exited 1: *** out of memory trying to allocate 136 bytes, exiting ***
+[2026-10-01 13:34:03] [13:34:03] 19552/31798 graphs · 0.9/s · elapsed 1.86 h · ETA 3.9 h
+[2026-10-01 13:34:22]   batch r1_b349_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 13:34:22] [13:34:22] 19552/31798 graphs · 0.9/s · elapsed 1.86 h · ETA 3.9 h
+[2026-10-01 13:34:38]   batch r1_b348_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 13:34:38] [13:34:38] 19555/31798 graphs · 0.9/s · elapsed 1.87 h · ETA 3.9 h
+[2026-10-01 13:34:40]   batch r1_b350_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 13:34:40] [13:34:40] 19555/31798 graphs · 0.9/s · elapsed 1.87 h · ETA 3.9 h
+[2026-10-01 13:34:51] [13:34:51] 19580/31798 graphs · 0.9/s · elapsed 1.87 h · ETA 3.9 h
+[2026-10-01 13:34:52]   batch r1_b351_899: M2 exited 1: *** out of memory trying to allocate 120 bytes, exiting ***
+[2026-10-01 13:34:52] [13:34:52] 19580/31798 graphs · 0.9/s · elapsed 1.87 h · ETA 3.9 h
+[2026-10-01 13:34:57] [13:34:57] 19605/31798 graphs · 0.9/s · elapsed 1.87 h · ETA 3.9 h
+[2026-10-01 13:35:02] [13:35:02] 19630/31798 graphs · 0.9/s · elapsed 1.87 h · ETA 3.9 h
+[2026-10-01 13:35:28]   batch r1_b356_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 13:35:28] [13:35:28] 19631/31798 graphs · 0.9/s · elapsed 1.88 h · ETA 3.9 h
+[2026-10-01 13:35:40] [13:35:40] 19656/31798 graphs · 0.9/s · elapsed 1.88 h · ETA 3.9 h
+[2026-10-01 13:35:46] [13:35:46] 19681/31798 graphs · 0.9/s · elapsed 1.88 h · ETA 3.9 h
+[2026-10-01 13:36:10]   batch r1_b357_899: M2 exited 1: *** out of memory trying to allocate 88 bytes, exiting ***
+[2026-10-01 13:36:10] [13:36:10] 19682/31798 graphs · 0.9/s · elapsed 1.89 h · ETA 3.9 h
+[2026-10-01 13:36:37]   batch r1_b359_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 13:36:37] [13:36:37] 19694/31798 graphs · 0.9/s · elapsed 1.90 h · ETA 3.9 h
+[2026-10-01 13:36:51] [13:36:51] 19719/31798 graphs · 0.9/s · elapsed 1.90 h · ETA 3.9 h
+[2026-10-01 13:37:13]   batch r1_b360_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 13:37:13] [13:37:13] 19725/31798 graphs · 0.9/s · elapsed 1.91 h · ETA 3.9 h
+[2026-10-01 13:37:20] [13:37:20] 19750/31798 graphs · 0.9/s · elapsed 1.91 h · ETA 3.8 h
+[2026-10-01 13:37:52]   batch r1_b362_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 13:37:52] [13:37:52] 19755/31798 graphs · 0.9/s · elapsed 1.92 h · ETA 3.9 h
+[2026-10-01 13:38:10] [13:38:10] 19780/31798 graphs · 0.9/s · elapsed 1.92 h · ETA 3.8 h
+[2026-10-01 13:38:10]   batch r1_b364_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 13:38:10] [13:38:10] 19792/31798 graphs · 0.9/s · elapsed 1.92 h · ETA 3.8 h
+[2026-10-01 13:38:37] [13:38:37] 19817/31798 graphs · 0.9/s · elapsed 1.93 h · ETA 3.8 h
+[2026-10-01 13:39:19]   batch r1_b368_899: M2 exited 1: *** out of memory trying to allocate 32 bytes, exiting ***
+[2026-10-01 13:39:19] [13:39:19] 19818/31798 graphs · 0.9/s · elapsed 1.94 h · ETA 3.8 h
+[2026-10-01 13:39:31] [13:39:31] 19843/31798 graphs · 0.9/s · elapsed 1.95 h · ETA 3.8 h
+[2026-10-01 13:40:43] [13:40:43] 19868/31798 graphs · 0.9/s · elapsed 1.97 h · ETA 3.8 h
+[2026-10-01 13:40:56]   batch r1_b370_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 13:40:56] [13:40:56] 19888/31798 graphs · 0.9/s · elapsed 1.97 h · ETA 3.8 h
+[2026-10-01 13:40:58] [13:40:58] 19913/31798 graphs · 0.9/s · elapsed 1.97 h · ETA 3.8 h
+[2026-10-01 13:41:01] [13:41:01] 19938/31798 graphs · 0.9/s · elapsed 1.97 h · ETA 3.8 h
+[2026-10-01 13:41:04] [13:41:04] 19963/31798 graphs · 0.9/s · elapsed 1.97 h · ETA 3.8 h
+[2026-10-01 13:41:07] [13:41:07] 19988/31798 graphs · 0.9/s · elapsed 1.97 h · ETA 3.7 h
+[2026-10-01 13:41:15] [13:41:15] 20013/31798 graphs · 0.9/s · elapsed 1.98 h · ETA 3.7 h
+[2026-10-01 13:41:24] [13:41:24] 20038/31798 graphs · 0.9/s · elapsed 1.98 h · ETA 3.7 h
+[2026-10-01 13:41:31] [13:41:31] 20063/31798 graphs · 0.9/s · elapsed 1.98 h · ETA 3.7 h
+[2026-10-01 13:41:35] [13:41:35] 20088/31798 graphs · 0.9/s · elapsed 1.98 h · ETA 3.7 h
+[2026-10-01 13:41:47] [13:41:47] 20113/31798 graphs · 0.9/s · elapsed 1.98 h · ETA 3.7 h
+[2026-10-01 13:41:49] [13:41:49] 20138/31798 graphs · 0.9/s · elapsed 1.99 h · ETA 3.6 h
+[2026-10-01 13:41:56] [13:41:56] 20163/31798 graphs · 0.9/s · elapsed 1.99 h · ETA 3.6 h
+[2026-10-01 13:41:58] [13:41:58] 20188/31798 graphs · 0.9/s · elapsed 1.99 h · ETA 3.6 h
+[2026-10-01 13:42:03] [13:42:03] 20213/31798 graphs · 0.9/s · elapsed 1.99 h · ETA 3.6 h
+[2026-10-01 13:42:07] [13:42:07] 20238/31798 graphs · 0.9/s · elapsed 1.99 h · ETA 3.6 h
+[2026-10-01 13:42:18] [13:42:18] 20263/31798 graphs · 0.9/s · elapsed 1.99 h · ETA 3.5 h
+[2026-10-01 13:42:26] [13:42:26] 20288/31798 graphs · 0.9/s · elapsed 2.00 h · ETA 3.5 h
+[2026-10-01 13:42:28] [13:42:28] 20313/31798 graphs · 0.9/s · elapsed 2.00 h · ETA 3.5 h
+[2026-10-01 13:42:43] [13:42:43] 20338/31798 graphs · 0.9/s · elapsed 2.00 h · ETA 3.5 h
+[2026-10-01 13:42:50] [13:42:50] 20363/31798 graphs · 0.9/s · elapsed 2.00 h · ETA 3.5 h
+[2026-10-01 13:43:02] [13:43:02] 20388/31798 graphs · 0.9/s · elapsed 2.01 h · ETA 3.5 h
+[2026-10-01 13:43:27] [13:43:27] 20413/31798 graphs · 0.9/s · elapsed 2.01 h · ETA 3.4 h
+[2026-10-01 13:43:32] [13:43:32] 20438/31798 graphs · 0.9/s · elapsed 2.01 h · ETA 3.4 h
+[2026-10-01 13:43:53]   batch r1_b392_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 13:43:53] [13:43:53] 20457/31798 graphs · 0.9/s · elapsed 2.02 h · ETA 3.4 h
+[2026-10-01 13:44:06] [13:44:06] 20482/31798 graphs · 0.9/s · elapsed 2.02 h · ETA 3.4 h
+[2026-10-01 13:44:35] [13:44:35] 20507/31798 graphs · 0.9/s · elapsed 2.03 h · ETA 3.4 h
+[2026-10-01 13:45:24]   batch r1_b396_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 13:45:24] [13:45:24] 20513/31798 graphs · 0.9/s · elapsed 2.04 h · ETA 3.4 h
+[2026-10-01 13:45:24]   batch r1_b397_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 13:45:24] [13:45:24] 20519/31798 graphs · 0.9/s · elapsed 2.04 h · ETA 3.4 h
+[2026-10-01 13:45:40] [13:45:40] 20544/31798 graphs · 0.9/s · elapsed 2.05 h · ETA 3.4 h
+[2026-10-01 13:45:49] [13:45:49] 20569/31798 graphs · 0.9/s · elapsed 2.05 h · ETA 3.4 h
+[2026-10-01 13:46:10] [13:46:10] 20594/31798 graphs · 0.9/s · elapsed 2.06 h · ETA 3.4 h
+[2026-10-01 13:47:06] [13:47:06] 20619/31798 graphs · 0.9/s · elapsed 2.07 h · ETA 3.4 h
+[2026-10-01 13:47:32]   batch r1_b399_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 13:47:32] [13:47:32] 20634/31798 graphs · 0.9/s · elapsed 2.08 h · ETA 3.4 h
+[2026-10-01 13:47:48] [13:47:48] 20659/31798 graphs · 0.9/s · elapsed 2.08 h · ETA 3.4 h
+[2026-10-01 13:47:56]   batch r1_b403_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 13:47:56] [13:47:56] 20667/31798 graphs · 0.9/s · elapsed 2.09 h · ETA 3.4 h
+[2026-10-01 13:48:44]   batch r1_b406_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 13:48:44] [13:48:44] 20669/31798 graphs · 0.9/s · elapsed 2.10 h · ETA 3.4 h
+[2026-10-01 13:48:48] [13:48:48] 20694/31798 graphs · 0.9/s · elapsed 2.10 h · ETA 3.4 h
+[2026-10-01 13:48:53] [13:48:53] 20719/31798 graphs · 0.9/s · elapsed 2.10 h · ETA 3.3 h
+[2026-10-01 13:48:59] [13:48:59] 20744/31798 graphs · 0.9/s · elapsed 2.10 h · ETA 3.3 h
+[2026-10-01 13:49:20] [13:49:20] 20769/31798 graphs · 0.9/s · elapsed 2.11 h · ETA 3.3 h
+[2026-10-01 13:49:23] [13:49:23] 20794/31798 graphs · 0.9/s · elapsed 2.11 h · ETA 3.3 h
+[2026-10-01 13:50:11]   batch r1_b412_899: M2 exited 1: *** out of memory trying to allocate 136 bytes, exiting ***
+[2026-10-01 13:50:11] [13:50:11] 20795/31798 graphs · 0.9/s · elapsed 2.12 h · ETA 3.3 h
+[2026-10-01 13:50:13] [13:50:13] 20820/31798 graphs · 0.9/s · elapsed 2.13 h · ETA 3.3 h
+[2026-10-01 13:50:18] [13:50:18] 20845/31798 graphs · 0.9/s · elapsed 2.13 h · ETA 3.3 h
+[2026-10-01 13:50:58] [13:50:58] 20870/31798 graphs · 0.9/s · elapsed 2.14 h · ETA 3.3 h
+[2026-10-01 13:51:15] [13:51:15] 20895/31798 graphs · 0.9/s · elapsed 2.14 h · ETA 3.3 h
+[2026-10-01 13:51:16]   batch r1_b415_899: M2 exited 1: *** out of memory trying to allocate 96 bytes, exiting ***
+[2026-10-01 13:51:16] [13:51:16] 20919/31798 graphs · 0.9/s · elapsed 2.14 h · ETA 3.3 h
+[2026-10-01 13:51:49]   batch r1_b418_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 13:51:49] [13:51:49] 20920/31798 graphs · 0.9/s · elapsed 2.15 h · ETA 3.3 h
+[2026-10-01 13:52:39]   batch r1_b417_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 13:52:39] [13:52:39] 20942/31798 graphs · 0.9/s · elapsed 2.17 h · ETA 3.3 h
+[2026-10-01 13:52:41] [13:52:41] 20967/31798 graphs · 0.9/s · elapsed 2.17 h · ETA 3.3 h
+[2026-10-01 13:52:51] [13:52:51] 20992/31798 graphs · 0.9/s · elapsed 2.17 h · ETA 3.2 h
+[2026-10-01 13:53:24] [13:53:24] 21017/31798 graphs · 0.9/s · elapsed 2.18 h · ETA 3.2 h
+[2026-10-01 13:53:31]   batch r1_b420_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 13:53:31] [13:53:31] 21018/31798 graphs · 0.9/s · elapsed 2.18 h · ETA 3.2 h
+[2026-10-01 13:54:41] [13:54:41] 21043/31798 graphs · 0.9/s · elapsed 2.20 h · ETA 3.2 h
+[2026-10-01 13:54:43]   batch r1_b424_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 13:54:43] [13:54:43] 21055/31798 graphs · 0.9/s · elapsed 2.20 h · ETA 3.2 h
+[2026-10-01 13:55:52]   batch r1_b425_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 13:55:52] [13:55:52] 21073/31798 graphs · 0.9/s · elapsed 2.22 h · ETA 3.3 h
+[2026-10-01 13:55:59]   batch r1_b426_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 13:55:59] [13:55:59] 21096/31798 graphs · 0.9/s · elapsed 2.22 h · ETA 3.2 h
+[2026-10-01 13:56:24] [13:56:24] 21121/31798 graphs · 0.9/s · elapsed 2.23 h · ETA 3.2 h
+[2026-10-01 13:57:08]   batch r1_b429_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 13:57:08] [13:57:08] 21122/31798 graphs · 0.9/s · elapsed 2.24 h · ETA 3.2 h
+[2026-10-01 13:57:11] [13:57:11] 21147/31798 graphs · 0.9/s · elapsed 2.24 h · ETA 3.2 h
+[2026-10-01 13:58:06] [13:58:06] 21172/31798 graphs · 0.9/s · elapsed 2.26 h · ETA 3.2 h
+[2026-10-01 13:58:21]   batch r1_b431_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 13:58:21] [13:58:21] 21177/31798 graphs · 0.9/s · elapsed 2.26 h · ETA 3.2 h
+[2026-10-01 13:58:22] [13:58:22] 21202/31798 graphs · 0.9/s · elapsed 2.26 h · ETA 3.2 h
+[2026-10-01 13:59:22] [13:59:22] 21227/31798 graphs · 0.9/s · elapsed 2.28 h · ETA 3.2 h
+[2026-10-01 14:00:05]   batch r1_b434_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 14:00:05] [14:00:05] 21233/31798 graphs · 0.9/s · elapsed 2.29 h · ETA 3.2 h
+[2026-10-01 14:00:56]   batch r1_b436_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 14:00:56] [14:00:56] 21234/31798 graphs · 0.9/s · elapsed 2.30 h · ETA 3.3 h
+[2026-10-01 14:01:02]   batch r1_b435_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 14:01:02] [14:01:02] 21256/31798 graphs · 0.9/s · elapsed 2.31 h · ETA 3.2 h
+[2026-10-01 14:02:39]   batch r1_b438_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 14:02:39] [14:02:39] 21267/31798 graphs · 0.9/s · elapsed 2.33 h · ETA 3.3 h
+[2026-10-01 14:03:00]   batch r1_b439_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 14:03:00] [14:03:00] 21267/31798 graphs · 0.9/s · elapsed 2.34 h · ETA 3.3 h
+[2026-10-01 14:03:22]   batch r1_b440_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 14:03:22] [14:03:22] 21267/31798 graphs · 0.9/s · elapsed 2.34 h · ETA 3.3 h
+[2026-10-01 14:03:34]   batch r1_b437_899: M2 exited 1: Insufficient memory for the allocation
+[2026-10-01 14:03:34] [14:03:34] 21280/31798 graphs · 0.9/s · elapsed 2.35 h · ETA 3.3 h
+[2026-10-01 14:04:49]   batch r1_b441_899: M2 exited 1: *** out of memory trying to allocate 104 bytes, exiting ***
+[2026-10-01 14:04:49] [14:04:49] 21295/31798 graphs · 0.9/s · elapsed 2.37 h · ETA 3.3 h
+[2026-10-01 14:05:13] [14:05:13] 21320/31798 graphs · 0.9/s · elapsed 2.38 h · ETA 3.3 h
+[2026-10-01 14:05:49]   batch r1_b443_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 14:05:49] [14:05:49] 21329/31798 graphs · 0.9/s · elapsed 2.39 h · ETA 3.3 h
+[2026-10-01 14:06:33]   batch r1_b445_899: M2 exited 1: *** out of memory trying to allocate 104 bytes, exiting ***
+[2026-10-01 14:06:33] [14:06:33] 21334/31798 graphs · 0.9/s · elapsed 2.40 h · ETA 3.3 h
+[2026-10-01 14:07:26]   batch r1_b446_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 14:07:26] [14:07:26] 21338/31798 graphs · 0.9/s · elapsed 2.41 h · ETA 3.3 h
+[2026-10-01 14:07:31]   batch r1_b444_899: M2 exited 1: *** out of memory trying to allocate 88 bytes, exiting ***
+[2026-10-01 14:07:31] [14:07:31] 21345/31798 graphs · 0.9/s · elapsed 2.41 h · ETA 3.3 h
+[2026-10-01 14:08:39]   batch r1_b448_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 14:08:39] [14:08:39] 21359/31798 graphs · 0.9/s · elapsed 2.43 h · ETA 3.3 h
+[2026-10-01 14:08:53]   batch r1_b447_899: M2 exited 1: *** out of memory trying to allocate 48 bytes, exiting ***
+[2026-10-01 14:08:53] [14:08:53] 21362/31798 graphs · 0.9/s · elapsed 2.44 h · ETA 3.3 h
+[2026-10-01 14:09:39]   batch r1_b450_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 14:09:39] [14:09:39] 21363/31798 graphs · 0.9/s · elapsed 2.45 h · ETA 3.4 h
+[2026-10-01 14:10:00]   batch r1_b449_899: M2 exited 1: *** out of memory trying to allocate 48 bytes, exiting ***
+[2026-10-01 14:10:00] [14:10:00] 21366/31798 graphs · 0.9/s · elapsed 2.45 h · ETA 3.4 h
+[2026-10-01 14:11:20]   batch r1_b452_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 14:11:20] [14:11:20] 21371/31798 graphs · 0.9/s · elapsed 2.48 h · ETA 3.4 h
+[2026-10-01 14:11:41]   batch r1_b453_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 14:11:41] [14:11:41] 21371/31798 graphs · 0.9/s · elapsed 2.48 h · ETA 3.4 h
+[2026-10-01 14:11:48] [14:11:48] 21396/31798 graphs · 0.9/s · elapsed 2.49 h · ETA 3.4 h
+[2026-10-01 14:13:24]   batch r1_b454_899: M2 exited 1: *** out of memory trying to allocate 48 bytes, exiting ***
+[2026-10-01 14:13:24] [14:13:24] 21416/31798 graphs · 0.8/s · elapsed 2.51 h · ETA 3.4 h
+[2026-10-01 14:13:33]   batch r1_b455_899: M2 exited 1: *** out of memory trying to allocate 104 bytes, exiting ***
+[2026-10-01 14:13:33] [14:13:33] 21419/31798 graphs · 0.8/s · elapsed 2.51 h · ETA 3.4 h
+[2026-10-01 14:14:50]   batch r1_b457_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 14:14:50] [14:14:50] 21425/31798 graphs · 0.8/s · elapsed 2.54 h · ETA 3.4 h
+[2026-10-01 14:14:57]   batch r1_b456_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 14:14:57] [14:14:57] 21442/31798 graphs · 0.8/s · elapsed 2.54 h · ETA 3.4 h
+[2026-10-01 14:15:55]   batch r1_b458_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 14:15:55] [14:15:55] 21448/31798 graphs · 0.8/s · elapsed 2.55 h · ETA 3.4 h
+[2026-10-01 14:16:08]   batch r1_b459_899: M2 exited 1: *** out of memory trying to allocate 136 bytes, exiting ***
+[2026-10-01 14:16:08] [14:16:08] 21449/31798 graphs · 0.8/s · elapsed 2.56 h · ETA 3.4 h
+[2026-10-01 14:16:51]   batch r1_b460_899: M2 exited 1: *** out of memory trying to allocate 136 bytes, exiting ***
+[2026-10-01 14:16:51] [14:16:51] 21451/31798 graphs · 0.8/s · elapsed 2.57 h · ETA 3.5 h
+[2026-10-01 14:17:51] [14:17:51] 21476/31798 graphs · 0.8/s · elapsed 2.59 h · ETA 3.5 h
+[2026-10-01 14:17:58] [14:17:58] 21501/31798 graphs · 0.8/s · elapsed 2.59 h · ETA 3.4 h
+[2026-10-01 14:18:29]   batch r1_b464_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 14:18:29] [14:18:29] 21501/31798 graphs · 0.8/s · elapsed 2.60 h · ETA 3.5 h
+[2026-10-01 14:18:45]   batch r1_b463_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 14:18:45] [14:18:45] 21505/31798 graphs · 0.8/s · elapsed 2.60 h · ETA 3.5 h
+[2026-10-01 14:19:33]   batch r1_b465_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 14:19:33] [14:19:33] 21521/31798 graphs · 0.8/s · elapsed 2.61 h · ETA 3.5 h
+[2026-10-01 14:19:34]   batch r1_b466_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 14:19:34] [14:19:34] 21525/31798 graphs · 0.8/s · elapsed 2.61 h · ETA 3.5 h
+[2026-10-01 14:20:48]   batch r1_b467_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 14:20:48] [14:20:48] 21545/31798 graphs · 0.8/s · elapsed 2.63 h · ETA 3.5 h
+[2026-10-01 14:21:05]   batch r1_b469_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 14:21:05] [14:21:05] 21545/31798 graphs · 0.8/s · elapsed 2.64 h · ETA 3.5 h
+[2026-10-01 14:21:26]   batch r1_b468_899: M2 exited 1: *** out of memory trying to allocate 136 bytes, exiting ***
+[2026-10-01 14:21:26] [14:21:26] 21550/31798 graphs · 0.8/s · elapsed 2.65 h · ETA 3.5 h
+[2026-10-01 14:21:48]   batch r1_b471_899: M2 exited 1: *** out of memory trying to allocate 120 bytes, exiting ***
+[2026-10-01 14:21:48] [14:21:48] 21550/31798 graphs · 0.8/s · elapsed 2.65 h · ETA 3.5 h
+[2026-10-01 14:21:58]   batch r1_b470_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 14:21:58] [14:21:58] 21551/31798 graphs · 0.8/s · elapsed 2.65 h · ETA 3.5 h
+[2026-10-01 14:22:18]   batch r1_b473_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 14:22:18] [14:22:18] 21551/31798 graphs · 0.8/s · elapsed 2.66 h · ETA 3.5 h
+[2026-10-01 14:22:37]   batch r1_b474_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 14:22:37] [14:22:37] 21551/31798 graphs · 0.8/s · elapsed 2.67 h · ETA 3.5 h
+[2026-10-01 14:22:57]   batch r1_b475_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 14:22:57] [14:22:57] 21551/31798 graphs · 0.8/s · elapsed 2.67 h · ETA 3.5 h
+[2026-10-01 14:23:52]   batch r1_b472_899: M2 exited 1: *** out of memory trying to allocate 136 bytes, exiting ***
+[2026-10-01 14:23:52] [14:23:52] 21556/31798 graphs · 0.8/s · elapsed 2.69 h · ETA 3.5 h
+[2026-10-01 14:24:19]   batch r1_b477_899: M2 exited 1: *** out of memory trying to allocate 120 bytes, exiting ***
+[2026-10-01 14:24:19] [14:24:19] 21556/31798 graphs · 0.8/s · elapsed 2.69 h · ETA 3.5 h
+[2026-10-01 14:24:37]   batch r1_b478_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 14:24:37] [14:24:37] 21556/31798 graphs · 0.8/s · elapsed 2.70 h · ETA 3.5 h
+[2026-10-01 14:24:47]   batch r1_b476_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 14:24:47] [14:24:47] 21560/31798 graphs · 0.8/s · elapsed 2.70 h · ETA 3.5 h
+[2026-10-01 14:25:12]   batch r1_b480_899: M2 exited 1: *** out of memory trying to allocate 120 bytes, exiting ***
+[2026-10-01 14:25:12] [14:25:12] 21560/31798 graphs · 0.8/s · elapsed 2.71 h · ETA 3.6 h
+[2026-10-01 14:25:28]   batch r1_b481_899: M2 exited 1: *** out of memory trying to allocate 120 bytes, exiting ***
+[2026-10-01 14:25:28] [14:25:28] 21560/31798 graphs · 0.8/s · elapsed 2.71 h · ETA 3.6 h
+[2026-10-01 14:25:57]   batch r1_b479_899: M2 exited 1: *** out of memory trying to allocate 104 bytes, exiting ***
+[2026-10-01 14:25:57] [14:25:57] 21561/31798 graphs · 0.8/s · elapsed 2.72 h · ETA 3.6 h
+[2026-10-01 14:26:00] [14:26:00] 21586/31798 graphs · 0.8/s · elapsed 2.72 h · ETA 3.6 h
+[2026-10-01 14:26:34] [14:26:34] 21611/31798 graphs · 0.8/s · elapsed 2.73 h · ETA 3.5 h
+[2026-10-01 14:27:03] [14:27:03] 21636/31798 graphs · 0.8/s · elapsed 2.74 h · ETA 3.5 h
+[2026-10-01 14:27:25] [14:27:25] 21661/31798 graphs · 0.8/s · elapsed 2.75 h · ETA 3.5 h
+[2026-10-01 14:27:46] [14:27:46] 21686/31798 graphs · 0.8/s · elapsed 2.75 h · ETA 3.5 h
+[2026-10-01 14:27:49]   batch r1_b485_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 14:27:49] [14:27:49] 21693/31798 graphs · 0.8/s · elapsed 2.75 h · ETA 3.5 h
+[2026-10-01 14:29:03]   batch r1_b489_899: M2 exited 1: *** out of memory trying to allocate 104 bytes, exiting ***
+[2026-10-01 14:29:03] [14:29:03] 21695/31798 graphs · 0.8/s · elapsed 2.77 h · ETA 3.5 h
+[2026-10-01 14:29:59] [14:29:59] 21720/31798 graphs · 0.8/s · elapsed 2.79 h · ETA 3.5 h
+[2026-10-01 14:30:17] [14:30:17] 21745/31798 graphs · 0.8/s · elapsed 2.79 h · ETA 3.5 h
+[2026-10-01 22:51:08]   batch r1_b491_899: M2 exited 1: *** out of memory trying to allocate 104 bytes, exiting ***
+[2026-10-01 22:51:08] [22:51:08] 21766/31798 graphs · 0.2/s · elapsed 11.14 h · ETA 14.0 h
+[2026-10-01 22:51:09] [22:51:09] 21791/31798 graphs · 0.2/s · elapsed 11.14 h · ETA 13.9 h
+[2026-10-01 22:51:46] [22:51:46] 21816/31798 graphs · 0.2/s · elapsed 11.15 h · ETA 13.8 h
+[2026-10-01 22:51:49] [22:51:49] 21841/31798 graphs · 0.2/s · elapsed 11.15 h · ETA 13.7 h
+[2026-10-01 22:51:55] [22:51:55] 21866/31798 graphs · 0.2/s · elapsed 11.15 h · ETA 13.7 h
+[2026-10-01 22:52:08]   batch r1_b493_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 22:52:08] [22:52:08] 21871/31798 graphs · 0.2/s · elapsed 11.16 h · ETA 13.7 h
+[2026-10-01 22:52:14] [22:52:14] 21896/31798 graphs · 0.2/s · elapsed 11.16 h · ETA 13.6 h
+[2026-10-01 22:52:50] [22:52:50] 21921/31798 graphs · 0.2/s · elapsed 11.17 h · ETA 13.5 h
+[2026-10-01 22:52:54]   batch r1_b497_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 22:52:54] [22:52:54] 21944/31798 graphs · 0.2/s · elapsed 11.17 h · ETA 13.5 h
+[2026-10-01 22:52:59] [22:52:59] 21969/31798 graphs · 0.2/s · elapsed 11.17 h · ETA 13.4 h
+[2026-10-01 22:53:18] [22:53:18] 21994/31798 graphs · 0.2/s · elapsed 11.18 h · ETA 13.3 h
+[2026-10-01 22:54:10] [22:54:10] 22019/31798 graphs · 0.2/s · elapsed 11.19 h · ETA 13.3 h
+[2026-10-01 22:54:11]   batch r1_b503_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 22:54:11] [22:54:11] 22028/31798 graphs · 0.2/s · elapsed 11.19 h · ETA 13.2 h
+[2026-10-01 22:54:15] [22:54:15] 22053/31798 graphs · 0.2/s · elapsed 11.19 h · ETA 13.2 h
+[2026-10-01 22:54:46] [22:54:46] 22078/31798 graphs · 0.2/s · elapsed 11.20 h · ETA 13.1 h
+[2026-10-01 22:54:57]   batch r1_b504_899: M2 exited 1: *** out of memory trying to allocate 48 bytes, exiting ***
+[2026-10-01 22:54:57] [22:54:57] 22083/31798 graphs · 0.2/s · elapsed 11.20 h · ETA 13.1 h
+[2026-10-01 22:55:18] [22:55:18] 22108/31798 graphs · 0.2/s · elapsed 11.21 h · ETA 13.0 h
+[2026-10-01 22:55:55]   batch r1_b507_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 22:55:55] [22:55:55] 22129/31798 graphs · 0.2/s · elapsed 11.22 h · ETA 13.0 h
+[2026-10-01 22:57:08]   batch r1_b509_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 22:57:08] [22:57:08] 22146/31798 graphs · 0.2/s · elapsed 11.24 h · ETA 12.9 h
+[2026-10-01 22:57:17]   batch r1_b510_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 22:57:17] [22:57:17] 22148/31798 graphs · 0.2/s · elapsed 11.24 h · ETA 12.9 h
+[2026-10-01 22:57:35] [22:57:35] 22173/31798 graphs · 0.2/s · elapsed 11.25 h · ETA 12.9 h
+[2026-10-01 22:57:35]   batch r1_b511_899: M2 exited 1: *** out of memory trying to allocate 120 bytes, exiting ***
+[2026-10-01 22:57:35] [22:57:35] 22173/31798 graphs · 0.2/s · elapsed 11.25 h · ETA 12.9 h
+[2026-10-01 22:58:24]   batch r1_b514_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 22:58:24] [22:58:24] 22186/31798 graphs · 0.2/s · elapsed 11.26 h · ETA 12.8 h
+[2026-10-01 22:59:01]   batch r1_b515_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 22:59:01] [22:59:01] 22196/31798 graphs · 0.2/s · elapsed 11.27 h · ETA 12.8 h
+[2026-10-01 22:59:06]   batch r1_b513_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 22:59:06] [22:59:06] 22211/31798 graphs · 0.2/s · elapsed 11.27 h · ETA 12.8 h
+[2026-10-01 22:59:28]   batch r1_b516_899: M2 exited 1: *** out of memory trying to allocate 120 bytes, exiting ***
+[2026-10-01 22:59:28] [22:59:28] 22211/31798 graphs · 0.2/s · elapsed 11.28 h · ETA 12.8 h
+[2026-10-01 23:00:34]   batch r1_b517_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 23:00:34] [23:00:34] 22229/31798 graphs · 0.2/s · elapsed 11.30 h · ETA 12.8 h
+[2026-10-01 23:00:38]   batch r1_b518_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 23:00:38] [23:00:38] 22235/31798 graphs · 0.2/s · elapsed 11.30 h · ETA 12.8 h
+[2026-10-01 23:01:10]   batch r1_b519_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 23:01:10] [23:01:10] 22236/31798 graphs · 0.2/s · elapsed 11.31 h · ETA 12.8 h
+[2026-10-01 23:01:28]   batch r1_b521_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 23:01:28] [23:01:28] 22236/31798 graphs · 0.2/s · elapsed 11.31 h · ETA 12.8 h
+[2026-10-01 23:01:43]   batch r1_b522_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 23:01:43] [23:01:43] 22236/31798 graphs · 0.2/s · elapsed 11.32 h · ETA 12.8 h
+[2026-10-01 23:02:02]   batch r1_b523_899: M2 exited 1: *** out of memory trying to allocate 120 bytes, exiting ***
+[2026-10-01 23:02:02] [23:02:02] 22236/31798 graphs · 0.2/s · elapsed 11.32 h · ETA 12.8 h
+[2026-10-01 23:02:07]   batch r1_b520_899: M2 exited 1: *** out of memory trying to allocate 32 bytes, exiting ***
+[2026-10-01 23:02:07] [23:02:07] 22241/31798 graphs · 0.2/s · elapsed 11.32 h · ETA 12.8 h
+[2026-10-01 23:03:11] [23:03:11] 22266/31798 graphs · 0.2/s · elapsed 11.34 h · ETA 12.7 h
+[2026-10-01 23:03:30]   batch r1_b525_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 23:03:30] [23:03:30] 22278/31798 graphs · 0.2/s · elapsed 11.35 h · ETA 12.7 h
+[2026-10-01 23:03:31]   batch r1_b526_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 23:03:31] [23:03:31] 22278/31798 graphs · 0.2/s · elapsed 11.35 h · ETA 12.7 h
+[2026-10-01 23:05:06]   batch r1_b528_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 23:05:06] [23:05:06] 22293/31798 graphs · 0.2/s · elapsed 11.37 h · ETA 12.7 h
+[2026-10-01 23:05:20] [23:05:20] 22318/31798 graphs · 0.2/s · elapsed 11.38 h · ETA 12.6 h
+[2026-10-01 23:06:01] [23:06:01] 22343/31798 graphs · 0.2/s · elapsed 11.39 h · ETA 12.5 h
+[2026-10-01 23:06:53]   batch r1_b529_899: M2 exited 1: *** out of memory trying to allocate 104 bytes, exiting ***
+[2026-10-01 23:06:53] [23:06:53] 22347/31798 graphs · 0.2/s · elapsed 11.40 h · ETA 12.6 h
+[2026-10-01 23:07:26]   batch r1_b532_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 23:07:26] [23:07:26] 22350/31798 graphs · 0.2/s · elapsed 11.41 h · ETA 12.6 h
+[2026-10-01 23:07:47] [23:07:47] 22375/31798 graphs · 0.2/s · elapsed 11.42 h · ETA 12.5 h
+[2026-10-01 23:07:57] [23:07:57] 22400/31798 graphs · 0.2/s · elapsed 11.42 h · ETA 12.4 h
+[2026-10-01 23:08:48] [23:08:48] 22425/31798 graphs · 0.2/s · elapsed 11.43 h · ETA 12.4 h
+[2026-10-01 23:10:18]   batch r1_b536_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-01 23:10:18] [23:10:18] 22436/31798 graphs · 0.2/s · elapsed 11.46 h · ETA 12.4 h
+[2026-10-01 23:10:21] [23:10:21] 22461/31798 graphs · 0.2/s · elapsed 11.46 h · ETA 12.3 h
+[2026-10-01 23:11:27]   batch r1_b537_899: M2 exited 1: *** out of memory trying to allocate 104 bytes, exiting ***
+[2026-10-01 23:11:27] [23:11:27] 22462/31798 graphs · 0.2/s · elapsed 11.48 h · ETA 12.3 h
+[2026-10-02 15:45:08]   batch r1_b538_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-02 15:45:08] [15:45:08] 22484/31798 graphs · 0.1/s · elapsed 28.04 h · ETA 29.9 h
+[2026-10-02 15:46:00]   batch r1_b539_899: M2 exited 1: *** out of memory trying to allocate 104 bytes, exiting ***
+[2026-10-02 15:46:00] [15:46:00] 22487/31798 graphs · 0.1/s · elapsed 28.05 h · ETA 29.9 h
+[2026-10-02 15:48:21]   batch r1_b541_899: M2 exited 1: *** out of memory trying to allocate 104 bytes, exiting ***
+[2026-10-02 15:48:21] [15:48:21] 22488/31798 graphs · 0.1/s · elapsed 28.09 h · ETA 30.0 h
+[2026-10-02 15:50:51] [15:50:51] 22513/31798 graphs · 0.1/s · elapsed 28.14 h · ETA 29.8 h
+[2026-10-02 15:52:29] [15:52:29] 22538/31798 graphs · 0.1/s · elapsed 28.16 h · ETA 29.7 h
+[2026-10-02 15:54:00]   batch r1_b544_899: M2 exited 1: *** out of memory trying to allocate 104 bytes, exiting ***
+[2026-10-02 15:54:00] [15:54:00] 22539/31798 graphs · 0.1/s · elapsed 28.19 h · ETA 29.7 h
+[2026-10-02 15:54:11]   batch r1_b543_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-02 15:54:11] [15:54:11] 22553/31798 graphs · 0.1/s · elapsed 28.19 h · ETA 29.6 h
+[2026-10-02 15:55:32]   batch r1_b546_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-02 15:55:32] [15:55:32] 22555/31798 graphs · 0.1/s · elapsed 28.21 h · ETA 29.7 h
+[2026-10-02 15:55:50]   batch r1_b547_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-02 15:55:50] [15:55:50] 22555/31798 graphs · 0.1/s · elapsed 28.22 h · ETA 29.7 h
+[2026-10-02 15:56:29]   batch r1_b545_899: M2 exited 1: Insufficient memory for the allocation
+[2026-10-02 15:56:29] [15:56:29] 22560/31798 graphs · 0.1/s · elapsed 28.23 h · ETA 29.6 h
+[2026-10-02 15:56:40]   batch r1_b548_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-02 15:56:41] [15:56:41] 22562/31798 graphs · 0.1/s · elapsed 28.23 h · ETA 29.6 h
+[2026-10-02 15:57:01]   batch r1_b549_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-02 15:57:01] [15:57:01] 22564/31798 graphs · 0.1/s · elapsed 28.24 h · ETA 29.6 h
+[2026-10-02 15:57:28]   batch r1_b550_899: M2 exited 1: *** out of memory trying to allocate 108 bytes, exiting ***
+[2026-10-02 15:57:28] [15:57:28] 22564/31798 graphs · 0.1/s · elapsed 28.25 h · ETA 29.6 h
+[2026-10-02 15:57:30]   batch r1_b551_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-02 15:57:30] [15:57:30] 22565/31798 graphs · 0.1/s · elapsed 28.25 h · ETA 29.6 h
+[2026-10-02 15:57:49]   batch r1_b553_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-02 15:57:49] [15:57:49] 22565/31798 graphs · 0.1/s · elapsed 28.25 h · ETA 29.6 h
+[2026-10-02 15:58:14]   batch r1_b554_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-02 15:58:14] [15:58:14] 22565/31798 graphs · 0.1/s · elapsed 28.26 h · ETA 29.6 h
+[2026-10-02 15:58:44]   batch r1_b552_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-02 15:58:44] [15:58:44] 22567/31798 graphs · 0.1/s · elapsed 28.27 h · ETA 29.6 h
+[2026-10-02 15:59:10]   batch r1_b556_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-02 15:59:10] [15:59:10] 22567/31798 graphs · 0.1/s · elapsed 28.27 h · ETA 29.6 h
+[2026-10-02 15:59:43]   batch r1_b555_899: M2 exited 1: *** out of memory trying to allocate 104 bytes, exiting ***
+[2026-10-02 15:59:43] [15:59:43] 22570/31798 graphs · 0.1/s · elapsed 28.28 h · ETA 29.6 h
+[2026-10-02 16:00:16]   batch r1_b557_899: M2 exited 1: *** out of memory trying to allocate 48 bytes, exiting ***
+[2026-10-02 16:00:16] [16:00:16] 22572/31798 graphs · 0.1/s · elapsed 28.29 h · ETA 29.6 h
+[2026-10-02 16:00:28]   batch r1_b558_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-02 16:00:28] [16:00:28] 22573/31798 graphs · 0.1/s · elapsed 28.30 h · ETA 29.6 h
+[2026-10-02 16:00:40]   batch r1_b559_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-02 16:00:40] [16:00:40] 22573/31798 graphs · 0.1/s · elapsed 28.30 h · ETA 29.6 h
+[2026-10-02 16:01:13]   batch r1_b561_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-02 16:01:13] [16:01:13] 22574/31798 graphs · 0.1/s · elapsed 28.31 h · ETA 29.6 h
+[2026-10-02 16:01:34]   batch r1_b562_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-02 16:01:34] [16:01:34] 22574/31798 graphs · 0.1/s · elapsed 28.31 h · ETA 29.6 h
+[2026-10-02 16:01:51]   batch r1_b560_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-02 16:01:51] [16:01:51] 22576/31798 graphs · 0.1/s · elapsed 28.32 h · ETA 29.6 h
+[2026-10-02 16:02:27]   batch r1_b563_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-02 16:02:27] [16:02:27] 22577/31798 graphs · 0.1/s · elapsed 28.33 h · ETA 29.6 h
+[2026-10-02 16:02:36]   batch r1_b564_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-02 16:02:36] [16:02:36] 22579/31798 graphs · 0.1/s · elapsed 28.33 h · ETA 29.6 h
+[2026-10-02 16:02:45]   batch r1_b565_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-02 16:02:45] [16:02:45] 22579/31798 graphs · 0.1/s · elapsed 28.33 h · ETA 29.6 h
+[2026-10-02 16:03:00]   batch r1_b566_899: M2 exited 1: *** out of memory trying to allocate 120 bytes, exiting ***
+[2026-10-02 16:03:00] [16:03:00] 22579/31798 graphs · 0.1/s · elapsed 28.34 h · ETA 29.6 h
+[2026-10-02 16:03:06]   batch r1_b567_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-02 16:03:06] [16:03:06] 22579/31798 graphs · 0.1/s · elapsed 28.34 h · ETA 29.6 h
+[2026-10-02 16:04:02]   batch r1_b569_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-02 16:04:02] [16:04:02] 22580/31798 graphs · 0.1/s · elapsed 28.36 h · ETA 29.6 h
+[2026-10-02 16:04:21]   batch r1_b570_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-02 16:04:21] [16:04:21] 22580/31798 graphs · 0.1/s · elapsed 28.36 h · ETA 29.6 h
+[2026-10-02 16:04:33]   batch r1_b568_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-02 16:04:33] [16:04:33] 22587/31798 graphs · 0.1/s · elapsed 28.36 h · ETA 29.6 h
+[2026-10-02 16:05:00]   batch r1_b572_899: M2 exited 1: *** out of memory trying to allocate 120 bytes, exiting ***
+[2026-10-02 16:05:00] [16:05:00] 22587/31798 graphs · 0.1/s · elapsed 28.37 h · ETA 29.6 h
+[2026-10-02 16:05:07]   batch r1_b571_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-02 16:05:07] [16:05:07] 22588/31798 graphs · 0.1/s · elapsed 28.37 h · ETA 29.6 h
+[2026-10-02 16:05:29]   batch r1_b574_899: M2 exited 1: *** out of memory trying to allocate 120 bytes, exiting ***
+[2026-10-02 16:05:29] [16:05:29] 22588/31798 graphs · 0.1/s · elapsed 28.38 h · ETA 29.6 h
+[2026-10-02 16:05:44]   batch r1_b573_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-02 16:05:44] [16:05:44] 22590/31798 graphs · 0.1/s · elapsed 28.38 h · ETA 29.6 h
+[2026-10-02 16:06:04]   batch r1_b576_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-02 16:06:04] [16:06:04] 22590/31798 graphs · 0.1/s · elapsed 28.39 h · ETA 29.6 h
+[2026-10-02 16:06:59]   batch r1_b577_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-02 16:06:59] [16:06:59] 22593/31798 graphs · 0.1/s · elapsed 28.40 h · ETA 29.6 h
+[2026-10-02 16:07:25]   batch r1_b578_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-02 16:07:25] [16:07:25] 22593/31798 graphs · 0.1/s · elapsed 28.41 h · ETA 29.6 h
+[2026-10-02 16:08:24]   batch r1_b575_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-02 16:08:24] [16:08:24] 22601/31798 graphs · 0.1/s · elapsed 28.43 h · ETA 29.6 h
+[2026-10-02 16:09:06]   batch r1_b580_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-02 16:09:06] [16:09:06] 22601/31798 graphs · 0.1/s · elapsed 28.44 h · ETA 29.6 h
+[2026-10-02 16:10:12]   batch r1_b579_899: M2 exited 1: *** out of memory trying to allocate 152 bytes, exiting ***
+[2026-10-02 16:10:12] [16:10:12] 22609/31798 graphs · 0.1/s · elapsed 28.46 h · ETA 29.6 h
+[2026-10-02 16:10:34]   batch r1_b582_899: M2 exited 1: *** out of memory trying to allocate 112 bytes, exiting ***
+[2026-10-02 16:10:34] [16:10:34] 22609/31798 graphs · 0.1/s · elapsed 28.46 h · ETA 29.6 h

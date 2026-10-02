@@ -23,6 +23,21 @@ from pathlib import Path
 from .graph6 import edge_list, parse_g6
 
 
+def _prefer_oom_kill() -> None:
+    """Runs in each Macaulay2 child: if memory runs out, the kernel kills this process first
+    (not the runner or tmux), so the batch is recorded as ERROR and the run continues."""
+    try:
+        with open("/proc/self/oom_score_adj", "w") as fh:
+            fh.write("1000")
+    except OSError:
+        pass
+    cap = os.environ.get("TORIC_M2_MEM_GB")  # optional hard cap: a heavy graph fails fast (ERROR)
+    if cap:
+        import resource
+        limit = int(float(cap) * 1024 ** 3)
+        resource.setrlimit(resource.RLIMIT_AS, (limit, limit))
+
+
 def _m2_string(s: str) -> str:
     return '"' + s.replace("\\", "\\\\").replace('"', '\\"') + '"'
 
@@ -97,7 +112,7 @@ def run_batches(items: list[tuple[int, str]], script: Path, out: Path, n: int, *
             write_m2_input(batch, inp)
             proc = subprocess.Popen(["M2", "--script", str(script), str(inp), str(part), str(n)],
                                     stdout=subprocess.DEVNULL, stderr=subprocess.PIPE, text=True,
-                                    start_new_session=True)
+                                    start_new_session=True, preexec_fn=_prefer_oom_kill)
             try:
                 _, err = proc.communicate(timeout=timeout)
                 timed_out = False
