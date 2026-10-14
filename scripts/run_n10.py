@@ -4,6 +4,7 @@ Steps (each resumable; rerun the same command after an interruption):
   enumerate  list OCC-failing graphs with nauty (parallel slices), then number them in geng order
   hilbert    toric ideal + Hilbert series for every failing graph (batched M2 sessions)
   depth      depth over ZZ/32003 for graphs with h >= 0 (depth = n proves CM over QQ)
+  depth-heavy  retry graphs that failed in `depth` (out of memory), one per session -> depth_heavy.txt
   summary    counts and C2' verdict -> data/derived/fail<n>_summary.json
   all        everything, in order
 
@@ -43,7 +44,7 @@ def geng() -> str:
 
 def paths(n: int) -> dict[str, Path]:
     return {k: DERIVED / f"fail{n}_{k}" for k in
-            ("graphs.txt", "hilbert.tsv", "depth.txt", "summary.json", "enum.parts")}
+            ("graphs.txt", "hilbert.tsv", "depth.txt", "depth_heavy.txt", "summary.json", "enum.parts")}
 
 
 # ---------------------------------------------------------------- enumerate + number
@@ -152,6 +153,27 @@ def stage_depth(n: int, workers: int, batch: int, timeout: float, share: str | N
                 workers=workers, batch_size=batch, timeout=timeout, min_fields=3, log=log)
 
 
+def failed_depth_graphs(n: int) -> list[tuple[int, str]]:
+    """Graphs the depth step recorded as ERROR/TIMEOUT (usually out of memory) and never finished."""
+    ok, failed = set(), set()
+    f = paths(n)["depth.txt"]
+    if f.exists():
+        for ln in f.read_text().splitlines():
+            t = ln.split()
+            if len(t) >= 2 and t[0].isdigit():
+                (ok if t[1].lstrip("-").isdigit() else failed).add(int(t[0]))
+    g6 = dict(read_graphs(n))
+    return sorted((k, g6[k]) for k in failed - ok)
+
+
+def stage_heavy(n: int, workers: int, timeout: float) -> None:
+    """Retry failed depth graphs one per Macaulay2 session (set TORIC_M2_MEM_GB higher than for `depth`)."""
+    items = failed_depth_graphs(n)
+    log(f"depth-heavy: {len(items)} graphs that failed in the depth step, one per session")
+    run_batches(items, ROOT / "m2" / "time_depth.m2", paths(n)["depth_heavy.txt"], n,
+                workers=workers, batch_size=1, timeout=timeout, min_fields=3, log=log)
+
+
 # ---------------------------------------------------------------- summary
 
 def summary(n: int) -> dict:
@@ -161,12 +183,12 @@ def summary(n: int) -> dict:
     neg = {k for k, r in ok.items() if min(h_vector(r[3])) < 0}
     nonneg = set(ok) - neg
     depth = {}
-    f = paths(n)["depth.txt"]
-    if f.exists():
-        for ln in f.read_text().splitlines():
-            t = ln.split()
-            if len(t) >= 3 and t[0].isdigit() and t[1].lstrip("-").isdigit():
-                depth[int(t[0])] = int(t[1])
+    for f in (paths(n)["depth.txt"], paths(n)["depth_heavy.txt"]):
+        if f.exists():
+            for ln in f.read_text().splitlines():
+                t = ln.split()
+                if len(t) >= 3 and t[0].isdigit() and t[1].lstrip("-").isdigit():
+                    depth[int(t[0])] = int(t[1])
     cm = {k for k in nonneg if depth.get(k) == n}
     screened = sorted(k for k in nonneg if k in depth and depth[k] < n)  # C2' candidates: confirm over QQ
     s = {
@@ -187,7 +209,7 @@ def summary(n: int) -> dict:
 
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("step", choices=["enumerate", "hilbert", "depth", "summary", "all"])
+    ap.add_argument("step", choices=["enumerate", "hilbert", "depth", "depth-heavy", "summary", "all"])
     ap.add_argument("--n", type=int, default=10)
     ap.add_argument("--workers", type=int, default=8)
     ap.add_argument("--slices", type=int, default=400, help="geng res/mod slices for enumeration")
@@ -204,6 +226,8 @@ def main() -> None:
         stage_hilbert(a.n, a.workers, a.batch, a.timeout, a.share, a.reverse)
     if a.step in ("depth", "all"):
         stage_depth(a.n, a.workers, max(1, a.batch // 5), a.timeout, a.share, a.reverse)
+    if a.step == "depth-heavy":
+        stage_heavy(a.n, a.workers, a.timeout)
     if a.step in ("summary", "all"):
         summary(a.n)
 

@@ -217,6 +217,36 @@ Hamiltonicity is still a strong signal: of the Hamiltonian graphs whose status i
 
 ---
 
+## C6. Nonnegative h and no even cycle meeting a separated pair ⇒ CM (refines C4)
+
+**Statement.** If G fails OCC, its h-vector is nonnegative, and no even cycle shares a vertex with
+both cycles of a separated pair, then k[G] is Cohen–Macaulay.
+
+**How it was found (2026-10-08).** LightGBM + SHAP (`scripts/lgbm_shap.py`,
+`reports/lgbm_shap.md`). On the n = 10 failing graphs with h ≥ 0 and known depth, a model using
+only graph features reaches 99.5% cross-validated accuracy, and its most important feature is
+`even_cycles_meeting_pair`. Tabulating that feature gave this rule. It was found after looking at
+the data, so new data is the real test.
+
+**Evidence.**
+
+| | no even cycle meets a separated pair: CM / not CM |
+|---|---|
+| n ≤ 9, all failing graphs | 675 / 21 (all 21 have a negative h-coefficient) |
+| n = 10, h ≥ 0, depth known (24,555 graphs) | **7,773 / 0** |
+
+So with the h ≥ 0 hypothesis there are no exceptions among 8,448 graphs (n ≤ 9: every graph with
+h ≥ 0 is CM, by C2′ at n ≤ 9). The CM labels at n = 10 are proved (depth 10 over ZZ/32003).
+Without h ≥ 0 the statement is false (the 21 C4 counterexamples at n = 9). The converse fails badly:
+at n = 10, 3,760 CM graphs with h ≥ 0 do have an even cycle meeting a separated pair.
+
+**Not yet checked:** 7,243 n = 10 graphs with h ≥ 0 whose depth is not known yet (1,220 ran out of
+memory, 6,023 not yet run). Recheck C6 when the depth step finishes.
+
+**Proof notes.** _(Navila)_
+
+---
+
 ## Verified: Edge-threshold theorem (Navila, proved)
 
 For connected G on n ≥ 7 vertices, failing OCC forces n + 1 ≤ m ≤ C(n,2) − 9, and every value

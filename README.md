@@ -82,6 +82,8 @@ across n; look up a graph by graph6 or `n:number`.
 
 ### Hosting (Streamlit Community Cloud, public)
 
+Live app: https://toric-graphs-eemtnuf9sjqupuuyv5pt9l.streamlit.app/
+
 Main file `app/explorer.py`, Python 3.12+, `requirements.txt`. On start the app unpacks the
 committed prebuilt database (seconds) and redoes this whenever pushed data changes it; if the
 prebuilt copy is stale it rebuilds from the text files (several minutes). The app is public, and
